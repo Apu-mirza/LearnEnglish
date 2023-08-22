@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffeedd"
+    tools:context=".SpeechActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:id="@+id/contentId"
+            >
+
+            <TextView
+                android:id="@+id/headerEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="hello"
+                android:layout_centerVertical="true"
+                android:textColor="@color/purple_700"
+                android:padding="10dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/headerBangla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_below="@id/headerEnglish"
+                android:textColor="@color/black"
+                android:text="hello"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                />
+
+            <TextView
+                android:id="@+id/speechText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:layout_toStartOf="@+id/headerBangla"
+                android:text="hello"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/speechText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/speechText2"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/purple_700"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/contentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:weightSum="3"
+            >
+
+            <ImageButton
+                android:id="@+id/audioSpeech"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:padding="15dp"
+                android:src="@drawable/volume_64"
+                android:background="#ffeedd"
+                />
+
+            <ImageButton
+                android:id="@+id/hearingSpeech"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:layout_margin="3dp"
+                android:padding="15dp"
+                android:src="@drawable/hearing_44"
+                android:background="#ffeedd"
+                />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardviewId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#ffeedd"
+                    app:cardBackgroundColor="#ffeedd"
+                    app:cardCornerRadius="70dp"
+                    app:cardElevation="0dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/speechMic"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#ffeedd"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:src="@drawable/mic_64"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

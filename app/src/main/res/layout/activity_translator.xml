@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".TranslatorActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/logo_layout"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/translate"
+                android:layout_gravity="center"
+                android:layout_marginEnd="4dp"
+                android:id="@+id/logo_translate"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TranslateMyApp"
+                android:textColor="@color/teal_200"
+                android:textStyle="bold"
+                android:layout_marginStart="4dp"
+                android:textSize="23sp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/entryLayout"
+            android:layout_below="@+id/logo_layout"
+            android:weightSum="3"
+            >
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/idFromSpinner"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bi_direction"
+                />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/idTospinner"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:hintEnabled="false"
+            android:layout_below="@+id/entryLayout"
+            android:id="@+id/entryLayout2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundMode="none"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/background"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="150dp"
+                    android:id="@+id/EditSource"
+                    android:hint="Enter your text"
+                    android:ems="10"
+                    android:importantForAutofill="yes"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:gravity="top"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/recMic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#EFEDD6"
+                    android:padding="4dp"
+                    android:src="@drawable/mic_24" />
+
+            </LinearLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/idBtnTranslation"
+            android:text="Translate"
+            android:layout_below="@+id/entryLayout2"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:layout_below="@id/idBtnTranslation"
+            android:id="@+id/orText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Or"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffeedd"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/outPutLayout"
+            android:layout_below="@+id/orText"
+            app:hintEnabled="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="50dp"
+            app:boxBackgroundMode="none"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idTranslatedTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:elevation="3dp"
+                    android:textColor="@color/black"
+                    android:letterSpacing="0.03"
+                    android:minHeight="120dp"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/iIVdMic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#EFEDD6"
+                    android:padding="4dp"
+                    android:src="@drawable/volume_24" />
+
+            </LinearLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="5dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+        </com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+
+</ScrollView>

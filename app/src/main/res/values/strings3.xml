@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="animal">
+
+        <item>Ape\nবানর</item>
+        <item>Ass\nগাধা</item>
+        <item>Baboon\nবাবুন </item>
+        <item>Bear\nভালুক </item>
+        <item>Boar\nশুয়োর</item>
+        <item> Buffalo\nমহিষ </item>
+        <item>Bull\nষাঁড়</item>
+        <item>Calf\nবাছুর </item>
+        <item> Camel\nউট </item>
+        <item>Cat\nবিড়াল</item>
+        <item>Chimpanzee\nশিম্পাঞ্জি</item>
+        <item>Cow\nগরু</item>
+        <item>Crocodile\nকুম্ভীর</item>
+        <item> Deer\nহরিণ</item>
+        <item> Dog\nকুকুর</item>
+        <item>Donkey\nগাধা </item>
+        <item>Elephant\nহাতি </item>
+        <item>Ewe\nমহিলা ভেড়া </item>
+        <item>Fawn\nভোর </item>
+        <item>Fox\nশিয়াল </item>
+        <item>Frog\nব্যাঙ </item>
+        <item>Giraffe\nজিরাফ </item>
+        <item>Goat\nছাগল </item>
+        <item>Gorilla\n	গরিলা </item>
+        <item>Grizzly\n	গ্রিজলি </item>
+        <item>Hare\nখরগোশ </item>
+        <item>Hippopotamus\nহিপ্পোপটামাস </item>
+        <item>Horse	\nঘোড়া </item>
+        <item>Hyena\nহায়না </item>
+        <item>Kangaroo\nক্যাঙ্গারু </item>
+        <item>Kitten\nবিড়ালছানা </item>
+        <item>Lamb\nমেষশাবক </item>
+        <item>Languor\nল্যাঙ্গুর </item>
+        <item>Leopard\nচিতাবাঘ </item>
+        <item>Lion\nসিংহ </item>
+        <item>Lizard\nটিকটিকি </item>
+        <item>Mongoose\nবেজি </item>
+        <item>Monkey\nবানর </item>
+        <item>Mosquito\nমশা </item>
+        <item>Mouse\ rat\nইঁদুর </item>
+        <item>Mule\nখচ্চর </item>
+        <item>Ox\n	ষাঁড় </item>
+        <item>Panther\n	প্যান্থার </item>
+        <item>Pig\n	শূকর </item>
+        <item>Puppy\n	কুকুরছানা </item>
+        <item>Rabbit\n	খরগোশ </item>
+        <item>Rhinoceros\n	গণ্ডার </item>
+        <item>Sheep\nভেড়া </item>
+        <item>Snake\n	সাপ</item>
+        <item>Snail\n	শামুক</item>
+        <item>Squirrel\n	কাঠবিড়ালি</item>
+        <item>Tiger\nবাঘ</item>
+        <item>Tortoise\ Turtle\n	কচ্ছপ</item>
+        <item>Weasel\nনেজেল</item>
+        <item>Wolf\nনেকড়ে</item>
+        <item>Zebra\nজেব্রা</item>
+
+    </string-array>
+
+    <string-array name="color">
+
+        <item>Color.\nরঙ।</item>
+        <item>Black.\nকালো।</item>
+        <item>Blue.\nনীল।</item>
+        <item>Gray.\nধূসর।</item>
+        <item>Brown.\nবাদামি।</item>
+        <item>Green.\nসবুজ।</item>
+        <item>Orange (color).\nকমলা (রঙ)।</item>
+        <item>Pink.\nগোলাপী।</item>
+        <item>Purple.\nবেগুনি।</item>
+        <item>Red.\nলাল।</item>
+        <item>White.\nসাদা।</item>
+        <item>Yellow.\nহলুদ।</item>
+        <item>The sky is turning black.\nআকাশটি কালো হচ্ছে।</item>
+        <item>The color of nature is green.\nপ্রকৃতির রঙ সবুজ।</item>
+        <item>I have a pink shirt.\nআমার একটি গোলাপী শার্ট আছে।</item>
+        <item>Is it available in pink?\nএটি গোলাপীতে আছে কি?</item>
+        <item>Which color do you like?\nতুমি কোন রঙটি পছন্দ করো?</item>
+
+    </string-array>
+
+    <string-array name="conversation">
+
+        <item>Conversation.\nকথোপকথন।</item>
+        <item>Small.\nছোট।</item>
+        <item>Large.\nবড়।</item>
+        <item>Male.\nপুরুষ।</item>
+        <item>Female.\nমহিলা।</item>
+        <item>Full.\nপূর্ণ।</item>
+        <item>Half.\nঅর্ধেক।</item>
+        <item>Quarter.\nচতুর্থাংশ।</item>
+        <item>Enough.\nযথেষ্ট।</item>
+        <item>Festival.\nউৎসব।</item>
+        <item>Flowers.\nফুল।</item>
+        <item>I am coming right now.\nআমি এখনই আসছি।</item>
+        <item>I\'ll be back right now.\nআমি এখনই ফিরে আসব।</item>
+        <item>Here you are.\nএখানে আপনার।</item>
+        <item>Where were you?\nতুমি কোথায় ছিলো?</item>
+        <item>May be.\nহতে পারে।</item>
+        <item>Can you hold this for me?\nআপনি কি এটা আমার জন্য ধরতে পারেন?</item>
+        <item>Are you sure?\nআপনি কি নিশ্চিত?</item>
+        <item>Do you need anything?\nতুমি কিছু দরকার পাচ্ছো?</item>
+        <item>I remember.\nআমি মনে করি।</item>
+        <item>How old are you?\nতুমি কত বছরের?</item>
+        <item>I am 22 years old.\nআমি ২২ বছর বয়সী।</item>
+        <item>What\'s your height?\nতোমার উচ্চতা কত?</item>
+        <item>I am 175cm tall.\nআমি ১৭৫ সেমি উচ্চ।</item>
+        <item>Anything else?\nআর কিছু আছে?</item>
+        <item>I know.\nআমি জানি।</item>
+        <item>Is that all right?\nঠিক আছে কি?</item>
+        <item>How do you know?\nতুমি কিভাবে জানো?</item>
+        <item>What do you have?\nতোমার কি আছে?</item>
+        <item>It\'s very important.\nএটা অনেক গুরুত্বপূর্ণ।</item>
+        <item>Really?\nসত্যি কথা?</item>
+        <item>Please come in.\nঅনুগ্রহ করে এসে দাও।</item>
+        <item>Are you comfortable?\nতুমি কি সুবিধাজনক?</item>
+        <item>Forget it.\nভুল করে ফেলো।</item>
+        <item>Why are you laughing?\nতুমি কেন হাসছ?</item>
+        <item>Why did you do that?\nতুমি কেন এটা করেছ?</item>
+        <item>What\'s the temperature?\nতাপমাত্রা কত?</item>
+        <item>What\'s the matter?\nকি সমস্যা?</item>
+        <item>Is it possible?\nএটা সম্ভব?</item>
+        <item>Are you ready?\nতুমি প্রস্তুত?</item>
+        <item>I am ready to go.\nআমি চলে যাব।</item>
+        <item>What does he want from you?\nসে তোমার কাছ থেকে কি চাইছে?</item>
+        <item>He wants a football to play.\nসে খেলার জন্য একটা ফুটবল চাইছে।</item>
+        <item>Did you want me to come and pick you up?\nতুমি চাইলে আমি এসে তোমাকে নিয়ে যাব?</item>
+        <item>What\'s your email address?\nতোমার ইমেইল ঠিকানা কি?</item>
+        <item>The phone is ringing.\nফোনটা বেজে আছে।</item>
+        <item>Who is it?\nকে বলছে?</item>
+        <item>This is Mirza Speaking.\nআমি মির্জা বলছি।</item>
+        <item>I\'d like to speak to Mr. Hasan.\nআমি হাসান সাহেবের সাথে কথা বলতে চাই।</item>
+        <item>He is not at home.\nসে বাসায় নেই।</item>
+        <item>Would you take a message?\nআপনি একটা মেসেজ নেবেন?</item>
+        <item>Can you call back later?\nপরে কল করতে পারবেন?</item>
+        <item>Can I take a message?\nআমি একটা মেসেজ নিতে পারি?</item>
+        <item>Please could you tell him Mirza called?\nঅনুগ্রহ করে তাকে বলতে পারেন মির্জা ফোন করেছিল।</item>
+        <item>Okay, I\'ll tell him you called.\nঠিক আছে, তাকে বলে দিবো তুমি ফোন করেছিলে।</item>
+        <item>I can\'t hear you.\nআমি তোমাকে শুনতে পাচ্ছি না।</item>
+        <item>Can you speak louder please?\nঅনুগ্রহ করে বেশি কথা বলতে পারেন?</item>
+        <item>Could you speak a little slowly?\nঅনুগ্রহ করে একটু ধীরে কথা বলতে পারেন?</item>
+        <item>I\'ll call back later.\nপরে কল করবো।</item>
+        <item>What do you think?\nতুমি কি ভাবছ?</item>
+        <item>Let me think about it.\nআমাকে এটা ভাবতে দাও।</item>
+        <item>I agree.\nআমি সম্মত।</item>
+        <item>Let\'s go have a look.\nচলো দেখে আসি।</item>
+
+    </string-array>
+
+    <string-array name="date_time">
+
+        <item>Calendar\nক্যালেন্ডার</item>
+        <item>Day\nদিন</item>
+        <item>Date\nতারিখ </item>
+        <item>Today\nআজ </item>
+        <item>Yesterday\nগতকাল </item>
+        <item>Tomorrow\nআগামীকাল </item>
+        <item>Everyday\nপ্রতিদিন</item>
+        <item>Day after tomorrow\nপরশু </item>
+        <item>Week\nসপ্তাহ </item>
+        <item>Once a Week\nসপ্তাহে একবার</item>
+        <item>Saturday.\nশনিবার।</item>
+        <item>Sunday.\nরবিবার।</item>
+        <item>Monday.\nসোমবার।</item>
+        <item>Tuesday.\nমঙ্গলবার।</item>
+        <item>Wednesday.\nবুধবার।</item>
+        <item>Thursday.\nবৃহস্পতিবার।</item>
+        <item>Friday.\nশুক্রবার।</item>
+        <item>Month.\nমাস।</item>
+        <item>Year.\nবছর।</item>
+        <item>January.\nজানুয়ারী।</item>
+        <item>February.\nফেব্রুয়ারী।</item>
+        <item>March.\nমার্চ।</item>
+        <item>April.\nএপ্রিল।</item>
+        <item>May.\nমে।</item>
+        <item>June.\nজুন।</item>
+        <item>July.\nজুলাই।</item>
+        <item>August.\nআগস্ট।</item>
+        <item>September.\nসেপ্টেম্বর।</item>
+        <item>October.\nঅক্টোবর।</item>
+        <item>November.\nনভেম্বর।</item>
+        <item>December.\nডিসেম্বর।</item>
+        <item>Decades.\nদশক।</item>
+        <item>Era.\nযুগ।</item>
+        <item>Century.\nশতাব্দী।</item>
+        <item>Holiday.\nছুটি।</item>
+        <item>Working Day.\nকর্মদিবস।</item>
+        <item>Session.\nঅধিবেশন।</item>
+        <item>Schedule.\nসময়সূচি।</item>
+        <item>Deadline.\nশেষ সীমা।</item>
+        <item>Birthday.\nজন্মদিন।</item>
+        <item>Anniversary.\nবার্ষিকী।</item>
+        <item>New Year.\nনতুন বছর।</item>
+        <item>New decades.\nনতুন দশক।</item>
+        <item>New Era.\nনতুন যুগ।</item>
+        <item>New Century.\nনতুন শতাব্দী।</item>
+        <item>Whole Year.\nসম্পূর্ণ বছর।</item>
+        <item>Tradition.\nঐতিহ্য।</item>
+        <item>Earlier.\nআগেরটা।</item>
+        <item>Delay.\nবিলম্ব।</item>
+        <item>Ancient.\nপ্রাচীন।</item>
+        <item>Modern.\nআধুনিক।</item>
+        <item>Time.\nসময়।</item>
+        <item>What date is it tomorrow?\nআগামীকাল কি তারিখ?</item>
+        <item>Today is the 1st January.\nআজ ১ম জানুয়ারী।</item>
+        <item>My birthday is on the 17th of July.\nআমার জন্মদিন ১৭ জুলাই।</item>
+        <item>Which day is it today?\nআজ কোন দিন?</item>
+        <item>What time is it?.\nএখন কতটা?</item>
+        <item>It is 1 o\'clock.\nএটা ১টা।</item>
+        <item>Can I take an appointment for Wednesday?\nআমি কি বুধবারের জন্য একটি নিয়োগ নিতে পারি?</item>
+        <item>I am leaving in four days.\nআমি চার দিনের মধ্যে বের হচ্ছি।</item>
+        <item>I am leaving tomorrow.\nআমি আগামীকাল বের হচ্ছি।</item>
+        <item>At what time will you leave?\nআপনি কতটা সময়ে বের হবেন?</item>
+        <item>When do we leave?\nআমরা কখন বের হব?</item>
+        <item>At what time does the bank open?\nব্যাংক কতটা সময়ে খোলা হয়?</item>
+        <item>One week days ago.\nএক সপ্তাহ পূর্বে।</item>
+        <item>All day.\nসারা দিন।</item>
+        <item>As soon as possible.\nযত শীঘ্র সম্ভব।</item>
+        <item>At what time did it happen?\nএটা কতটা সময়ে ঘটেছিল?</item>
+        <item>When will you be back?\nআপনি কখন ফিরে আসবেন?</item>
+        <item>Have you been waiting for long?\nআপনি কি দীর্ঘ সময় অপেক্ষা করছেন?</item>
+        <item>How long will it take?\nএটা কতক্ষণ সময় লাগবে?</item>
+        <item>Now or later?\nএখন না পরে?</item>
+        <item>Wait a moment.\nকিছুক্ষণ অপেক্ষা করুন।</item>
+        <item>There\'s plenty of time.\nসময় অনেক আছে।</item>
+
+    </string-array>
+
+    <string-array name="driving">
+
+        <item>Driving.\nগাড়ি চালানো।</item>
+        <item>Direction.\nদিক।</item>
+        <item>East.\nপূর্ব।</item>
+        <item>West.\nপশ্চিম।</item>
+        <item>North.\nউত্তর।</item>
+        <item>South.\nদক্ষিণ।</item>
+        <item>Here.\nএখানে।</item>
+        <item>There.\nসেখানে।</item>
+        <item>Where.\nকোথায়।</item>
+        <item>Everywhere.\nসর্বত্র।</item>
+        <item>On that way.\nঐ উপযুক্ত রাস্তায়।</item>
+        <item>Turn Left.\nবামে মোড় নিন।</item>
+        <item>Turn Right.\nডানে মোড় নিন।</item>
+        <item>Turn around.\nঘুরে ফিরে যান।</item>
+        <item>Opposite.\nবিপরীত।</item>
+        <item>Slowly.\nধীরে ধীরে।</item>
+        <item>Fast.\nদ্রুত।</item>
+        <item>Top.\nশীর্ষ।</item>
+        <item>Above.\nউপরে।</item>
+        <item>Bottom.\nনিচে।</item>
+        <item>Down.\nনিচে।</item>
+        <item>Under.\nতলে।</item>
+        <item>Upper.\nউপরের।</item>
+        <item>Nearby.\nআশেপাশে।</item>
+        <item>Left.\nবাম।</item>
+        <item>Right.\nডান।</item>
+        <item>Straight.\nসরাসরি।</item>
+        <item>Ahead.\nএগিয়ে।</item>
+        <item>Behind.\nপিছনে।</item>
+        <item>Forward.\nআগামীকালে।</item>
+        <item>Backward.\nপশ্চাদ্দিকে।</item>
+        <item>Follow me.\nআমার পাশে চলো।</item>
+        <item>Please take me to the airport.\nঅনুগ্রহ করে আমাকে বিমানবন্দরে নিয়ে যান।</item>
+        <item>How long does it to take to get to the airport?\nবিমানবন্দরে পৌঁছানো কত সময় লাগে?</item>
+        <item>How long does it take by car?\nগাড়ীতে যাওয়ার জন্য কত সময় লাগে?</item>
+        <item>How far is the airport from Gulistan?\nগুলিস্তান থেকে বিমানবন্দর কত দূরে?</item>
+        <item>It\'s over 200 kms.\nএটা ২০০ কিলোমিটারের বেশি।</item>
+        <item>It\'s not too far.\nএটা খুবই দূর নয়।</item>
+        <item>There is too much traffic jam to the airport.\nবিমানবন্দরে খুব বেশি ট্রাফিক জ্যাম আছে।</item>
+        <item>Please take me to this address.\nঅনুগ্রহ করে আমাকে এই ঠিকানায় নিয়ে যান।</item>
+        <item>What\'s the address?\nঠিকানা কি?</item>
+        <item>How do I go to Chittagong?\nচট্টগ্রামে কিভাবে যাবো?</item>
+        <item>Drive carefully.\nসাবধানে গাড়ি চালান।</item>
+        <item>Bad road ahead.\nএগাড়ে খারাপ রাস্তা আছে।</item>
+
+    </string-array>
+
+    <string-array name="fruits_vegetables">
+
+        <item>Fruits.\nফল।</item>
+        <item>Apple.\nআপেল।</item>
+        <item>Apricot.\nখুবানি,এপ্রিকট।</item>
+        <item>Banana.\nকলা।</item>
+        <item>Coconut.\nনারিকেল।</item>
+        <item>Custard apple.\nআতা</item>
+        <item>Fig.\nডুমুর।</item>
+        <item>Grapes.\nআঙ্গুর।</item>
+        <item>Guava.\nপেয়ারা।</item>
+        <item>Lemon.\nলেবু।</item>
+        <item>Lychee.\nলিচু।</item>
+        <item>Mango.\nআম।</item>
+        <item>Musk melon.\nখরবুজ, কস্তুরী তরমুজ।</item>
+        <item>Watermelon.\nতরমুজ।</item>
+        <item>Orange.\nকমলা।</item>
+        <item>Papaya.\nপেঁপে।</item>
+        <item>Pear.\nনাশপাতি।</item>
+        <item>Pineapple.\nআনারস।</item>
+        <item>Plum.\nবরই।</item>
+        <item>Pomegranate.\nডালিম।</item>
+        <item>Star fruit.\nকমরকম।</item>
+        <item>Sugarcane.\nআখ।</item>
+        <item>Sweet lime.\nমিষ্টি লেবু।</item>
+        <item>Tamarind.\nতেঁতুল।</item>
+        <item>Almond.\nবাদাম।</item>
+        <item>Cashew.\nকাজু।</item>
+        <item>Dates.\nখেজুর।</item>
+        <item>Peanut.\nচিনাবাদাম।</item>
+        <item>Pistachios.\nপেস্তা।</item>
+        <item>Raisin.\nকিশমিশ।</item>
+        <item>Walnut.\nআখরোট।</item>
+        <item>Vegetable.\nশাকসবজি।</item>
+        <item>Amaranthus.\nলাল শাক।</item>
+        <item>Brinjal.\nবেগুন।</item>
+        <item>Beetroot.\nবিটরুট।</item>
+        <item>Bell Pepper.\nশিমলা মরিচ।</item>
+        <item>Bitter Gourd.\nউচ্ছে করলা।</item>
+        <item>Bottle Gourd.\nলাউ।</item>
+        <item>Cabbage.\nবাঁধাকপি।</item>
+        <item>Carrot.\nগাজর।</item>
+        <item>Cauliflower.\nফুলকপি।</item>
+        <item>Corn Kernel.\nভুট্টার দানা।</item>
+        <item>Corn On The Cob.\nভুট্টা।</item>
+        <item>Cow Pea/Black-eyed peas.\nবোট।</item>
+        <item>Cucumber.\nশসা।</item>
+        <item>Fenugreek.\nমেথি।</item>
+        <item>Poppy Seed.\nপোস্ত দানা।</item>
+        <item>French Beans.\nফ্রেঞ্চ বিন্টি।</item>
+        <item>Green Peas.\nমটর।</item>
+        <item>Green Chilly.\nখোসা মরিচ।</item>
+        <item>Jackfruit.\nকাঁঠাল।</item>
+        <item>Okra.\nঢেঁড়স।</item>
+        <item>Onion.\nপেঁয়াজ।</item>
+        <item>Potato.\nআলু।</item>
+        <item>Radish.\nমুলা।</item>
+        <item>Spinach.\nপালং শাক।</item>
+        <item>Spring Onion.\nপেঁয়াজ পাতা।</item>
+        <item>Sweet Potato.\nমিষ্টি আলু।</item>
+        <item>Tomato.\nটমেটো।</item>
+
+    </string-array>
+
+    <string-array name="games">
+
+        <item>Sports\nখেলা</item>
+        <item>Football\nফুটবল</item>
+        <item>Cricket\nক্রিকেট</item>
+        <item>Hockey\nহকি</item>
+        <item>Golf\nগল্ফ</item>
+        <item>Badminton\nব্যাডমিন্টন</item>
+        <item>Tennis\nটেনিস</item>
+        <item>Table tennis\nটেবিল টেনিস</item>
+        <item>Volleyball\nভলিবল</item>
+        <item>Soccer\nফুটবল (যৌথ খেলা)</item>
+        <item>Chess\nচাদর</item>
+        <item>Carom\nক্যারম</item>
+        <item>Pool Mania\nপুল মেনিয়া</item>
+        <item>Handball\nহ্যান্ডবল</item>
+        <item>Basketball\nবাস্কেটবল</item>
+        <item>Athletics\nএথলেটিকস</item>
+        <item>Swim\nসাতক্ষীরা</item>
+        <item>Jump\nলাফান</item>
+        <item>Sprint\nস্প্রিন্ট</item>
+        <item>High Jump\nহাইজাম্প</item>
+        <item>Long Jump\nলম্বা লাফান</item>
+        <item>Which sports do you like?\nআপনি কোন খেলা পছন্দ করেন?</item>
+        <item>I like football most.\nআমি সবচেয়ে বেশি ফুটবল পছন্দ করি।</item>
+        <item>Do you watch European football?\nআপনি কি ইউরোপীয় ফুটবল দেখেন?</item>
+        <item>Yes, I like European football.\nহ্যাঁ, আমি ইউরোপীয় ফুটবল পছন্দ করি।</item>
+        <item>Which is your favorite club?\nআপনার পছন্দের ক্লাব কী?</item>
+        <item>Real Madrid is my favorite club.\nরিয়াল মাদ্রিদ আমার পছন্দের ক্লাব।</item>
+        <item>Do you like to play indoor games?\nআপনি কি ইনডোর খেলা খেলতে পছন্দ করেন?</item>
+        <item>Yes, I like to play indoor games.\nহ্যাঁ, আমি ইনডোর গেম খেলতে পছন্দ করি।</item>
+        <item>I like to watch Olympic games.\nআমি অলিম্পিক খেলা দেখতে পছন্দ করি।</item>
+        <item>Can you play Hockey?\nআপনি কি হকি খেলতে পারেন?</item>
+        <item>Yes, I can play Hockey.\nহ্যাঁ, আমি হকি খেলতে পারি।</item>
+        <item>What other sports do you enjoy?\nআপনি অন্যান্য কোন খেলা ভালবাসেন?</item>
+        <item>I also enjoy playing Football and Cricket.\nআমি এছাড়াও ফুটবল এবং ক্রিকেট খেলতে ভালবাসি।</item>
+        <item>Do you watch sports on TV?\nআপনি কি টিভিতে খেলা দেখেন?</item>
+        <item>Yes, I enjoy watching sports on TV.\nহ্যাঁ, আমি টিভিতে খেলা দেখতে ভালবাসি।</item>
+        <item>Who is your favorite sports player?\nআপনার প্রিয় খেলোয়াড় কে?</item>
+        <item>My favorite sports player is Lionel Messi.\nআমার প্রিয় খেলোয়াড় হলেন লিওনেল মেসি।</item>
+        <item>Have you ever played any competitive sports?\nআপনি কি কোন প্রতিযোগিতামূলক খেলা খেলেছেন?</item>
+        <item>Yes, I have played in local football tournaments.\nহ্যাঁ, আমি স্থানীয় ফুটবল টুর্নামেন্টে খেলেছি।</item>
+        <item>Which sports events do you like to watch the most?\nআপনি কোন খেলার ইভেন্টগুলো সবচেয়ে বেশী দেখতে পছন্দ করেন?</item>
+        <item>I enjoy watching the Olympic Games and the FIFA World Cup.\nআমি অলিম্পিক গেমস এবং ফিফা বিশ্বকাপ দেখতে ভালবাসি।</item>
+
+    </string-array>
+
+    <string-array name="greetings">
+
+        <item>Greetings.\nশুভেচ্ছা।</item>
+        <item>Introduction.\nপরিচিতি।</item>
+        <item>Hello.\nহ্যালো।</item>
+        <item>Good morning.\nসুপ্রভাত।</item>
+        <item>Good afternoon.\nশুভ অপরাহ্ন।</item>
+        <item>Good evening.\nশুভ সন্ধ্যা।</item>
+        <item>Good night.\nশুভ রাত্রি।</item>
+        <item>What\'s up.\nকি খবর?</item>
+        <item>How are you?.\nআপনি কেমন আছেন?</item>
+        <item>I am fine.\nআমি ভালো আছি।</item>
+        <item>What\'s your name?.\nআপনার নাম কি?</item>
+        <item>My name is Sagaor.\nআমার নাম সাগর।</item>
+        <item>Where are you from?.\nআপনি কোথায় থেকে?</item>
+        <item>I am from Bangladesh.\nআমি বাংলাদেশ থেকে।</item>
+        <item>Who is that?.\nসে কে?</item>
+        <item>I will meet you there.\nআমি সেখানে আপনার সাথে মিলব।</item>
+        <item>What is this?.\nএটা কি?</item>
+        <item>Can we go to have a cup of tea?.\nআমরা কি চা পেয়ে যাই?</item>
+        <item>Happy Birthday.\nশুভ জন্মদিন।</item>
+        <item>Nice to meet you.\nআপনার সাথে দেখা করে খুশি।</item>
+        <item>Okay.\nঠিক আছে।</item>
+        <item>Thank you.\nধন্যবাদ।</item>
+        <item>Good.\nভালো।</item>
+        <item>Bad.\nখারাপ।</item>
+        <item>Nothing much.\nকিছুই নেই।</item>
+        <item>Never mind.\nকোন ব্যাপার না।</item>
+        <item>Please.\nঅনুগ্রহ করে।</item>
+        <item>Yes.\nহাঁ।</item>
+        <item>Excellent.\nঅত্যাধিক ভাল।</item>
+
+    </string-array>
+
+    <string-array name="grocery">
+
+        <item>Grocery.\nমুদিখানা।</item>
+        <item>Bread.\nরুটি।</item>
+        <item>Milk.\nদুধ।</item>
+        <item>Butter.\nমাখন।</item>
+        <item>Eggs.\nডিম।</item>
+        <item>Chicken.\nমুরগি।</item>
+        <item>Fish.\nমাছ।</item>
+        <item>Mutton.\nমেষ-মাংস, খাসির মাংস।</item>
+        <item>Beef.\nগরুর মাংস।</item>
+        <item>Crab.\nকাঁকড়া।</item>
+        <item>Chocolate.\nচকলেট।</item>
+        <item>Cookie.\nকুকিজ।</item>
+        <item>Cream.\nক্রিম।</item>
+        <item>Oil.\nতেল।</item>
+        <item>Rice.\nচাল।</item>
+        <item>Wheat.\nগম।</item>
+        <item>Dal.\nডাল।</item>
+        <item>Flour.\nময়দা।</item>
+        <item>Sugar.\nচিনি।</item>
+        <item>Salt.\nলবণ।</item>
+        <item>Tea.\nচা।</item>
+        <item>Yoghurt.\nদই।</item>
+        <item>Buttermilk.\nছানা, মাখন-তোলা দুধ।</item>
+
+    </string-array>
+
+    <string-array name="health">
+
+        <item>Health\nস্বাস্থ্য।</item>
+        <item>Are you sick?\nআপনি কি অসুস্থ?</item>
+        <item>I am sick.\nআমি অসুস্থ।</item>
+        <item>Where does it hurt?\nএটা কোথায় ব্যথা হচ্ছে?</item>
+        <item>I have hurt my elbow.\nআমার কনুই আঘাত হয়েছে।</item>
+        <item>It is paining here.\nএখানে ব্যথা হচ্ছে।</item>
+        <item>I have a headache.\nআমার মাথা ব্যথা হচ্ছে।</item>
+        <item>I have a stomach ache.\nআমার পেটে ব্যথা হচ্ছে।</item>
+        <item>I feel like puking.\nআমি বমি বমি অনুভব করছি।</item>
+        <item>I have a fever.\nআমার জ্বর হয়েছে।</item>
+        <item>I have caught a cough.\nআমি কাশি হয়েছে।</item>
+        <item>I have a sore throat.\nআমার গলা ব্যথা হচ্ছে।</item>
+        <item>I need a doctor.\nআমাকে ডাক্তারের প্রয়োজন।</item>
+        <item>I have a backache.\nআমার পিঠে ব্যথা হচ্ছে।</item>
+        <item>I am allergic to dust.\nআমার ধুলায় এলার্জি আছে।</item>
+        <item>Are you allergic to anything?\nআপনার কি কোনো কিছুতে অ্যালার্জি আছে?</item>
+        <item>I am allergic to peanuts.\nআমার চিনাবাদাম থেকে অ্যালার্জি আছে।</item>
+        <item>Is it still paining?\nএখনো ব্যথা হচ্ছে?</item>
+        <item>How is she?\nসে কেমন আছে?</item>
+        <item>Dispensary\nডাক্তার-খানা</item>
+
+    </string-array>
+
+    <string-array name="home">
+
+        <item>Household\nগৃহস্থালি।</item>
+        <item>Take the books out of the closet.\nআলমারি থেকে বইগুলো বের কর।</item>
+        <item>Use this\nএটা ব্যবহার করুন।</item>
+        <item>When will you come home?\nআপনি কখন বাড়িতে আসবেন?</item>
+        <item>Can you clean this?\nআপনি কি এটা পরিষ্কার করতে পারেন?</item>
+        <item>Do you know cooking?\nআপনি কি রান্না জানেন?</item>
+        <item>Wash the utensils.\nবাসনপত্র ধুয়ে ফেলুন।</item>
+        <item>Wash the clothes\nকাপড়গুলি ধুয়ে ফেলুন।</item>
+        <item>Put in the cupboard.\nকাপড়গুলি আলমারিতে রাখুন।</item>
+        <item>She is cooking food.\nসে খাবার রান্না করছে।</item>
+        <item>Water the plants.\nগাছপালা পানি দিন।</item>
+        <item>Keep everything in its place.\nসব কিছুই নিয়মিত জায়গায় রাখুন।</item>
+        <item>Wash the bike.\nমোটরসাইকেল ধুয়ে নিন।</item>
+        <item>I am feeling sleepy.\nআমার ঘুম আসছে।</item>
+        <item>I am going to sleep.\nআমি ঘুমাবো।</item>
+        <item>Wake me up at 6.\nআমাকে 6 টায় জাগান।</item>
+        <item>Please can you switch off the fan.\nআপনি কি ফ্যান বন্ধ করতে পারেন?</item>
+        <item>I am tired.\nআমি ক্লান্ত।</item>
+        <item>Have you seen my spectacles.\nআপনি কি আমার চশমা দেখেছেন?</item>
+        <item>Shall I make you some tea?\nআমি আপনাকে কিছু চা বানিয়ে দেই?</item>
+        <item>Wash your face.\nআপনার মুখ ধুয়ে নিন।</item>
+        <item>Where did you put them.\nতুমি তাদের কোথায় রাখলে?</item>
+        <item>I forgot.\nআমি ভুলে গেছি।</item>
+        <item>Look what I found.\nদেখো আমি কি পেয়েছি।</item>
+        <item>What\'s in it?\nএতে কি আছে?</item>
+        <item>This box is heavy.\nএই বাক্সটি ভারী।</item>
+        <item>Can you carry this for me?\nআপনি কি আমার জন্য এটা বহন করতে পারেন?</item>
+        <item>Take it outside.\nএটা বাইরে নেওয়া যাক।</item>
+        <item>Please take off your shoes.\nদয়া করে আপনার জুতা খুলে নিন।</item>
+        <item>That smells bad.\nসেটি খারাপ দুর্গন্ধ করছে।</item>
+        <item>Will you remind me?\nআপনি আমাকে মনে করাবেন?</item>
+        <item>Soap\nসাবান।</item>
+        <item>Tool\nটুল।</item>
+
+    </string-array>
+
+    <string-array name="travel">
+
+        <item>Travel.\nভ্রমণ।</item>
+        <item>Accommodation\nআবাসন।</item>
+        <item>How much does it cost per day?\nপ্রতিদিন কত খরচ হয়?</item>
+        <item>I\'d like to book a room.\nআমি একটি কক্ষ বুক করতে চাই।</item>
+        <item>How much is the charge per night? (Hotel)\nরাতের জন্য চার্জ কত?</item>
+        <item>How long will you be staying?\nআপনি কতদিন থাকবেন?</item>
+        <item>I\'d like a non-smoking room.\nআমি একটি ধূমপানমুক্ত কক্ষ চাই।</item>
+        <item>Are there any places to visit nearby?\nকি কি আকর্ষণীয় স্থান আছে এখানের আশপাশে?</item>
+        <item>At what time is the check-out?\nচেক-আউটের সময় কখন?</item>
+        <item>I\'m here on business.\nআমি এখানে ব্যবসায়িক উদ্দেশ্যে আছি।</item>
+        <item>Are you going to take a plane or train?\nআপনি কি বিমান বা ট্রেন নিতে যাচ্ছেন?</item>
+        <item>Do you like it here?\nআপনাকে এখানে ভালো লাগছে?</item>
+        <item>How long have you been in Thailand?\nআপনি কতদিন ধরে থাইল্যান্ডে আছেন?</item>
+        <item>How do you like India?\nআপনাকে ভারত কেমন লাগছে?</item>
+        <item>When did you arrive in Cox\'s Bazar?\nআপনি কখন কক্সবাজারে আগমন করেছেন?</item>
+        <item>Thailand is a very beautiful place.\nথাইল্যান্ড একটি অত্যন্ত সুন্দর স্থান।</item>
+        <item>Have you been to Bangkok?\nআপনি কি ব্যাংককে ঘুরে আসেন</item>
+        <item>I haven\'t been there yet.\nআমি এখনো সেখানে যাইনি।</item>
+        <item>My father has been there.\nআমার বাবা সেখানে ছিলেন।</item>
+        <item>Would you like to go there?\nআপনি সেখানে যেতে চান?</item>
+        <item>Where can I buy tickets?\nআমি কোথায় টিকেট কিনতে পারি?</item>
+        <item>One ticket to Bangladesh, please.\nদয়া করে একটি টিকেট দিন বাংলাদেশে।</item>
+        <item>One way or round trip?\nএকটি পথ বা পর্বত যাত্রা?</item>
+        <item>A one-way ticket.\nএকটি একমুখী টিকিট।</item>
+        <item>What\'s the exchange rate for dollars?\nডলারের বিনিময় হার কত?</item>
+        <item>Do you accept U.S dollars?\nআপনি কি ইউএস ডলার গ্রহণ করেন?</item>
+        <item>What\'s your address?\nআপনার ঠিকানা কি?</item>
+        <item>Where are you right now?\nআপনি এখন কোথায়?</item>
+        <item>Take me to the station.\nআমাকে স্টেশনে নিয়ে যান।</item>
+        <item>Can I see your passport?\nআমি আপনার পাসপোর্ট দেখতে পারি?</item>
+        <item>Where are you right now?\nআপনি এখন কোথায়?</item>
+        <item>How was your trip?\nআপনার ভ্রমণ কেমন ছিল?</item>
+        <item>Please fill the tank of my car.\nআমার গাড়ির ট্যাঙ্ক পূর্ণ করুন দয়া করে।</item>
+        <item>Can I park here?\nআমি এখানে গাড়ি পার্ক করতে পারি?</item>
+        <item>Where is the station?\nস্টেশন কোথায়?</item>
+        <item>How do I get to the station?\nস্টেশনে কিভাবে যাবো?</item>
+        <item>Have a nice trip.\nভালো যাত্রা হোক।</item>
+        <item>Where is Tina?\nটিনা কোথায়?</item>
+        <item>Call a taxi.\nএকটি ট্যাক্সি কল করুন।</item>
+        <item>I am already at the airport.\nআমি ইতিমধ্যে বিমানবন্দরে আছি।</item>
+        <item>Destination.\nগন্তব্য।</item>
+
+    </string-array>
+
+    <string-array name="human_body">
+
+        <item>Hair\nচুল</item>
+        <item>Head\nমাথা</item>
+        <item>Forehead\nঠোঁট</item>
+        <item>Eyes\nচোখ</item>
+        <item>Ears\nকান</item>
+        <item>Nose\nনাক</item>
+        <item>Lips\nঠোঁট</item>
+        <item>Cheek\nগাল</item>
+        <item>Mouth\nমুখ</item>
+        <item>Teeth\nদাঁত</item>
+        <item>Tongue\nজিভা</item>
+        <item>Chin\nগণ্ড</item>
+        <item>Elbow\nহাতের কনুই</item>
+        <item>Wrist\nকবজি</item>
+        <item>Finger\nআঙ্গুল</item>
+        <item>Palm\nহাতের তালু</item>
+        <item>Heart\nহৃদয়</item>
+        <item>Stomach\nপেট</item>
+        <item>Thigh\nডানা</item>
+        <item>Buttock\nপিঠ</item>
+        <item>Knee\nমেরুদন্ড</item>
+        <item>Calf\nপা মেরুদন্ডের পাতা</item>
+        <item>Feet\nপা</item>
+        <item>Toe\nপা বেঁটের আঙ্গুল</item>
+        <item>Nail\nনাখুন</item>
+
+    </string-array>
+
+    <string-array name="kitchen">
+
+        <item>Kitchen.\nরান্নাঘর</item>
+        <item>Grinding.\nচূর্ণকরণ</item>
+        <item>Mixing.\nমিশ্রণ</item>
+        <item>Pounding.\nপাতা</item>
+        <item>Cutting.\nকাটা</item>
+        <item>Scrapping.\nগুটিয়ে নেওয়া</item>
+        <item>Peeling.\nছেলে পরিষ্কার করা</item>
+        <item>Roasting.\nভাজা</item>
+        <item>Steaming.\nভাপান</item>
+        <item>Frying.\nভাজা</item>
+        <item>Rolling.\nগোলাপী</item>
+        <item>Fermenting.\nআতপীয়করণ</item>
+        <item>Utensils.\nপাত্র</item>
+        <item>Spoon.\nচামচ</item>
+        <item>Fork.\nফর্ক</item>
+        <item>Knife.\nছুরি</item>
+        <item>Pan.\nপাত্র</item>
+        <item>Strainer.\nঝাল</item>
+        <item>Frying pan.\nতেলে ভাজা জন্য পাত্র</item>
+        <item>Scraper.\nমণ্টল</item>
+        <item>Spatula.\nখেচা</item>
+        <item>Plucker.\nফুলের পাতা আদি প্লাকার</item>
+        <item>Spices.\nমসলা</item>
+        <item>Cardamom.\nএলাচ</item>
+        <item>Bay Leaves.\nতেজপাতা</item>
+        <item>Carom Seeds.\nযেতবাঁধা</item>
+        <item>Chilli Powder.\nমরিচ গুঁড়া</item>
+        <item>Chillies, Dry Red.\nশুকনো লাল মরিচ</item>
+        <item>Chillies green.\nসবুজ মরিচ</item>
+        <item>Coriander Seeds.\nধনের বীজ</item>
+        <item>Coriander Leaves.\nধনে পাতা</item>
+        <item>Cumin Seeds.\nজিরা বীজ</item>
+        <item>Fennel Seeds.\nমৌরি গোলা</item>
+        <item>Fenugreek Leaves, Dried.\nশুকনো মেথি পাতা</item>
+        <item>Garlic\nরসুন</item>
+        <item>Ginger.\nআদা</item>
+        <item>Mace.\nজয়ত্রী</item>
+        <item>Mint leaves.\nপুদিনা পাতা</item>
+        <item>Mustard Oil.\nসরিষা তেল</item>
+        <item>Nutmeg.\nজায়ফল</item>
+        <item>Peppercorns.\nগোলমরিচের গুঁড়া</item>
+        <item>Pomegranate Seeds.\nডালিমের বীজ</item>
+        <item>Saffron.\nজাফরান</item>
+        <item>Sesame Seeds.\nতিলের বীজ</item>
+        <item>Turmeric.\nহলুদ</item>
+
+    </string-array>
+
+    <string-array name="office">
+
+
+        <item>Work\nকাজ</item>
+        <item>Office\nঅফিস</item>
+        <item>Where do you work?\nআপনি কোথায় কাজ করেন?</item>
+        <item>I work at AlterGyan\nআমি AlterGyan এ কাজ করি</item>
+        <item>Where is your office?\nআপনার অফিস কোথায়?</item>
+        <item>My office is at Rajshahi.\nআমার অফিস রাজশাহীতে আছে</item>
+        <item>I\'ll pick you up.\nআমি আপনাকে নিয়ে আসব</item>
+        <item>I want to ask a question.\nআমি একটি প্রশ্ন করতে চাই</item>
+        <item>I don\'t know how to use it.\nআমি কিভাবে এটি ব্যবহার করব জানি না</item>
+        <item>He is very hard working.\nতিনি খুব সক্রিয়</item>
+        <item>This is important.\nএটি গুরুত্বপূর্ণ</item>
+        <item>This is very difficult.\nএটা খুব কঠিন</item>
+        <item>Did you get my email?\nআপনি আমার ইমেল পেয়েছেন?</item>
+        <item>I\'d like to go home.\nআমি বাড়ি যাতে চাই</item>
+        <item>Please can you drop me?\nআপনি আমাকে নিয়ে যাতে পারেন?</item>
+        <item>Do you have a pencil?\nআপনার কাছে কলম আছে?</item>
+        <item>May I come in?\nআমি আসতে পারি?</item>
+        <item>Can I sit here?\nআমি এখানে বসতে পারি?</item>
+        <item>Do you have a problem?\nকি আপনার সমস্যা আছে?</item>
+        <item>I have a lot of things to do.\nআমার কাজ অনেকটা আছে</item>
+        <item>Why do you say that?\nআপনি কেন বলেন সেটা?</item>
+        <item>Why didn\'t you come yesterday?\nআপনি গতকাল কেন আসেননি?</item>
+        <item>I am waiting for Tina.\nআমি টিনা-র জন্য অপেক্ষা করছি</item>
+        <item>Let\'s have lunch.\nচলুন দুপুরের খাবারে যাই</item>
+        <item>Glue.\nগোঁড়া</item>
+        <item>Letter.\nচিঠি</item>
+        <item>Paper.\nকাগজ</item>
+        <item>Pen.\nকলম</item>
+        <item>Phone.\nফোন</item>
+        <item>Scissors.\nকাঁচি</item>
+        <item>Fan.\nপাখা</item>
+        <item>Book.\nবই</item>
+        <item>Bank.\nব্যাংক</item>
+        <item>Paper weight.\nকাগজের ওজনবিশেষ</item>
+
+    </string-array>
+
+    <string-array name="relation">
+
+        <item>Relationship\nসম্পর্ক</item>
+        <item>Father\nবাবা</item>
+        <item>Father-in-law\nশ্বশুর</item>
+        <item>Mother\nমা</item>
+        <item>Mother-in-law\nশাশুড়ি</item>
+        <item>Daughter\nমেয়ে</item>
+        <item>Daughter-in-law\nবৌ</item>
+        <item>Son\nছেলে</item>
+        <item>Son-in-law\nজামাই</item>
+        <item>Brother\nভাই</item>
+        <item>Brother-in-law\nদেওর</item>
+        <item>Sister\nবোন</item>
+        <item>Sister-in-law\nনানী</item>
+        <item>Grandfather\nদাদু</item>
+        <item>Grandmother\nনানী</item>
+        <item>Cousin(male)\nভাইফো</item>
+        <item>Cousin(female)\nবোনফো</item>
+        <item>Uncle\nচাচা</item>
+        <item>Paternal Uncle\nমামা</item>
+        <item>Maternal Uncle\nমামা</item>
+        <item>Aunt\nপিসি</item>
+        <item>Paternal Aunt\nমাসি</item>
+        <item>Maternal Aunt\nমাসি</item>
+        <item>Friend(male)\nবন্ধু</item>
+        <item>Friend(female)\nবন্ধুই</item>
+        <item>Bosom friend\nআত্মীয় বন্ধু</item>
+        <item>He is my bosom friend\nসে আমার আত্মীয় বন্ধু</item>
+        <item>Foe\nশত্রু</item>
+        <item>He is my foe\nসে আমার শত্রু</item>
+        <item>I will see you\nআমি তোমাকে দেখবো</item>
+        <item>See you later\nপরে দেখবো</item>
+        <item>You are awesome\nতুমি অসাধারণ</item>
+        <item>Do you want to come with me?\nতুমি আমার সাথে আসতে চাও?</item>
+        <item>Give me a call.\nএকটি কল দাও</item>
+        <item>Have you seen this movie.\nতুমি এই চলচ্চিত্রটি দেখেছো?</item>
+        <item>At what time does the movie start?\nচলচ্চিত্র কখন শুরু হয়?</item>
+
+    </string-array>
+
+    <string-array name="shopping">
+
+        <item>Shopping.\nকেনাকাটা</item>
+        <item>How much is this for?.\nএটা কত খরচ?</item>
+        <item>This is so expensive.\nএটা খুব মহংগ।</item>
+        <item>What is the final price for this?.\nএর শেষ মূল্য কত?</item>
+        <item>I wish I had one.\nআমি কাউকে একটা থাকতে চাই।</item>
+        <item>He likes it very much.\nতিনি এটা খুব পছন্দ করেন।</item>
+        <item>I like it.\nআমার এটা পছন্দ।</item>
+        <item>I don\'t like it.\nআমার এটা পছন্দ নেই।</item>
+        <item>I\'ll take that one also.\nআমি ওটা ও নিচ্ছি।</item>
+        <item>Which one do you like?\nতুমি কোনটা পছন্দ করো?</item>
+        <item>I still haven\'t decided.\nআমি এখনও নির্ধারণ করিনি।</item>
+        <item>Do you have anything cheaper?\nতোমার কাছে কিছু কম মূল্যের আছে?</item>
+        <item>How much do I owe you?\nআমার কত টাকা পাওয়া লাগবে?</item>
+        <item>How are you paying?\nতুমি কীভাবে প্রদান করছ?</item>
+        <item>Sorry, we don\'t accept credit cards.\nদুঃখিত, আমরা ক্রেডিট কার্ড গ্রহণ করি না।</item>
+        <item>We only accept cash.\nআমরা শুধুমাত্র নগদ গ্রহণ করি।</item>
+        <item>Which one is better?\nকোনটা ভালো?</item>
+        <item>Are they the same?\nতারা একই?</item>
+        <item>This includes that also.\nএতে ওটা থাকে অবশ্যই।</item>
+        <item>Can I try it on?\nআমি এটা পরীক্ষা করতে পারি?</item>
+        <item>I don\'t have enough money.\nআমার যথায়ত টাকা নেই।</item>
+        <item>Do you have any money?\nতোমার কোন টাকা আছে?</item>
+        <item>Can I borrow some money?\nআমি কিছু টাকা ধার করতে পারি?</item>
+        <item>What are you looking for?\nতুমি কি খুঁজছ?</item>
+        <item>Give it to me.\nআমাকে দিয়ে দাও।</item>
+        <item>This is for you.\nএটা তোমার জন্য।</item>
+        <item>This is very beautiful.\nএটা খুব সুন্দর।</item>
+        <item>I will buy this.\nআমি এটা কিনবো।</item>
+        <item>I\'d like to buy this.\nআমি এটা কিনতে চাই।</item>
+        <item>I\'d like to return this.\nআমি এটা ফেরত দিতে চাই।</item>
+        <item>This does not work.\nএটা কাজ করে না।</item>
+        <item>This is broken.\nএটা ভাঙ্গা।</item>
+        <item>This is cheap.\nএটা সস্তা।</item>
+        <item>Shop.\nদোকান</item>
+
+    </string-array>
+
+    <string-array name="weather">
+
+
+        <item>Weather\nআবহাওয়া</item>
+        <item>Season\nঋতু</item>
+        <item>Summer\nগ্রীষ্ম</item>
+        <item>Rainy\nবর্ষাকালীন</item>
+        <item>Early Autumn\nপ্রথম শরৎ</item>
+        <item>Late Autumn\nশেষ শরৎ</item>
+        <item>Winter\nশীতকাল</item>
+        <item>Spring\nবসন্ত</item>
+        <item>Snow\nতুষারপাত</item>
+        <item>Freeze\nবিজ্বলিত হওয়া</item>
+        <item>Cold\nঠাণ্ডা</item>
+        <item>It is snowing\nতুষার পড়ছে</item>
+        <item>Warm\nউষ্ণ</item>
+        <item>It is quite warm.\nখুবই উষ্ণ</item>
+        <item>Cloudy\nমেঘলা</item>
+        <item>Today the sky is cloudy.\nআজ আকাশটি মেঘলা</item>
+        <item>It may rain today.\nআজ বৃষ্টি হতে পারে</item>
+        <item>Wind\nবাতাস</item>
+        <item>It is windy.\nবাতাস চলছে</item>
+        <item>Which season do you like most?\nআপনি কোন ঋতুটি সবচেয়ে পছন্দ করেন</item>
+        <item>I like rainy season most.\nআমি সবচেয়ে বেশি বর্ষাকালীন ঋতুটি পছন্দ করি</item>
+        <item>Sunny.\nসূর্যের আলোকময়</item>
+        <item>Today the weather is mostly sunny.\nআজ আবহাওয়া প্রায়শই সূর্যময়</item>
+        <item>Haze\nখোঁজ</item>
+        <item>I like to see haze in winter.\nআমি শীতে খোঁজ দেখতে ভালো লাগে</item>
+
+    </string-array>
+
+    <string-array name="emergency">
+
+        <item>Emergency\nজরুরি</item>
+        <item>What happened?\nকি হয়েছে?</item>
+        <item>I met with an accident.\nআমি একটি দুর্ঘটনায় পড়েছি।</item>
+        <item>When did this happen?\nএটি কখন ঘটেছিল?</item>
+        <item>Don\'t worry.\nচিন্তা করবেন না।</item>
+        <item>I am with you.\nআমি আপনার সঙ্গে আছি।</item>
+        <item>Are you okay?\nআপনি ঠিক আছেন?</item>
+        <item>I am lost.\nআমি হারিয়ে গেছি।</item>
+        <item>Do you have a bandage?\nআপনার কাছে কোনও ব্যান্ডেজ আছে?</item>
+        <item>Stop staring.\nঅবজ্ঞা করুন।</item>
+        <item>Don\'t leave me alone.\nআমাকে একা ছেড়ে চলবেন না।</item>
+        <item>Please call an ambulance.\nদয়া করে একটি অ্যাম্বুলেন্স কল করুন।</item>
+        <item>Hurry up.\nদ্রুত চলে আসুন।</item>
+        <item>Is there any hospital nearby?\nআসক্তিশালী কোনও হাসপাতাল আছে কি?</item>
+        <item>The tire of my car is punctured.\nআমার গাড়ির টায়ার ছেঁকে গেছে।</item>
+        <item>Is there any pharmacy nearby?\nকি কোনও ফার্মেসি আছে কি নিকটবর্তীতে?</item>
+
+    </string-array>
+
+</resources>

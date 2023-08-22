@@ -1,0 +1,1022 @@
+<resources>
+    <string name="app_name">Learn English</string>
+    <string-array name="topics">
+
+        <item>Vocabulary</item>
+        <item>Translator</item>
+        <item>Favorites</item>
+        <item>Useful Sentences</item>
+        <item>Phrases &amp; Idioms</item>
+        <item>Proverbs</item>
+        <item>Grammar</item>
+        <item>Share</item>
+        <item>Rate App</item>
+
+    </string-array>
+
+    <string-array name="sub_topics">
+
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J, K, L</item>
+        <item>M, N</item>
+        <item>O</item>
+        <item>P, Q</item>
+        <item>R, S</item>
+        <item>T, U, V, W</item>
+
+    </string-array>
+    <string-array name="sub_topics2">
+
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J, K, L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P, Q, R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U, V</item>
+        <item>W</item>
+        <item>Y</item>
+
+    </string-array>
+
+
+    <string-array name="sub_topics3">
+
+        <item>Animal\nজীবজন্তু</item>
+        <item>Colors\nবরং</item>
+        <item>Conversation\nকথোপকথন</item>
+        <item>Date &amp; Time\nতারিখ ও সময়</item>
+        <item>Driving\nগাড়ি চালানো</item>
+        <item>Emergency\nবিপদ কালীন</item>
+        <item>Fruits &amp; Vegetables</item>
+        <item>Greetings\nসম্বর্ধনা</item>
+        <item>Grocery\nমুদিখানা</item>
+        <item>Health\nস্বাস্থ্য</item>
+        <item>Home\nবাসাবাড়ি</item>
+        <item>Humanbody\nমানবদেহ</item>
+        <item>Kitchen\nরান্নাঘর</item>
+        <item>Office\nঅফিস</item>
+        <item>Relation\nসম্পর্ক</item>
+        <item>Shopping\nকেনাকাটা</item>
+        <item>Sports\nখেলাধুলা</item>
+        <item>Travel\nভ্রমণ</item>
+        <item>Weather\nআবহাওয়া</item>
+
+    </string-array>
+
+    <string-array name="phrases_a">
+
+        <item>A B.C. \n প্রাথমিক জ্ঞান</item>
+        <item>Above all \nপ্রধানত</item>
+        <item>Above board \nঅকপট</item>
+        <item>A black sheep \nকুলঙ্গার</item>
+        <item>A hard nut to crack \nকঠিন সমস্যা</item>
+        <item>A great deal of \nপ্রচুর পরিমাণে</item>
+        <item>A man of letters \nবিদ্বান ব্যক্তি</item>
+        <item>A bed of roses \nফুলশয্যা</item>
+        <item>According to \nঅনুসারে</item>
+        <item>After all \nমোটের উপর</item>
+        <item>All the same \nএকই কথা</item>
+        <item>All in all \nসর্বেসর্বা</item>
+        <item>All in \nপরিশ্রান্ত</item>
+        <item>All at once \nহঠাৎ</item>
+        <item>All one to \nএকই কথা, কিছু আসে যায় না এমন</item>
+        <item>All out \nসর্বশক্তি প্রয়োগ</item>
+        <item>All along \nআগাগোড়া</item>
+        <item>All over \nসর্বত্র</item>
+        <item>All over with \nসর্বস্বান্ত</item>
+        <item>All but \nপ্রায়</item>
+        <item>All on a sudden \nহঠাৎ</item>
+        <item>All the while \nসর্বক্ষণ</item>
+        <item>Apple of discord \nবিবাদের বিষয়</item>
+        <item>As it were \nযেন</item>
+        <item>As usual \nযথারীতি</item>
+        <item>As a rule \nনিয়ম অনুসারে</item>
+        <item>As if \nযেন</item>
+        <item>As though \nযেন</item>
+        <item>As for \nসম্বন্ধে</item>
+        <item>As to \nবিষয়ে</item>
+        <item>As regards \nসম্বন্ধে</item>
+        <item>At a stretch \nএকটানা</item>
+        <item>At all \nআদৌ</item>
+        <item>At large \nস্বাধীনভাবে</item>
+        <item>At sixes and sevens \nএলোমেলোভাবে</item>
+        <item>At times \nমাঝে মাঝে</item>
+        <item>At the eleventh hour \nশেষ সময়ে</item>
+        <item>At daggers drawn \nশত্রুভাবাপন্ন</item>
+        <item>At all events \nযাহাই হোক না কেন</item>
+        <item>At any cost \nযে কোন প্রকারে</item>
+        <item>At dead of night \nগভীর রাতে</item>
+        <item>At ease \nশান্তিতে বা আরামে</item>
+        <item>At one\'s wit\'s end\nহতবুদ্ধি</item>
+        <item>At every step \nপ্রতি পদক্ষেপে</item>
+        <item>At length \nদীর্ঘদিন পরে</item>
+        <item>At last \nঅবশেষে</item>
+        <item>At least \nকমপক্ষে</item>
+        <item>At best \nবেশীর পক্ষে</item>
+        <item>At the point of \nপর্যায়ে</item>
+        <item>At home in \nদক্ষ</item>
+        <item>At all costs \nযতই ক্ষতি হউক না কেন</item>
+        <item>Above all \nমোটের ওপর</item>
+        <item>An open secret \nউন্মুক্ত রহস্য</item>
+        <item>Again and again \nবার বার</item>
+        <item>Arm in arm \nঅভিসন্ধি ও সম্পাদনা</item>
+
+    </string-array>
+    <string-array name="phrase_example_a">
+
+        <item>He does not know the A.B.C of politics.</item>
+        <item>Rabindranath is, above all, a cosmopolitan personality.</item>
+        <item>His dealings are open and above board.</item>
+        <item>There is a black sheep in our club.</item>
+        <item>The food problem is a hard nut to crack.</item>
+        <item>It will bring a great deal of good to our village.</item>
+        <item>He is a man of letters.</item>
+        <item>Life is not a bed of roses.</item>
+        <item>I shall do this work according to your advice.</item>
+        <item>He is, after all, an honest man.</item>
+        <item>It is all the same whether you go or not.</item>
+        <item> He is all in all in the class.</item>
+        <item>I was all in after the meeting.</item>
+        <item>All at once the crazy man shouted to the top of his voice.</item>
+        <item>It is all one to me whether he helps me or not.</item>
+        <item>The government has made its all-out efforts to remove illiteracy from the country.</item>
+        <item>I was present there all along.</item>
+        <item>The dog is found all over the world.</item>
+        <item>It is all over with the old man.</item>
+        <item>The work is all but finished.</item>
+        <item>All on a sudden, he went to Bogra.</item>
+        <item>the while he was with me.</item>
+        <item>The plot of the land is the apple of discord between the two brothers.</item>
+        <item>The moon is, as it were,a dish of gold.</item>
+        <item>He arrived at school at 8 a.m as usual.</item>
+        <item>As a rule, she kept silent in the meeting.</item>
+        <item>He behaves as if he were the owner of the house.</item>
+        <item>He behave as though he were the owner of the house.</item>
+        <item>As for myself, I am innocent.</item>
+        <item>We decided as to where to go for a walk.</item>
+        <item>He knows nothing as regards this occurrence.</item>
+        <item>I can walk five miles at a stretch.</item>
+        <item>I do not like him at all.</item>
+        <item>Birds fly at large in the sky.</item>
+        <item>The books were at sixes and sevens on the table.</item>
+        <item>He at times comes here.</item>
+        <item>He reached the station at the eleventh hour.</item>
+        <item>The two brothers are at daggers drawn with each other.</item>
+        <item>He will stand by me at all events.</item>
+        <item>He must help me at any cost.</item>
+        <item>The boy came home at dead of night.</item>
+        <item>A man who has enemies cannot live at ease.</item>
+        <item>I am at my wits end what to do.</item>
+        <item>He disturbed me at every Step.</item>
+        <item>At length, he did the work.</item>
+        <item>He tried hard, and at last succeeded in achieving his goal.</item>
+        <item>He is the owner of thirty lakh rupees at least.</item>
+        <item>I can give you ten takes at best.</item>
+        <item>He is at the point of death.</item>
+        <item>He is at home in Algebra.</item>
+        <item>I shall help you at all costs.</item>
+        <item>He is, above all, a poet.</item>
+        <item>He is addicted to drinking is an open secret.</item>
+        <item>He warned me again and again.</item>
+        <item>We have no art and part in his affairs.</item>
+
+    </string-array>
+
+    <string-array name="phrases_b">
+
+        <item>Bag and baggage \nতল্পিতল্পাসহ</item>
+        <item>Bad blood \nশ্ত্রুতা</item>
+        <item>Bad book \nখারাপ নজর</item>
+        <item>Bad names \nগালমন্দ</item>
+        <item>Bear away the bell \nসর্বপ্রথম হওয়া</item>
+        <item>Bear fruit \nফলপ্রসু হওয়া</item>
+        <item>Beck and call \nঅনুগত</item>
+        <item>Before long \nশ্রীঘ্রই, অচিরেই</item>
+        <item>Bee-line \nসোজাপথ</item>
+        <item>Beside the mark \nঅপ্রাসঙ্গিক</item>
+        <item>Between two fires \nউভয় সংকট</item>
+        <item>Black and blue \nবেদম প্রহার</item>
+        <item>Black and white \nলিখিতভাবে</item>
+        <item>Bid fair \nদেখে মনে আশা জাগা</item>
+        <item>Body and soul \nপুরোপুরি</item>
+        <item>Bosom friend \nঘনিষ্ঠ বন্ধু</item>
+        <item>Brown study \nদিবাস্বপ্ন</item>
+        <item>Burning question \nজরুরী সমস্যা</item>
+        <item>Bid fair \nআশা প্রদান করা</item>
+        <item>Big bug \nগুরুত্বপূর্ণ</item>
+        <item>Beggar\'s description \nঅবর্ননীয়</item>
+        <item>Beyond question \nসন্দেহাতীত</item>
+        <item>By dint of/ By virtue of \nবলে</item>
+        <item>By fits and starts \nঅনিয়মিতভাবে</item>
+        <item>By leaps and bounds \nদ্রুত গতিতে</item>
+        <item>By and by \nশীঘ্রই</item>
+        <item>By dint of \nবলে বা দৌলতে</item>
+        <item>By far \nসর্বদিক থেকে</item>
+        <item>By the by \nকথা প্রসঙ্গে</item>
+        <item>By turns \nপর্যায়ক্রমে</item>
+        <item>By way of \nপ্রসঙ্গে</item>
+        <item>By all means \nঅবশ্যই</item>
+        <item>By no means \nকোন প্রকারেই না</item>
+        <item>By any means \nযে কোন প্রকারে</item>
+        <item>By hook or by crook \nযে কোন প্রকারে হউক</item>
+        <item>By chance \nহঠাৎ</item>
+        <item>By means of \nউপায়ে</item>
+        <item>Bolt from the blue \nবিনামেঘে বজ্রপাত</item>
+        <item>Blue blood \nঅভিজাত্য</item>
+        <item>Bring to light \nপ্রকাশ করা</item>
+        <item>Break down \nনষ্ট হওয়া</item>
+        <item>Burst out \nফাটিয়া পড়া</item>
+
+    </string-array>
+    <string-array name="phrase_example_b">
+
+        <item>He left the hostel bag and baggage.</item>
+        <item>There should be no bad blood between neighbors.</item>
+        <item>The secretary has fallen in the bad book of the manager.</item>
+        <item>He called the man bad names.</item>
+        <item>Will she be able to bear away the bell?</item>
+        <item>Your request will not bear fruit in this case.</item>
+        <item>the servant is always at his master\'s beck and call.</item>
+        <item>His business will flop down before long because he is not a good manager.</item>
+        <item>Our school is one mile away from here on the bee line.</item>
+        <item>What he has written is beside the mark.</item>
+        <item>Now the old man is between two fires.</item>
+        <item>He beat the dog black and blue.</item>
+        <item>She put her address in black in white and gave it to me.</item>
+        <item>The girl bids fair to be a great artist in the future.</item>
+        <item>She gave herself body and soul to the pursuit of name and fame.</item>
+        <item>Keats was Shelley\'s bosom friend.</item>
+        <item>The women is absorbed in brown study.</item>
+        <item>Housing is a burning question facing our country.</item>
+        <item>The boy bids fair to shine in life.</item>
+        <item>The chairman is a big bug of the union council.</item>
+        <item> The misery of the people baggar\'s description.</item>
+        <item>His honesty is beyond question.</item>
+        <item>He stood first by virtue of his merit.</item>
+        <item>He reads by fits and starts.</item>
+        <item>The price of rice is going up by leaps and bounds.</item>
+        <item>He will go there by and by.</item>
+        <item>He succeeded by dint of hard labor.</item>
+        <item>He is by far the best man in the area.</item>
+        <item>By the by he told me a story.</item>
+        <item>The two brothers worked by turns.</item>
+        <item>He told me the story by way of an example.</item>
+        <item>You should, by all means, help me.</item>
+        <item>You should by no means waste your time.</item>
+        <item>I shall help you by any means.</item>
+        <item>I will go abroad by hook or by crook.</item>
+        <item>By chance, he met me on the way.</item>
+        <item>He came to power by means of treachery.</item>
+        <item>The news of my mother\'s death came to me like a bolt from the blue.</item>
+        <item> The man is proud of his blue blood.</item>
+        <item>Do not bring the secret to light.</item>
+        <item>His health has been broken down.</item>
+        <item>She burst out in anger.</item>
+
+    </string-array>
+
+    <string-array name="phrases_c">
+
+        <item>Carry the day \nজয়ী হওয়া</item>
+        <item>Caught red-handed \nহাতে নাতে ধৃত</item>
+        <item>Crocodile tears \nমায়াকান্না</item>
+        <item>Crying need \nজরুরী প্রয়োজন</item>
+        <item>Come in \nভিতরে আসা</item>
+        <item>Cold water \nনিরুৎসাহ</item>
+        <item>Cock sure \nআস্থাশীল</item>
+        <item>Come out \nপ্রকাশিত করা</item>
+        <item>Come to nothing \nনিষ্ফল হওয়া</item>
+        <item>Come true \nসত্য ফল, সফল হওয়া</item>
+        <item>Come into fashion \nপ্রচলিত হওয়া</item>
+        <item>Cast out \nবিতাড়িত করা</item>
+        <item>Cast down \nঅবনত</item>
+        <item>Call in question \nসন্দেহ করা</item>
+        <item>Cats and dogs \nমুষলধারে</item>
+        <item>Cock and bull story \nগাঁজাখুরি গল্প</item>
+        <item>Catch a tartar \nশক্ত লোকের পাল্লায় পড়া</item>
+        <item>Cut a dash \nভান করা</item>
+        <item>Cut short \nসংক্ষিপ্ত করা</item>
+        <item>Cut loose \nবিচ্ছিন্ন করা</item>
+        <item>Cut up rough \nমনঃক্ষুন্ন হওয়া, মারামারি করতে উদ্যত হওয়া</item>
+
+    </string-array>
+    <string-array name="phrase_example_c">
+
+        <item>Hurrah! Our team has carried the day.</item>
+        <item>The thief was caught red-handed.</item>
+        <item>The women shed crocodile tears.</item>
+        <item>Education is the crying need of a country.</item>
+        <item>May I come in. Sir?</item>
+        <item>Help them if you are able, but do not throw cold water on their plan.</item>
+        <item>He is cock sure that the business will be lucrative.</item>
+        <item>The book will come out very soon.</item>
+        <item>At last, their attempts came to nothing.</item>
+        <item>His hope has come true.</item>
+        <item>Minu print sarees have come into fashion now a day.</item>
+        <item>He has been cast out from our society.</item>
+        <item>Nobody should be cast down by misfortune.</item>
+        <item>None should call in question the honesty of my sister.</item>
+        <item>It is raining cats and dogs.</item>
+        <item>I do not believe such a cock and bull story.</item>
+        <item>He caught a tartar in him.</item>
+        <item>Why do you cut a dash of being what you are not?</item>
+        <item>His life was cut short by a heart attack.</item>
+        <item>He cut the package loose and showed us the articles contained in it.</item>
+        <item>At this works, he cut up rough.</item>
+
+    </string-array>
+
+    <string-array name="phrases_d">
+
+        <item>Daydream \nআকাশ কুসুম কল্পনা</item>
+        <item>Dilly dally \nগড়িমসি করা</item>
+        <item>Do away with \nউঠাইয়া দেওয়া</item>
+        <item>Do without \nব্যতিরেকে চলা</item>
+        <item>Downfall \nপতন</item>
+        <item>Downcast \nবিষণ্ন</item>
+        <item>Dead against \nঘোর বিরোধী</item>
+        <item>Dead language \nঅপ্রচলিত ভাষা</item>
+        <item>Double game \nকপটতা</item>
+        <item>Ducks and drakes \nঅপচয়</item>
+
+    </string-array>
+    <string-array name="phrase_example_d">
+
+        <item>Many young boys and girls waste their time in daydreams.</item>
+        <item>Do not dilly dally and start the work right now.</item>
+        <item>Do away with your bad habits.</item>
+        <item>I cannot do without him.</item>
+        <item>His downfall is due to his own fault.</item>
+        <item>He looked at me with downcast eyes.</item>
+        <item>Shanta is dead against of smoking.</item>
+        <item>Sanskrit is a dead language.</item>
+        <item>It is very bad to play a double game.</item>
+        <item>Do not play ducks and drakes with your money if you want not to suffer in future.</item>
+
+    </string-array>
+
+    <string-array name="phrases_e">
+
+        <item>Eat humble pie \nঅপমান হজম করে ক্ষমা চাওয়া</item>
+        <item>Ever and anon \nপ্রায়ই</item>
+        <item>Every now and then \nপ্রায়ই</item>
+        <item>Easy and free \nঅমায়িক</item>
+        <item>Escape from \nমুক্তি</item>
+        <item>Eligible for \nযোগ্য</item>
+
+    </string-array>
+    <string-array name="phrase_example_e">
+
+        <item>The manager had to eat humble pie before his employees.</item>
+        <item>He comes here ever and anon.</item>
+        <item>He writes me every now and then.</item>
+        <item>The girl is easy and free, and so she has many friends.</item>
+        <item>Nobody will escape from death.</item>
+        <item>He is eligible for the post.</item>
+
+    </string-array>
+
+    <string-array name="phrases_f">
+
+        <item>Fair play \nপ্রতারণাবিহীন কাজ</item>
+        <item>Flesh and blood \nরক্তমাংসের শরীর</item>
+        <item>Fall a victim to \nশিকারে পরিণত হওয়া</item>
+        <item>Fall down \nপড়িয়া যাওয়া</item>
+        <item>Fond of \nঅনুরাগী</item>
+        <item>Follow the footsteps of \nপায়ে পায়ে অনুসরণ করা</item>
+        <item>For good, For ever \nচিরতরে</item>
+        <item>Few and far between \nকদাচিত</item>
+        <item>Fair and square \nঠিক</item>
+        <item>For the sake of \nজন্য</item>
+        <item>Foul play \nঅসদাচরণ</item>
+        <item>Face to face \nমুখোমুখি</item>
+        <item>Fall flat \nনিস্ফল হওয়া</item>
+        <item>Far and near/Far and wide \nসর্বত্র</item>
+        <item>Fight shy of \nএড়াইয়া যাওয়া</item>
+        <item>Find fault with \nদোষ ধরা</item>
+        <item>Fish out of water \nঅস্বস্তিকর অবস্থা</item>
+        <item>For nothing \nমিছামিছি</item>
+        <item>For the time being \nআপাতত</item>
+        <item>From top to bottom \nপুরোপুরি</item>
+        <item>From door to door \nদ্বারেদ্বারে </item>
+        <item>From bad to worse \nক্রমেই খারাপ হওয়া</item>
+        <item>From time to time \nমাঝে মাঝে</item>
+        <item>From hand to mouth \nদিনে এনে দিনে খাওয়া</item>
+
+    </string-array>
+    <string-array name="phrase_example_f">
+
+        <item>I believe in the practice of fair play in my business.</item>
+        <item>No flesh and blood can endure such an insult</item>
+        <item>He fell a victim to his own folly.</item>
+        <item>The boys fell down from the roof.</item>
+        <item>I fond of sweets.</item>
+        <item>People always follow the footsteps of some great men.</item>
+        <item>Mira left the country for good.</item>
+        <item>He comes here few and far between.</item>
+        <item>We should be fair and square in our dealings.</item>
+        <item>I shall do it for the sake of prestige.</item>
+        <item>Be honest, do not indulge in foul play.</item>
+        <item>The two boys stood face to face.</item>
+        <item>His advice fell flat on his brother.</item>
+        <item>His fame spread far and near/wide.</item>
+        <item>-Why do you fight shy of me?</item>
+        <item>You have to correct yourself before finding fault with others.</item>
+        <item>I feel like a fish out of water in any new place.</item>
+        <item>Hurry up, I have other fish to fly.</item>
+        <item>He scolds me for nothing.</item>
+        <item>He is out of employment for the time being.</item>
+        <item>I read the book from top to bottom.</item>
+        <item>The blind boy is begging from door to door.</item>
+        <item>His condition is getting from bad to worse.</item>
+        <item>The man comes here from time to time.</item>
+        <item>Many poor people of our country live from hand to mouth.</item>
+
+    </string-array>
+
+    <string-array name="phrases_g">
+
+        <item>Go in for \nপরীক্ষা দেওয়া</item>
+        <item>Gall and wormwood \nতিক্ততা, ঝাঁঝলতা</item>
+        <item>Give away \nদান</item>
+        <item>Give up the ghost \nমরে যাওয়া</item>
+        <item>Give ear \nআগ্র নিয়ে শোনা</item>
+        <item>Give vent to \nমুক্ত হওয়া</item>
+        <item>Good at \nদক্ষ</item>
+        <item>Golden opinion \nউচ্চ ধারনা</item>
+        <item>Get by heart \nমুখস্ত করা</item>
+        <item>Give the airs of \nভান করা</item>
+        <item>Get into good graces \nবন্ধুত্ব লাভ করা</item>
+        <item>Get rid of \nমুক্তি পাওয়া</item>
+        <item>Go to rack and ruin \nপুরোপুরি ধ্বংস হওয়া</item>
+        <item>Go astray \nবিপথে যাওয়া</item>
+        <item>Go through \nপড়া</item>
+        <item>Give up \nপরিত্যাগ করা</item>
+
+    </string-array>
+    <string-array name="phrase_example_g">
+
+        <item>Benu will go in for the S.S.C. Examination.</item>
+        <item>The women’s words are just gall and wormwood to people.</item>
+        <item>He gave away the prizes among the students.</item>
+        <item>The patient gave up the ghost in the hospital.</item>
+        <item>Give ear to what your teachers say in class.</item>
+        <item>It is very difficult to get rid of hard friends.</item>
+        <item>He is good at English!</item>
+        <item>We have golden opinion about our leader.</item>
+        <item>I got the poem by heart.</item>
+        <item>He is the son of a poor farmer whereas, he gives the airs of a rich man.</item>
+        <item>The employee tried hard to get into good graces of the manager.</item>
+        <item>You should get rid of your bad habit.</item>
+        <item>If the policy of the government is not effective, the economy of the country may go to rack and ruin.</item>
+        <item>Take care of the boy that he may not go astray</item>
+        <item>I have gone through the book.</item>
+        <item>Give up your bad habits.</item>
+
+    </string-array>
+
+    <string-array name="phrases_h">
+
+        <item>Hard up \nঅভাবগ্রস্ত</item>
+        <item>Hard and fast \nধরা বাঁধা</item>
+        <item>Hang heavy \nবোঝার মত মনে হওয়া</item>
+        <item>Hold one’ tongue \nচুপ করে থাকা</item>
+        <item>Hand in glove \nঘনিষ্ঠ</item>
+        <item>Hall mark \nবিশুদ্ধির চিহ্ন</item>
+        <item>Heart and soul \nপ্রাণপণে</item>
+        <item>Hold good \nখাটা</item>
+        <item>Hand to hand \nহাতাহাতি</item>
+        <item>Head and ears \nসম্পূর্ণভাবে</item>
+        <item>Head and heart \nবুদ্ধিতে ও হৃদয়ে</item>
+        <item>Hey day \nবয়সকাল</item>
+        <item>Hold with \nএকমত হওয়া</item>
+        <item>Hole and corner \nলুকোচুরি</item>
+        <item>Hard and fast \nধরাবাধা</item>
+        <item>Hard by \nসন্নিকটে</item>
+        <item>High time \nউপযুক্ত সময়</item>
+        <item>High and low \nছোট বড় সবাই</item>
+        <item>Hue and cry \nচীৎকার করা</item>
+
+    </string-array>
+    <string-array name="phrase_example_h">
+
+        <item>I am hard up now.</item>
+        <item>There is no hard and fast rule in this matter.</item>
+        <item>Time hangs heavy when one waits for one’s beloved.</item>
+        <item>He is very flippant and cannot hold his tongue for a while.</item>
+        <item>The secretary is hand in glove with the Prime Minister.</item>
+        <item>His conduct is the hallmark of his honesty.</item>
+        <item>He tried heart and soul to pass the examination.</item>
+        <item>The rule does not hold good here.</item>
+        <item>The two boys fought hand to hand.</item>
+        <item>-I am now head and ears in debt.</item>
+        <item>Vivekananda was head and heart the greatest man of this world.</item>
+        <item>He amassed much wealth in his heyday and now he is happy in this old age.</item>
+        <item>-I could not hold with him on this point.</item>
+        <item>Nobody likes your hole and corner policy.</item>
+        <item>There is the hard and fast rule in Algebra.</item>
+        <item>The market is hard by our house.</item>
+        <item>It is high time to sow the seeds.</item>
+        <item>All men, high and low, attended the public meeting.</item>
+        <item>They raised a hue and cry when the robbers came.</item>
+
+    </string-array>
+
+    <string-array name="phrases_i">
+
+        <item>In case \nযদি</item>
+        <item>In the long run \nপরিমাণে</item>
+        <item>In spite of \nসত্ত্বেও</item>
+        <item>In black and white \nলিখিতভাবে</item>
+        <item>In lieu of \nপরিবর্তে</item>
+        <item>In as much as \nযেহেতু</item>
+        <item>in the nick of time \nঠিক সময়</item>
+        <item>In keeping with \nসামঞ্জস্য রাখিয়া</item>
+        <item>In no time \nশীঘ্রই</item>
+        <item>In front of \nসামনে</item>
+        <item>In the hope of \nআশায়</item>
+        <item>In the teeth of \nবিরুদ্ধে</item>
+        <item>In full swing \nপুরাদমে</item>
+        <item>in the guise of \nছদ্মবেশে</item>
+        <item>In the cart \nহতবুদ্ধি</item>
+        <item>In cold blood \nবিনা উত্তেজনায়</item>
+        <item>In quest of \nঅনুসন্ধানে</item>
+        <item>In favour of \nঅনুকূলে</item>
+        <item>Ins and outs \nখুটিনাটি</item>
+        <item>in a nutshell \nসংক্ষেপে</item>
+        <item>In the wake of \nপশ্চাতে</item>
+        <item>in vogue \nপ্রচলিত</item>
+        <item>In a fix \nসমস্যা</item>
+        <item>In order to \nউদ্দেশ্য</item>
+        <item>In point of \nসমন্ধে</item>
+        <item>In accordance with \nঅনুসারে</item>
+        <item>In a body \nএকযোগে</item>
+        <item>In case of \nযদি</item>
+        <item>Instead of \nপরিবর্তে</item>
+        <item>in good faith \nসরল বিশ্বাসে</item>
+        <item>In a word \nসংক্ষেপে</item>
+        <item>In search of \nসন্ধানে</item>
+        <item>In the least \nমোটেও</item>
+        <item>In respect of \nবিষয়ে</item>
+        <item>in view of \nবিবেচনা করিয়া</item>
+        <item>In honour of \nসম্মানে</item>
+        <item>In the eye of \nঅনুসারে</item>
+        <item>in disguise \nছদ্মবেশে</item>
+        <item>In season and out of season \nসময়ে অসময়ে </item>
+        <item>In vain \nবৃথা</item>
+        <item>in short \nসংক্ষেপে</item>
+
+    </string-array>
+    <string-array name="phrase_example_i">
+
+        <item>In case of your failure what will you do?</item>
+        <item>Virtue wins in the long run.</item>
+        <item>In spite of hard labor, he could not pass the exam.</item>
+        <item>Give your statement in black and white.</item>
+        <item>Bulbul took Civics in lieu of Urdu.</item>
+        <item>In as much as the book was of no value to him, he sold it out.</item>
+        <item>He reached the station in the nick of time.</item>
+        <item>You should spend in keeping with your income.</item>
+        <item>. He will come here in no time.</item>
+        <item>There is a school in front of the hospital.</item>
+        <item>-Man works in the hope of success.</item>
+        <item>. Don’t lose heart in the teeth of opposition.</item>
+        <item>The project is running in full swing.</item>
+        <item>He came here in the guise of a saint.</item>
+        <item>I was in the cart when I met my enemy on my way to home.</item>
+        <item>He killed the boy in cold blood.</item>
+        <item>-The police came in quest of dacoits.</item>
+        <item>The wind is in favor of him.</item>
+        <item>I know ins and outs of the matter.</item>
+        <item>Tell me the story in a nutshell.</item>
+        <item>Famine comes in the wake of flood. vogue.</item>
+        <item>This fashion is now In vague.</item>
+        <item>I am now in a fix. order to buy a book.</item>
+        <item>He went there in order to buy a book.</item>
+        <item>He is junior to me in point of age.</item>
+        <item>We acted in accordance with his advice.</item>
+        <item>They went to him in a body.</item>
+        <item>In case of your failure what will you do?</item>
+        <item>He took rice instead of curry.</item>
+        <item>I signed the deed in good faith.</item>
+        <item>He told the story in a word to all present.</item>
+        <item>He went there in search of a light.</item>
+        <item>She was not in the least hungry.</item>
+        <item>He is junior to me in respect of age.</item>
+        <item>in view of his merit he has been</item>
+        <item>A party was given in honor of the guest.</item>
+        <item>All men are equal in the eye of law.</item>
+        <item>He went there in disguise.</item>
+        <item>He bothers me in season and out of season.</item>
+        <item>He tried but in vain.</item>
+        <item>Tell me the story in short.</item>
+
+    </string-array>
+
+    <string-array name="phrases_j_k_l">
+
+        <item>Jog trot \nএকঘেয়ে, মন্দগতি</item>
+        <item>Jack of all trades \nসবজান্তা</item>
+        <item>Jump at an offer \nসাগ্রহে গ্রহণ করা</item>
+        <item>Kith and kin \nআত্মীয় -স্বজন</item>
+        <item>Keep up with \nচালিয়ে যাওয়া</item>
+        <item>Know no bounds \nঅসীম</item>
+        <item>Key stone \nমূলনীতি</item>
+        <item>Knocking at the door \nখুব নিকটে</item>
+        <item>Kiss the dust \nনিহত হওয়া, বিজয়ীর কাছে নত হওয়া</item>
+        <item>Lame excuse \nবাজে অজুহাত</item>
+        <item>Lay hands on \nধরা</item>
+        <item>Loaves and fishes \nব্যক্তি স্বার্থ</item>
+        <item>Lead astray \nবিপথে পরিচালিত করা</item>
+        <item>Laughing stock \nউপহাসের পাএ</item>
+        <item>Lead by the nose \nআদেশ পালনে বাধ্য করা</item>
+        <item>Lions share \nসিংহভাগ</item>
+        <item>Letter by heart \nমখুস্থ করা</item>
+        <item>Loaves and fishes \nব্যক্তিগত লাভ</item>
+        <item>Live fast \nঅমিতাচার</item>
+        <item>Lie in wait \nওৎ পেতে থাকা</item>
+
+    </string-array>
+    <string-array name="phrase_example_j_k_l">
+
+        <item>They are advancing in a jog-trot with their business.</item>
+        <item>He is the jack of all trades but master of none.</item>
+        <item>he lady secretary jumped at the post of the marketing manager.</item>
+        <item>All his kith and kin left him.</item>
+        <item>. Try to keep up with the progress of the class.</item>
+        <item>The kindness of the boy knew no bounds.</item>
+        <item>Equality for all is the key stone of the democratic system of our country.</item>
+        <item>Our examination is knocking at the door</item>
+        <item>Many people in Russia are kissing the ground for liberty.</item>
+        <item>. It is nothing but a lame excuse</item>
+        <item>They tried to lay hands on the robbers but failed.</item>
+        <item>. Many people run after loaves and fishes.</item>
+        <item>Do not mix with those bad boys, they will lead you astray.</item>
+        <item>His foolish remark made him a laughing stock.</item>
+        <item>You must lead that boy by the nose, he is very audacious.</item>
+        <item>The lion’s share of the profit will go to him.</item>
+        <item>Learn this poem by heart.</item>
+        <item>Try to think of others, not for your own loaves and fishes.</item>
+        <item>Do not live fast, lest you should suffer in the long run.</item>
+        <item>The fox lay in wait for a hen.</item>
+
+    </string-array>
+
+    <string-array name="phrases_m_n">
+
+        <item>Make good \nক্ষতিপূরণ করা</item>
+        <item>Man of letters \nবিদ্বান ব্যক্তি</item>
+        <item>Make out \nবুঝতে পারা</item>
+        <item>Man of straw \nঅপদার্থ লোক</item>
+        <item>Maiden speech \nপ্রথম বক্তৃতা</item>
+        <item>Mince a matter \nঅর্ধেক কথা গালে রেখে অর্ধেক বলা</item>
+        <item>Muster strong \nএকএিত</item>
+        <item>Make the best use of \nসর্বাপেক্ষা সদ্ব্যবহার করা</item>
+        <item>Move heaven and earth \nযথাসাধ্য চেষ্টা করা</item>
+        <item>Make headway \nউন্নতি করা</item>
+        <item>Null and void\nবাতিল</item>
+        <item>Near at hand \nখুব কাছাকাছি</item>
+        <item>Nest egg \nহাতের পাঁচ</item>
+        <item>Now and then \nবাতিল</item>
+        <item>Next to nothing \nনা বললেও চলে, প্রায় কিছুই না</item>
+        <item>Nip in the bud \nঅঙ্কুরে বিনাশ হওয়া</item>
+        <item>Neck and crop \nআপাদমস্তক</item>
+        <item>Nom-de-plume \nকলমী ছদ্ম নাম</item>
+
+    </string-array>
+    <string-array name="phrase_example_m_n">
+
+        <item>You should make good of your loss</item>
+        <item>Dr. Meghnath Saha was man of letters.</item>
+        <item>I cannot make out the meaning of the poem</item>
+        <item>Such an important work cannot be done by such a man of straw.</item>
+        <item>His maiden speech charmed us all.</item>
+        <item>Speak straightly, do not mince a matter.</item>
+        <item>The people mustered strong in the field.</item>
+        <item>We should make the best use of our unconventional resources.</item>
+        <item>She moved heaven and earth to pass the exam, but failed.</item>
+        <item>When will education make headway in our country.</item>
+        <item>-The rule has been declared null and void.</item>
+        <item>The final examination of the students in near at hand.</item>
+        <item>I cannot part with this piece of land, it is my nest egg.</item>
+        <item>He comes here now and then.</item>
+        <item>The man has some money, but it is next to nothing.</item>
+        <item>All his hopes were nipped in the bud.</item>
+        <item>She went out in the rain and got wet neck and crop.</item>
+        <item>Rabindranath wrote some poems under the nom-de-plume of Vanu Singha.</item>
+
+    </string-array>
+
+    <string-array name="phrases_o">
+
+        <item>On the contrary \nপক্ষান্তরে</item>
+        <item>Out of doors \nবাহিরে</item>
+        <item>On no account \nকিছুতেই না</item>
+        <item>Once in a way \nকদাচিৎ</item>
+        <item>On the eve of \nপ্রাক্কালে</item>
+        <item>On account of \nকিছুতেই না</item>
+        <item>Out of date \nঅপ্রচলিত</item>
+        <item>Out of the question \nঅসম্ভব</item>
+        <item>Out and out \nসম্পূর্ণরূপে </item>
+        <item>of late \nসম্প্রতি</item>
+        <item>Over head and ears \nজর্জরিত </item>
+        <item>Oil one’s tongue \nতোষামোদ করা</item>
+        <item>On hand \nঅধিকারে</item>
+        <item>Out of sorts \nঅসুস্থ</item>
+        <item>Of course \nস্বভাবত</item>
+        <item>Of no Avail \nবৃথা</item>
+        <item>Off and on \nমাঝেমাঝে</item>
+        <item>On the point of \nউদ্যত</item>
+        <item>On the alert \nসতর্ক</item>
+        <item>Out burst \nউচ্ছ্বাস</item>
+        <item>Out of away \nবহুগুণে</item>
+        <item>Outlook \nদৃষ্টিভঙ্গি </item>
+        <item>Outcome \nফলাফল</item>
+        <item>Output \nউৎপাদন</item>
+        <item>Overlook \nউপেক্ষা করা</item>
+        <item>Outcast \nজাতিভ্রষ্ট </item>
+        <item>One and all \nসবাই</item>
+        <item>On good terms \nসদ্ভাব</item>
+        <item>Once again \nআবার</item>
+        <item>Once for all \nচিরতরে</item>
+        <item>On the whole \nমোটের ওপর</item>
+        <item>On the score of \nকারণে, যুক্তিতে</item>
+        <item>Out of order \nঅকেজো হওয়া</item>
+
+    </string-array>
+    <string-array name="phrase_example_o">
+
+        <item>He hates me, on the contrary I love him very much.</item>
+        <item>He is too weak to go out of doors.</item>
+        <item>-I shall on no account do it.</item>
+        <item>He makes such foolish decision only once in a way.</item>
+        <item>I saw him on the eve of his departure.</item>
+        <item>He is absent on account of illness.</item>
+        <item>This fashion is now out of date of his departure.</item>
+        <item>It is out of the question for me to buy so many books in a month.</item>
+        <item>He is out and out a rogue.</item>
+        <item>Of late he is working hard.</item>
+        <item>He is over head and ears</item>
+        <item>The man earns by oiling his tongue.</item>
+        <item>I have two pens on hand.</item>
+        <item>-I feel out of sorts today.</item>
+        <item>Of course, he is sad for the loss of his pen.</item>
+        <item>All our efforts were of no avail.</item>
+        <item>He comes here off and on.</item>
+        <item>He is on the point of death.</item>
+        <item>Be on the alert when you sleep alone in this room.</item>
+        <item>His out burst of feeling moved us all.</item>
+        <item>Our house is out and away higher than theirs.</item>
+        <item>We should have broad outlook on life.</item>
+        <item>His failure is the outcome of his idleness.</item>
+        <item>I warned him at the very output.</item>
+        <item>He overlooked his son’s faults.</item>
+        <item>He is an outcast.</item>
+        <item>The players one and all entered the playground.</item>
+        <item>They are on good terms with one another.</item>
+        <item>I shall see him once again.</item>
+        <item>She parted with her relative once for all.</item>
+        <item>His conduct is, on the whole, satisfactory.</item>
+        <item>She stayed home on the score of illness.</item>
+        <item>The machine has gone out of order.</item>
+
+    </string-array>
+
+    <string-array name="phrases_p_q">
+
+        <item>Part and parcel \nঅবিচ্ছেদ অংশ</item>
+        <item>Pave the way \nপথ প্রশস্ত করা</item>
+        <item>proud of \nগর্বিত</item>
+        <item>Pick a quarrel \nঝগড়া বাঁধানো</item>
+        <item>Pros and cons \nসুবিধা-অসুবিধা</item>
+        <item>Pillar to post \nএক স্থান থেকে অন্য স্থানে</item>
+        <item>Palmy days \nসুসময়ে</item>
+        <item>Play tricks \nপ্রতারণা করার চেষ্টা করা</item>
+        <item>Puppet in the hand \nঅন্যের দ্বারা চালিত ব্যক্তি</item>
+        <item>Pin money \nস্বামীর দ্বারা স্ত্রীকে প্রদত্ত হাতখরচ</item>
+        <item>Patch up the quarrel \nবিবাদ মীমাংসা করা</item>
+        <item>Quarrel with one’s bread and butter \nজীবিকার কাজ ছেড়ে দেওয়া</item>
+        <item>Quick march \nদ্রুত অগ্রসরণ</item>
+
+    </string-array>
+    <string-array name="phrase_example_p_q">
+
+        <item>Habit is a part and parcel of man.</item>
+        <item>Hard labour can pave the way to your success.</item>
+        <item>He is proud of his wealth.</item>
+        <item>Never pick a quarrel with anyone.</item>
+        <item>He considered the pros and cons of the matter.</item>
+        <item>Vagabonds wander from pillar to post all through their life.</item>
+        <item>I had many friends in my palmy days.</item>
+        <item>The man was sorry for his playing tricks with him.</item>
+        <item>A leader should not be a pupper in the hands of his/her followers.</item>
+        <item>She saved all her pin money and bought a nice present for her husband.</item>
+        <item>Will anybody volunteer to patch up the quarrel between the two relatives?</item>
+        <item>He took a hasty decision on the spur of the moment and quarrel with his bread and butter.</item>
+        <item>All were astonished at the quick march of communism in Russia but now they more astonished at its receding back.</item>
+
+    </string-array>
+
+    <string-array name="phrases_r_s">
+
+        <item>Red letter day \nস্মরণীয় দিন</item>
+        <item>Rain cats and dogs \nপ্রবল বৃষ্টিপাত হওয়া</item>
+        <item>Red letter day \nস্মরণীয় দিন</item>
+        <item>Right and left \nসব দিক দিয়ে</item>
+        <item>Run one’s race \nজীবন যাপন করা</item>
+        <item>Rain or shine \nসকল প্রকার আবহাওয়া</item>
+        <item>Red handed \nহাতে নাতে</item>
+        <item>Rise and fall \nউত্থান-পতন</item>
+        <item>Rise in arms \nসশস্ত্র বিদ্রোহ</item>
+        <item>Set up \nস্থাপন করা</item>
+        <item>Sack cloth and ashes \nশোকের পোষাক</item>
+        <item>Stone’s throw \nনিকটবর্তী</item>
+        <item>Safe and sound \nনিরাপদে</item>
+        <item>See into mill stone \nবুদ্ধি রাখা</item>
+        <item>See through \nধরে ফেলা</item>
+        <item>Set out \nরওয়ানা হওয়া</item>
+        <item>Steer clear of \nএড়াইয়া যাওয়া</item>
+        <item>Sum and substance \nসারমর্ম</item>
+        <item>Swan song \nকবির শেষ রচনা</item>
+        <item>See the light \nজন্মগ্রহণ করা</item>
+        <item>Sworn enemy \nপরম শত্রু</item>
+        <item>Short temper \nরগ চটা লোক</item>
+        <item>Slow coach \nধীর ব্যক্তি</item>
+        <item>Scot free \nআঘাত ব্যতীত, অনাহত</item>
+        <item>So so \nএক রকম</item>
+        <item>Slow coach \nঅপদার্থ</item>
+        <item>So to say \nবলিতে গেলে</item>
+
+    </string-array>
+    <string-array name="phrase_example_r_s">
+
+        <item>The 16th December is a red-letter day in the history of Bangladesh.</item>
+        <item>It has been raining cats and dogs for two hours.</item>
+        <item>The 21st of February is a red letter day to all the Bengalis.</item>
+        <item>We attacked our enemies right and left.</item>
+        <item>That poor man runs his race in a miserable way.</item>
+        <item>I must go there, rain or shine.</item>
+        <item>The robbers were caught red handed by the public.</item>
+        <item>Without facing any rise and fall of life, no one can be great.</item>
+        <item>Some personnel of the army of Russia rose in arms against Gorbachev.</item>
+        <item>He set up a school in our village.</item>
+        <item>Today is your birthday so do not put on such sackcloth and ashes.</item>
+        <item>The school is at stone’s throw from their house.</item>
+        <item>He arrived here safe and sound.</item>
+        <item>This person can see into mill stone, how will you deceive him?</item>
+        <item>I could easily see through your design.</item>
+        <item>He set out for Dhaka.</item>
+        <item>I could steer clear of the difficulty.</item>
+        <item>Give in your own words the sum and substance of the story.</item>
+        <item>Do you know what the swan song of Shelley is?</item>
+        <item>A human being has seen the light tonight in the hospital.</item>
+        <item>He is my sworn enemy.</item>
+        <item>I cannot manage well enough with this short temper.</item>
+        <item>A slow coach cannot prosper in life.</item>
+        <item>The robbers were able to go away scot free.</item>
+        <item>I am so so.</item>
+        <item>Nothing important can be done with such a slow coach as you.</item>
+        <item>He is, so to say, a good boy.</item>
+
+    </string-array>
+
+    <string-array name="phrases_t_u_v_w">
+
+        <item>Through thick and thin \nআপদে-বিপদে</item>
+        <item>Tall talk \nবড় বড় কথা, বাগাড়ম্বর</item>
+        <item>Through and through \nসম্পূর্ন</item>
+        <item>Ten to one \nখুব সম্ভবত</item>
+        <item>To the last \nশেষ পর্যন্ত</item>
+        <item>To the letter \nপীড়াপীড়ি</item>
+        <item>To the contrary \nবিপক্ষে</item>
+        <item>To take to air \nপ্রকাশ হওয়া</item>
+        <item>Take to one’s heels \nপলায়ন করা</item>
+        <item>Tooth and nail \nপ্রাণপণে</item>
+        <item>To and fro \nএদিক-ওদিক</item>
+        <item>To run short \nকম পড়া</item>
+        <item>To take to task \nঘৃণা করা</item>
+        <item>The three R\'s \nমোটামুটি জ্ঞান</item>
+        <item>Up and doing \nতৎপর হওয়া</item>
+        <item>Ups and downs \nউত্থান-পতন</item>
+        <item>Upset \nউল্টাইয়া ফেলা</item>
+        <item>Under lock and key \nতালাবদ্ধ </item>
+        <item>Wear and tear \nক্ষয়ক্ষতি </item>
+        <item>With one accord \nএকমত হয়ে</item>
+        <item>Weal and owe \nসুখ-দুঃখ </item>
+        <item>Wipe out \nমুছে ফেলা</item>
+        <item>Withheld \nস্হগিত রাখা</item>
+        <item>Well off \nস্বচ্ছল</item>
+        <item>With a view to \nউদ্দেশ্যে</item>
+        <item>With an eye to \nলক্ষ্য রেখে</item>
+        <item>Without fail \nঅবশ্যই</item>
+        <item>Well up \nদক্ষ</item>
+
+
+    </string-array>
+    <string-array name="phrase_example_t_u_v_w">
+
+        <item>He was by my side through thick and thin</item>
+        <item>He has become a laughing stock only for his tall talk.</item>
+        <item>I have read the book through and through.</item>
+        <item>Ten to one, this girl will pass in the examination.</item>
+        <item>He fought to the last for me.</item>
+        <item>Student must carry out their teacher’s advice to the letter.</item>
+        <item>He has nothing to say to the contrary.</item>
+        <item>Their plan has taken to air.</item>
+        <item>The robbers took to their heels at the sight of the police.</item>
+        <item>We opposed him tooth and nail.</item>
+        <item>He is moving to and fro.</item>
+        <item>I have run short of funds.</item>
+        <item>His brother took him to task for this act.</item>
+        <item>I learnt the three R’s at home.</item>
+        <item>Be up and doing for the examination.</item>
+        <item>Every man has ups and downs in life.</item>
+        <item>He upset the lamp.</item>
+        <item>The house is under lock and key.</item>
+        <item>Nothing can stand the wear and tear.</item>
+        <item>They finished the meeting with one accord.</item>
+        <item>He will follow me in weal and owe.</item>
+        <item>We should try to wipe out illiteracy.</item>
+        <item>His result was withheld.</item>
+        <item>Farmers are now well off.</item>
+        <item>I went to Bogra with a view to buying some books.</item>
+        <item>item>She started a business with an eye to handsome payoffs.</item>
+        <item>He will see me tomorrow without fail.</item>
+        <item>He is well up in English.</item>
+
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="privacy">
+        \n<b><font color="#FF0000">Privacy policy</font></b>\n\n\n
+        We value your right to privacy. This privacy statement, which is a clause in our terms of service,
+        covers information collected in conjunction with the installation and use of the application,
+        any linked services, and our website. Please contact us at apumirza2001@gmail.com with any inquiries you
+        think you might have concerning this privacy statement.\n\n
+
+        \n\n<b><font color="#00ffee">Information we collects</font></b>\n\n\n
+        We don\'t collect personal information that identifies you or another person, such as name, nickname, images, camera,
+        physical address, email address, telephone, sensitive accounts, password, SSN, fax, contacts, information stored on your device.
+
+        \n\n\n\n<b><font color="#FF0000">Ad service</font></b>\n\n\n
+        We use google admob ad service to show ads on our project. For your reference, you can visit their site to know further.
+        Ad service providers may collect your device advertising ID and other IDs to display or target ads or marketing communications,
+        or measure ad performance. For example, displaying apps in the app, sending push notifications to promote other products or
+        services, or sharing data with advertising partners.
+
+        \n\n\n\n<b><font color="#FF0000">Why these ads</font></b>\n\n\n
+        Ads are displayed to keep your hard-earned money in your wallet. You\'ve undoubtedly seen those paid apps that you need to
+        purchase in order to utilize. The Top Paid section of Google Play is where you may find those apps. These apps include no
+        advertising at all. because your wallet serves as their source of funding. It\'s not simple to create an app. Making things
+        requires a large investment of money, time, and effort. Additionally, we display adverts in our apps, which is why you can
+        download those programs for free. Ads can occasionally be intrusive and obnoxious, we grant you, but without them, you would
+        have to pay for such programs. The app developers can receive anything in exchange for their labor and hard work thanks to the
+        adverts. Additionally, it gives them the ability to advance their work by adding new features to already-existing apps and
+        occasionally producing entirely new ones. We hope you will put up with this minor nuisance so that we may keep creating free
+        programs for all of us. I\'m grateful. Message us Please email us at apumirza2001@gmail.com if you have any queries concerning
+        privacy while using the Application or queries about our procedures.
+
+        \n\n\n\n<b><font color="#FF0000">Contact Us</font></b>\n\n\n
+
+        If you have any questions regarding this privacy while using the Application or have questions about our practices, please
+        contact us via email apumirza2001@gmail.com.\n\n\n
+
+
+    </string>
+
+
+</resources>

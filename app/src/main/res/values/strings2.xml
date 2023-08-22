@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="proverb_a">
+
+        <item>A bad penny always turns up.\nঅপদার্থ যেখান থেকে শুরু করে সেখানেই ফিরে আসে।</item>
+        <item>A bad workman quarrels with his tools.\nনাচতে না জানলে উঠোন বাঁক।</item>
+        <item>A barking dog never or seldom bites.\nযত গর্জে তত বর্ষে না। </item>
+        <item>A beggar cannot be a bankrupt.\nমাথা নেই তার মাথাব্যথা। </item>
+        <item> A beggar may sing before a pick-pocket.\nনেংটার নেই বাটপাড়ের ভয়।</item>
+        <item> A bird in the hand is worth two in the bush.\nহাতের জিনিস ফেলে দূরের জিনিস নিতে নেই।</item>
+        <item> A bolt from the blue.\nবিনা মেঘে বজ্রপাত।</item>
+        <item> A bully is always a cow.\nতর্জনকারী বা ষন্ডা সব সময়ই কাপুরুষ।</item>
+        <item> A burnt child dreads the fire or Once bitten, twice shy.\nঘর-পোড়া গরু সিন্দুরে মেঘ দেখলে ভয় পায়।</item>
+        <item> A cat has nine lives.\nকই মাছের প্রাণ বড়ই শক্ত।</item>
+        <item> A cat in gloves catches no mice.\nসোজা আঙ্গুলে ঘি ওঠে না।</item>
+        <item> A cock is always bold on its own dunghill .\nআপন গাঁয়ে কুকুর রাজা।</item>
+        <item> A drawing man catches or clutches at a straw .\nযতক্ষণ শ্বাস, ততকক্ষণ আঁশ।</item>
+        <item> A fool and his money are soon parted .\nবোকার কাছে টাকা থাকে না।</item>
+        <item> A friend in need is a friend in deed.\nঅসময়ের বন্ধুই প্রকৃত বন্ধু।</item>
+        <item> A full purse never lacks friends.\nভাত ছড়ালে কাকের অভাব হয় না।</item>
+        <item> A golden key can open any door.\nটাকায় বাঘের দুধ মেলে।</item>
+        <item> A good beginning is half the battle .\nএকটা সুন্দর শুরু কোন কাজের অর্ধেক সাফল্য এনে দেয়ু যুদ্ধের শুরু ভালো মানে অর্ধেক বিজয়।</item>
+        <item> A good husband makes a good wife.\nস্বামী ভালো হলে স্ত্রীও ভালো হয় ।</item>
+        <item> A good jack makes a good jill .\nস্বামী ভালো হলে স্ত্রীও ভালো হয়।</item>
+        <item> A Greek meeting a Greek.\nসেয়ানে সেয়ানে কোলাকুলি।</item>
+        <item> A growing youth has a wolf in his belly .\nবাড়ন্তরা অনেক খায়।</item>
+        <item> A guilty conscience needs no accuser.\nঅনুতপ্ত হলে অভিযোগকারীর প্রয়োজন নেই।</item>
+        <item> A guilty mind is always suspicious.\nঠাকুর ঘরে কে, আমি তো কলা খাইনি।</item>
+        <item> A heavy purse makes a light heart.\nপকেটে টাকা থাকলে মনও ভালো থাকে।</item>
+        <item> A host in himself.\nএকাই একশ।</item>
+        <item> A humble gift made by a poor man with a sincere heart .\nবিদুরের খুদ ।</item>
+        <item> A hungry fox is an angry fox .\nখিদের জ্বালায় মাথা ঠিক থাকে না ।</item>
+        <item> A hungry kite sees a dead horse afar.\nভাগাড়ে গরু মরে, শুকুনির টনক নড়ে।</item>
+        <item> A jest driven hard, loses its point.\nনেবু কচলালে তেতো হয়।</item>
+        <item> A king today is a beggar tomorrow.\nআজ বাদশা কাল ফকির।</item>
+        <item> A light purse is a heavy curse.\nট্যাক খালি তো মুখ কালি।</item>
+        <item> A light purse makes a heavy heart .\nপকেটে টাকা না থাকলে মনও ভালো থাকে না।</item>
+        <item> A little learning is a dangerous thing.\nঅল্পবিদ্যা ভয়ংকরী।</item>
+        <item> A mad man and a animal have no difference.\nপাগলে কী না বলে, ছাগলে কী না খায়।</item>
+        <item> A man is known by the company he keeps .\nসঙ্গ দেখে লোক চেনা যায় ।</item>
+        <item> A man\'s home is his castle .\nনিজ বাড়ি নিজ ভুবন ।</item>
+        <item> A miss is as good as a mile.\nপ্রায় শেষ করা আর একেবারেই শুরু না করা একই কথা ।</item>
+        <item> A pauper has nothing to lose .\nনেংটার নেই বাটপারের ভয় ।</item>
+        <item> A penny saved is a penny earned .\nএক পয়সা জমানো মানে এক পয়সা রোজগার করা ।</item>
+        <item> A pet lamb, makes a cross ram.\nকাঁচায় না নোয়ালে বাঁশ, পাকলে করে ট্যাঁশট্যাঁশ।</item>
+        <item> A poacher turned gamekeeper .\nযে রক্ষক সেই ভক্ষক ।</item>
+        <item> A prophet is not without honor save in his own country.\nস্বজন কর্তৃক বা স্বদেশে সম্মান মেলে না; নােঁয়ো যোগী ভিখ পায় না।</item>
+        <item> A rogue is deaf to all good .\nচোরে শোনে না ধর্মের কাহিনী ।</item>
+        <item> A rolling stone gathers no mass.\nস্থির না হলে উন্নতি হয় না।</item>
+        <item> A rotten sheep infects the flock .\nঅসৎ সঙ্গে সর্বনাশ ।</item>
+        <item> A scalded dog fears cold water.\nচুন খেয়ে গাল পোড়ে, দই দেখলে ভয় করে; ন্যাড়া বেলতলা একবারই যায় ।</item>
+        <item> A serpent under the flower.\nমনে বিষ, মুখে মধু; বিষ কুম্ভং পয়োমুখম; বিষ কুম্ভং পয়োমুখম।</item>
+        <item>A severe punishment for a venial offence.\nলঘু পাপে গুরু দন্ড।</item>
+        <item> A sleeping fox catches no poultry .\nকুঁড়ে লোকের দ্বারা কোন কাজ হয় না; কুঁড়ের অন্ন হয় না ।</item>
+        <item> A soft answer turneth away wrath .\nকোমল ব্যবহার সংঘর্ষ এড়ায় ।</item>
+        <item>A square peg in a round hole (An Impossibility).\nকাঁঠালের আমসত্ত্ব।</item>
+        <item>A still tongue makes a wise head.\nজ্ঞানীরা স্বল্পভাষী হয়।</item>
+        <item>A stitch in time saves nine.\nসময়ের এক ফোঁড় অসময়ের দশ ফোঁড়।</item>
+        <item>A succession of festivities all the year round.\nবার মাসে তের পার্বণ।</item>
+        <item>A tempest in a tea-pot.\nচায়ের কাপে তুফান।</item>
+        <item>A thing of beauty is a joy forever .\nসুন্দর সবসময়ই আনন্দদায়ক ।</item>
+        <item>A tree is known by its fruit .\nফলনে পরিচীয়তে ।</item>
+        <item>A trouble shared is a trouble halved .\nকারো সাথে ভাগাভাগি করলে সমস্যা অর্ধেক হয়ে যায়।</item>
+        <item>A varice begets sin, sin begets death .\nলোভে পাপ পাপে মৃত্যু ।</item>
+        <item>A watched pot never boils .\nঅপেক্ষার সময় শেষ হয় না ।</item>
+        <item>A wist, gained or lost, leaves one unsatisfied in either case.\n দিল্লীর লাড্ডু - খেলেও পস্তাবে, না খেলেও পস্তাবে।</item>
+        <item>A wolf in sheep\'s clothing .\nছদ্মবেশী শত্রু; বাইরে দেখতে ভালো, ভিতরে খারাপ।</item>
+        <item>A woman\'s weapon is her tongue.\nঅবলার মুখই বল।</item>
+        <item>A woman\'s place is in the home.\nমহিলাদের কাজ বাড়ির ভিতরে ।</item>
+        <item>A woman\'s work is never done .\nমহিলাদের কাজ কখনও শেষ হয় না ।</item>
+        <item>A word once spoken is past recalling.\nমুখ দিয়ে যে কথা একবার বেরিয়ে যায় তা আর ফিরিয়ে আনা সম্ভব না।</item>
+        <item>A word to the wise is sufficient .\nজ্ঞানীরা অল্প কথাতেই বোঝে ।</item>
+        <item>Admiration is the daughter of ignorance.\nভক্তি হলো অজ্ঞতার কন্যা; অজ্ঞতাই ভক্তি করে ।</item>
+        <item>Adversity often leads to prosperity .\nহিতে বিপরীত ।</item>
+        <item>After a storm comes a calm.\nঝড় থেমে গেলে সব কিছু শান্ত হয়।</item>
+        <item>After clouds comes fair weather.\nমেঘ দেখে করিসনে ভয়,আড়ালে তার সূর্য হাসে ।</item>
+        <item>After death comes the doctor .\nচোর পালালে বুদ্ধি বাড়ে।</item>
+        <item>After meat comes mustard .\nনুন আনতে পান্তা ফুরায়।</item>
+        <item>After sweet meat comes sour sauce .\nযত হাসি তত কান্না বলে গেছে রাম শর্মা।</item>
+        <item>All are blaming "nobody".\nযত দোষ নন্দ ঘোষ।</item>
+        <item>All are not saints that go to church.\nপৈতে থাকলেই বামুন হয় না।</item>
+        <item>All covet, all lost .\nঅতি লোভে তাঁতি নষ্ট।</item>
+        <item>All feet tread not in one shoe .\nনানা মুনির নানা মত ।</item>
+        <item>All his geese are swans .\nনিজের জিনিস সকলেই ভালো দেখে; ভালোবাসা এবং যুদ্ধে সবকিছুই বৈধ; ভালোবাসা এবং যুদ্ধে কোন নিয়মনীতি নেই ।</item>
+        <item>All our sweetest hours fly fastest .\nসুখের সময়গুলো দ্রুত চলে যায় ।</item>
+        <item>All seems yellow to the jaundiced eye .\nপক্ষপাতদুষ্ট লোকের নিকট সবাই মন্দ ।</item>
+        <item>All that glitters is not gold.\nচকচক করলেই সোনা হয় না।</item>
+        <item>All that is old is not bad.\nপুরোনো চাল ভাতে বাড়ে।</item>
+        <item>All things come to him who waits .\nযে সহে সে রহে; সবুরে মেওয়া ফলে।</item>
+        <item>All well that ends well .\nশেষ রক্ষাই রক্ষা; মধুরেণ সমাপয়াত; সব ভালো তার, শেষ ভালো যার।</item>
+        <item>All\'s well that ends well.\nসব ভাল যার শেষ ভাল তার।</item>
+        <item>An apple a day keeps the doctor away .\nদিনে একটা আপেল খেলে কখনও ডাক্তারের কাছে যেতে হয় না।</item>
+        <item>An ass that is a common property is always worst saddle .\nভাগের মা গঙ্গা পায় না।</item>
+        <item>An empty sack cannot stand upright.\nপেটে খাবার আর পকেটে টাকা না থাকলে কোন কাজ ঠিকমতো করা যায় না।</item>
+        <item>An eye for an eye.\nচোখের বদলে চোখ।</item>
+        <item>An idle brain is the devil\'s workshop .\nঅলস মস্তিষ্ক শয়তানের কারখানা।</item>
+        <item>An interested witness is no witness.\nশুঁড়ির সাক্ষী মাতাল ।</item>
+        <item>An old bird is not caught with chaff.\nঝানু লোক বোকা বনে না।</item>
+        <item>An old dog learns no trick.\nবুড়ো পাখি পোষ মানে না।</item>
+        <item>An old poacher makes the best gamekeepers.\nযে চুরি করতে জানে সেই চুরি ঠেকাতে জানে।</item>
+        <item>An ounce of common sense is worth a pound of theory .\nতত্ত্বের চেয়ে প্রায়োগিক জ্ঞান গুরুত্বপূর্ণ।</item>
+        <item>An ounce of discretion is worth a pound of wit .\nবুদ্ধির চেয়ে বিচক্ষণতা ভালো ।</item>
+        <item>An ounce of prevention is worth a pound of cure .\nপ্রতিকারের চেয়ে প্রতিরোধ ভালো ।</item>
+        <item>Any food is good enough when there is a famine.\nঅকালে কী না খায়।</item>
+        <item>Apple of sodom or Dead sea apple.\nদিল্লীকা লাড্ডু।</item>
+        <item>Art is long, life is short .\nবিদ্যা অনন্ত, জীবন সংক্ষিপ্ত ।</item>
+        <item>Arthur could not tame a woman\'s tongue .\nঅবলার মুখই বল ।</item>
+        <item>As is the evil, so is the remedy .\nযেমনি বুনো ওল, তেমনি বাঘা তেঁতুল ।</item>
+        <item>As is the tree, so is the fruit.\nযেমন গাছ, তার তেমনি ফল।</item>
+        <item>As long as fortune smiles on one.\nযতদিন কমলার কৃপা থাকে।</item>
+        <item>As the wind blows, you must set your sail.\nঝোপ বুঝে কোপ মারা ।</item>
+        <item>As you brew, so you drink.\nরাজায় রাজায় যুদ্ধ হয়, উলুখাগড়ার প্রাণ যায়।</item>
+        <item>As you make your bed, so you must lie on it .\nযেমন কর্ম তেমন ফল ।</item>
+        <item>As you sow so you reap.\nযেমন কর্ম তেমন ফল।</item>
+        <item>Avarice begets sin and sin begets death.\nলোভে পাপ, পাপে মৃত্যু।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_a">
+
+        <item>A worthless person always comes back to the place he or she started out.</item>
+        <item>An inefficient man complains of circumstances.</item>>
+        <item>Someone who makes threats all the time seldom carries out the threats.</item>
+        <item>Bachelor\'s wive\'s and maid\'s children are always well taught.</item>
+        <item>A beggar has nothing to lose.</item>
+        <item>Having something for certain is better than possibly getting something better; one today is worth two tomorrow.</item>
+        <item>Bullies only intimidate people who are weaker than they are, because they are afraid of having to fight their equals</item>
+        <item>Experience teaches us caution; if something has hurt you once, you avoid it after that.</item>
+        <item>A cat is more tenacious of life than any animal.</item>
+        <item>Sometimes you cannot get what you want by being careful and polite.</item>
+        <item>Everyone fights well when surrounded by friends and admirers.</item>
+        <item>While there is life, there is hope.</item>
+        <item>Foolish people spend money easily without thinking.</item>
+        <item>A true friend is one to depend upon in trouble.</item>
+        <item>People crowd round a wealthy person.</item>
+        <item>Sufficient money can accomplish anything.</item>
+        <item>A good start of war, a clear sing of victory</item>
+        <item>If a husband wants his wife to be respectful and loving to him, he should be respectful and loving to her.</item>
+        <item>If a man treats his girlfriend or wife well, she will treat him well in return – figuratively, you must treat your subordinates well I you want them to treat you well in return.</item>
+        <item>To love/face/counter/fight an equal.</item>
+        <item>Young people who are growing fast are hungry all the time and eat much.</item>
+        <item>If you have done something wrong and feel guilty about it, you will be uncomfortable and want to confess even if no one accuses you of wrongdoing.</item>
+        <item>A criminal is always weak in mind though he tries to conceal this weakness.</item>
+        <item>If you have plenty of money, you will feel happy and secure.</item>
+        <item>Having all qualities.</item>
+        <item>Presentation from a poor friend.</item>
+        <item>Necessity knows no law.</item>
+        <item>Shrewd people perceive at the slightest symptom.</item>
+        <item>like</item>
+        <item>like</item>
+        <item>If you do not have enough money, you will worry and be unhappy.</item>
+        <item>If you do not have enough money, you will worry and be unhappy.</item>
+        <item>Shallow knowledge turns one\'s head</item>
+        <item>Don\'t think over a mad man\'s speech.</item>
+        <item>one can know the character of a person from his friends.</item>
+        <item>A man can do whatever he wants to in his own home.</item>
+        <item>Almost having done something is the same as not having done it at all, since in both cases the thing done.</item>
+        <item>A destitute has no fear of losing anything.</item>
+        <item>Little savings make a mighty sum.</item>
+        <item>Too much indulgence spoils a child.</item>
+        <item>One who is savior also the destroyer</item>
+        <item>Everyone recognizes that a wise person is wise, except for the people close to him or her</item>
+        <item>The devil would not listen to the scripture</item>
+        <item>A person who does not settle down is not attached to anything or anyone; continuity removes difficulty.</item>
+        <item>A man is affected by the people he mix with.</item>
+        <item>A burnt child dreads the fire; experience teaches has caution.</item>
+        <item>Treachery masked in friendship; an angel\'s face with a devil\'s mind.</item>
+        <item>Like </item>
+        <item>An idle fellow can do nothing in life.</item>
+        <item>If a man speaks meekly to someone who is angry to him, that person will come down</item>
+        <item>Like </item>
+        <item>A wise man does not talk very much.</item>
+        <item>Remove a defect in time.</item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Beautiful things give pleasure that lasts even longer than the beautiful things themselves.</item>
+        <item>A man\'s actual character is known by his actions</item>
+        <item>If one tells someone about a problem he is having, or request someone\'s help with a problem, the problem will not seem so daunting.</item>
+        <item>Seemingly long time it takes water to boil when you are waiting for it.</item>
+        <item>A wish, gained or lost, leaves one unsatisfied in either case. </item>
+        <item>A dangerous person pretending to be harmless; a serpent under flower. </item>
+        <item>Like </item>
+        <item>women should remain in the home, cooking, clearing and raising children. </item>
+        <item>women should remain in the home, cooking, clearing and raising children. </item>
+        <item>Once you have said something, you cannot under the result of having said it. </item>
+        <item>Wise people do not need long explanation. </item>
+        <item>Sometimes people admire someone or something because they don\'t have any idea about that. </item>
+        <item> Misery has its sequel in happiness</item>
+        <item>Things are often clam after an upheaval </item>
+        <item>Happiness follows misery </item>
+        <item>To be wise after the event </item>
+        <item>Hunger waits for no delicacy </item>
+        <item>If you laugh today, you may cry tomorrow. </item>
+        <item>Like </item>
+        <item>Appearances may be deceptive. </item>
+        <item>Grasp all, lose all </item>
+        <item>As many men, so many minds </item>
+        <item>one\'s own things are the best. </item>
+        <item>All is fair in love and war. </item>
+        <item>man\'s marry days are very transient. </item>
+        <item>To biased mind everything is in fault. </item>
+        <item>Trust not appearance, appearances are deceptive. </item>
+        <item>Old age or experience has great value. </item>
+        <item>Patience is bitter but its fruit is sweet. </item>
+        <item>It is all right if it turns on well in the end. </item>
+        <item>Like </item>
+        <item>Apples are so nutritious that if one eats an apple everyday, he/she will be healthy and disease less. </item>
+        <item>Everybody\'s business is nobody\'s business. </item>
+        <item>A poor or hungry person cannot function properly. </item>
+        <item>A tooth for a tooth. </item>
+        <item>People who have nothing worthwhile to think about will usually think of something bad to do. </item>
+        <item>An unwanted help has no importance. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>The best person to guard something is someone who knows all about to steal it. </item>
+        <item>Common sense will help you solve problems more than theory will. </item>
+        <item>Knowing when to refrain from making jokes is better than being able to make jokes all the time. </item>
+        <item>Prevention is better than cure. </item>
+        <item>At the time of want any food available is good. </item>
+        <item>Like </item>
+        <item>Life is too short for all that we have to learn. </item>
+        <item>None can control a woman\'s tongue. </item>
+        <item>A drastic remedy is necessary when things get very bad; tit for tat. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Make the best use of an opportunity, make hay while the sun shines. </item>
+        <item>Like </item>
+        <item>You must pay for the evil you do. </item>
+        <item>As you brew, so you drink. </item>
+        <item>Like </item>
+        <item>To be worried about things that do not matter. </item>
+
+    </string-array>
+
+    <string-array name="proverb_b">
+
+        <item>Bachelors\' wives and maids\' children are always well taught.\nমাথা নেই তার মাথা ব্যথা।</item>
+        <item>Barking dogs seldom bite .\nযত গর্জে তত বর্ষে না ।</item>
+        <item>Be born with a silver spoon in one\'s mouth .\nসোনার চামচ মুখে নিয়ে জন্মান; সচ্ছল পরিবারে জন্মগ্রহন করা।</item>
+        <item>Be mindful of your wife, kine and paddy.\nজরু, গরু, ধান, তিন রাখে বিদ্যমান।</item>
+        <item>Be sure before you marry of a house wherein to tarry.\nবিয়ে করতে কড়ি, ঘর বাঁধতে দড়ি।</item>
+        <item>Be true to your salt.\nযার নুন খাও তার গুণ গাও।</item>
+        <item>Beauty lies in the eye of the beholder.\nদ্রষ্টার চোখেই সৌন্দর্য থাকে ।</item>
+        <item>Beggars must not be choosers.\nগ্রাম নাই তার সীমানা।</item>
+        <item>Beggars on horseback will ride to the devil.\nকাঙালের ঘোড়া রোগ।</item>
+        <item>Better alone than in bad company.\nকুসঙ্গে থাকার চেয়ে একা থাকাও ভালো।</item>
+        <item>Better an empty house than an ill tenant .\nদুষ্ট গরুর চেয়ে শূন্য গোয়াল ভালো ।</item>
+        <item>Better be the head of a dog than the tail of a lion .\nনেতৃত্ব যেখানেই থাক তা সম্মানজনক ।</item>
+        <item>Better late than never .\nএকেবারে না হওয়ার চেয়ে দেরিতে হওয়া ভালো ।</item>
+        <item>Between the devil and the deep blue sea or, between a rock and a hard place.\nজলে কুমির ডাঙ্গায় বাঘ, সর্বত্র বিপদ ।</item>
+        <item>Between two fires or Between the devil and the deep sea.\nজলে কুমীর, ডাঙায় বাঘ।</item>
+        <item>Beware of Greeks bearing gifts .\nশত্রুর ছলাকলায় ভুলে যেও না ।</item>
+        <item>Birds of a feather flock together .\nচোরে চোরে মাসতুতো ভাই ।</item>
+        <item>Birds of the same feather.\nএকই গোয়ালের গরু।</item>
+        <item>Birds of the same feather flock together.\nচোরে চোরে মাসতুত ভাই।</item>
+        <item>Black will take no other hue .\nকয়লা ধুলে ময়লা যায় না ।</item>
+        <item>Blessings are not valued till they are gone.\nদাঁত থাকতে দাঁতের মর্যাদা জানে না।</item>
+        <item>Blood is thicker than water.\nরক্তের টান বড় টান।</item>
+        <item>Blossoms in the dust or Musk in a kennel.\nগোবরে পদ্মফুল।</item>
+        <item>Blue are the hills that are far from us .\nদূরের জিনিস ভালো মনে হয় ।</item>
+        <item>Breed up a crow, and it will pluck your eyes.\nদুধ কলা দিয়ে সাপ পোষা।</item>
+        <item>Brevity is the soul of wit .\nমানিকের খানিক ভালো ।</item>
+        <item>Bright gem in a dark cave.\nআঁধার ঘরের মানিক।</item>
+        <item>Build castles in the air.\nআকাশকুসুম কল্পণা করা।</item>
+        <item>Burn not thy fingers to snuff another man\'s candle.\nনিজের নাক কেটে পরের যাত্রা ভঙ্গ করা।</item>
+        <item>Burn not your house to fright the mouse away .\nনিজের নাক কেটে অপরের যাত্রা ভঙ্গ করো না ।</item>
+        <item>Busy about nothing or No work, no leisure or It is all bustle.\nকাজও নাই, কামাইও নাই।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_b">
+
+        <item>Angry words and threats lead to nothing worse; much cry and little wool. </item>
+        <item>Be born into wealth and privilege </item>
+        <item>Like </item>
+        <item>Think twice before you take a risk. </item>
+        <item>Like </item>
+        <item>Different people have different ideas about what is beautiful. </item>
+        <item>Those who seek favour must accept any term. </item>
+        <item>Like </item>
+        <item>Shun evil company. </item>
+        <item>Better alone than in evil company </item>
+        <item>It is better to be the leader of a less prestigious group than to be a subordinate in a more prestigious one. </item>
+        <item>It is better to do a thing later than never. </item>
+        <item>Between Scylla and Charybdis, between two fires. </item>
+        <item>Like </item>
+        <item>Do not trust an opponent who offers to do something nice for you. </item>
+        <item>Like draws like, all thieves are cousins </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>An Ethiopian will never change his skin; one cannot change his nature; the leopard cannot change its spots. </item>
+        <item>Men are always neglectful to their blessings. </item>
+        <item>The tie of kindred is real. </item>
+        <item>Like </item>
+        <item>Distance lends enchantment to the view, grass is always greener on the other side of the fence, heard melodies are sweet but those unheard are sweeter. </item>
+        <item>Like </item>
+        <item>A few qualified things are preferable to a lot of unqualified things. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Don\'t cut your nose to spite another\'s face. </item>
+        <item>Like </item>
+        <item>Sweet are the uses of adversity. </item>
+
+    </string-array>
+
+    <string-array name="proverb_meaning_c">
+
+        <item>Speak plain and spare none.</item>
+        <item>Like </item>
+        <item>Help one who needs no help. </item>
+        <item>one must not lose a certain in the hope of an uncertain. </item>
+        <item>Like </item>
+        <item>External beauty strikes our eyesight and inner qualities impress our soul. </item>
+        <item>Like </item>
+        <item>Avoid buying cheap goods.</item>
+        <item>Cheats always fail in the long run.</item>
+        <item>Like</item>
+        <item>Acting like the young in one\'s old age</item>
+        <item>No knowledgeable person tells the truth.</item>
+        <item>One needs not spend money to be good.</item>
+        <item>Cleanliness is a step to devotion to God.</item>
+        <item>People will judge you according to the way you dress, seeing is believing. </item>
+        <item>persistence accomplishes things.</item>
+        <item>A good looking man may not always be good to the core. </item>
+        <item>To sound the trumpet before victory </item>
+        <item>Your money may not be of any use if not in your hand </item>
+        <item>Cowards are very afraid to die. </item>
+        <item>Injure oneself in order that someone else may also be injured. </item>
+        <item>Spend within your means. </item>
+        <item>Danger comes in battalions. </item>
+
+    </string-array>
+    <string-array name="proverb_c">
+
+        <item>Calamity is man\'s true touchstone.\nবিপদই প্রকৃত কষ্টিপাথর।</item>
+        <item>Call a spade a spade.\nস্পষ্টাস্পষ্টি কথা বলা ।</item>
+        <item>Care killed the cat.\nঅতি যত্নে মরণফাঁদ।</item>
+        <item>Carry coal to new castle.\nতেলা মাথায় তেল দেওয়া।</item>
+        <item>Cst at the shadow and lose the substance.\nঅনিশ্চিতের আশায় নিশ্চিত ত্যাগ করা।</item>
+        <item>Charity begins at home.\nআগে ঘর তারপর পর, আগে ঘর, তবে ত পর, আত্মরেখে ধর্ম।</item>
+        <item>Charm strikes the sight, merit wins the soul.\nসৌন্দর্য ধরা পড়ে চোখে আর জ্ঞান ধরা পড়ে অন্তরে।</item>
+        <item>Cheap and nasty.\nসস্তার তিন অবস্থা।</item>
+        <item>Cheap goods are dear in the long run.\nসস্তার তিন অবস্থা।</item>
+        <item>Cheats never prosper.\nপ্রতারক জীবনে উন্নতি করতে পারে না ।</item>
+        <item>Child\'s plaything.\nছেলের হাতের মোয়া।</item>
+        <item>Childish behavior of an old man.\nবুড়ো শালিকের ঘাড়ে রোঁ।</item>
+        <item>Children and fools tell the truth.\nশিশু এবং বোকারাই সত্য বলে ।</item>
+        <item>Civility/courtesy costs nothing.\nভালো হতে পয়সা লাগে না।</item>
+        <item>Cleanliness is next to godliness.\nফরসা কাপড়ে মান বাড়ে, পরিষ্কার পরিচ্ছন্নতা ঈশ্বরভক্তির একটি ধাপ।</item>
+        <item>Clothes make the man.\nবেশ ভূষা দ্বারা মানুষ চেনা যায়।</item>
+        <item>Constant dripping wears away a stone.\nলেগে থাকলে কাজ হয় ।</item>
+        <item>Coquetry under the guise of modesty.\nঘোমটার ভিতর খেমটার নাচ।</item>
+        <item>Count (to) chickens till they are hatched.\nগাছে কাঁঠাল গোঁফে তেল; কালনেমির লংকাভাগ, গাছে না উঠতেই এক কাঁদি।</item>
+        <item>Count not money that is still to come.\nপরহস্তগত ধন হিসাবের বাইরে রাখ।</item>
+        <item>Cowards die many times before their death.\nভীরুরা মরার আগেই দু\'বেলা (দুবার) মরে।</item>
+        <item>Cut off one\'s nose to spite one\'s face.\nনিজের নাক কেটে অপরের যাত্রা ভঙ্গ করা ।</item>
+        <item>Cut your coat according to your cloth.\nআয় বুঝে ব্যয় করা।</item>
+
+    </string-array>
+
+    <string-array name="proverb_d">
+
+        <item>Danger never comes alone .\nবিপদ একাকী আসে না ।</item>
+        <item>Danger often comes where danger is feared.\nযেখানে বাঘের ভয়, সেখানেই সন্ধ্যা হয়।</item>
+        <item>Day and night are alike to a blind man.\nঅন্ধের কিবা রাত্রি কিবা দিন।</item>
+        <item>Death Defies doctors.\nমরণকালে ঔষুধ নাই।</item>
+        <item>Death keeps no calendar.\nমৃত্যু বলে কয়ে আসে না।</item>
+        <item>Death keeps no time .\nমরনের সময় অসময় নাই।</item>
+        <item>Desperate diseases must have desperate remedies.\nযেমনি বুনো ওল তেমনি বাঘা তেঁতুল ।</item>
+        <item>Diamond cuts diamond .\nরতনে রতন চেনে ।</item>
+        <item>Diligence is the mother of good luck.\nপরিশ্রমই সৌভাগ্যের মূল।</item>
+        <item>Distance lends enchantment to the view .\nযে মাছটা পালায় সেটাই বড়।</item>
+        <item>Do not exchange your substance for shadow.\nঅনিশ্চিতের আশায় নিশ্চিত ত্যাগ করিও না।</item>
+        <item>Do not teach your grandmother to such egg.\nমায়ের কাছে মামা বাড়ির গল্প করো না।</item>
+        <item>Do or die .\nমন্ত্রের সাধন কিংবা শরীর পতন; মার অথবা মর।</item>
+        <item>Dog does not eat a dog .\nস্বজাতির ক্ষতি কেউ চায় না ।</item>
+        <item>Don\'t run before you can walk.\nএক লাফেই তালগাছে ওঠা যায় না।</item>
+        <item>Don\'t nag me, and leave me in peace.\nছেড়ে দে মা কেঁদে বাঁচি।</item>
+        <item>Don\'t count your chickens before they are hatched .\nগাছে কাঁঠাল গোঁফে তেল দিওনা ।</item>
+        <item>Don\'t judge a book by its cover .\nচক চক করলেই সোনা হয় না; রাই কুড়িয়ে বেল।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_d">
+
+        <item>Danger always comes at the most critical moment. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Death comes suddenly </item>
+        <item>Death never maintains schedule. </item>
+        <item>As is the evil, so is the remedy, tit for tat. </item>
+        <item>Everything finds an equal. </item>
+        <item>Perseverance or industry is the key to success. </item>
+        <item>Distance makes the heart grow fonder. </item>
+        <item>Never lose your today for tomorrow; quit not certainty for hope. </item>
+        <item>Never lecture before an expert. </item>
+        <item>Risk all to win; to try one\'s utmost. </item>
+        <item>One raven will not pluck another\'s eyes. </item>
+        <item>To try to do something difficult before you have learned the basic skills you need to attempt it. </item>
+        <item>don\'t be sure of a thing until it is yours. </item>
+        <item>all that glitters is not gold. </item>
+        <item>Drops of water make ocean. </item>
+        <item>It is easy to say but difficult to do. </item>
+
+    </string-array>
+
+    <string-array name="proverb_e">
+
+        <item>Easier said than done .\nবলা সহজ, করা কঠিন ।</item>
+        <item>Empty vessels sound much .\nঅসারের তর্জন গর্জনই সার; অল্প জলে পুঁটিমাছ ফরফর করে; বর্ষন নেই গর্জন সার।</item>
+        <item>Even a fool known his business.\nনিজের (আপনার) ভালো পাগলও বোঝে।</item>
+        <item>Even walls have ears.\nদেওয়ালেরও কান আছে।</item>
+        <item>Every cloud has silver shining .\nদুঃখের পরে আসে সুখ ।</item>
+        <item>Every dog is a lion at home.\nআপন গাঁয়ে কুকুর রাজা; বন গাঁয়ে শিয়াল রাজা।</item>
+        <item>Every man has his price .\nটাকায় সকলে বশ হয় ।</item>
+        <item>Every man is for himself.\nচাচা আপন প্রাণ বাঁচা।</item>
+        <item>Every one thinks his own geese swans.\nনিজের জিনিস সকলেই ভাল দেখে।</item>
+        <item>Every shoe fits not every foot .\nঅনভ্যাসের ফোঁটায় কপাল চড়চড় করে ।</item>
+        <item>Every sin carries its own punishment .\nপাপ ছাড়ে না বাপকে ।</item>
+        <item>Example is better than precept.\nউপদেশের চেয়ে দৃষ্টান্ত ভালো।</item>
+        <item>Experience is the best teacher .\nঅভিজ্ঞতাই সর্বোত্তম শিক্ষক।</item>
+        <item>Experience teaches better than wisdom.\nঠেখে শেখা আর দেখে শেখা।</item>
+        <item>Extravagant hopes lead to complete disappointment.\nডোল ভরা আশা আর কুলো ভরা ছাই।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_e">
+
+        <item>Too much talk ends in nothing </item>
+        <item>None is so fool as to make loss of himself. </item>
+        <item>Someone may be listening. </item>
+        <item>Misery ends in happiness; after clouds comes fair weather. </item>
+        <item>A dog is a lion is his lane. </item>
+        <item>Anybody can be convinced by a certain amount of money more or less. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>It takes time to get used to things. </item>
+        <item>Sinners cannot go unpunished. </item>
+        <item>It is better to do good than to preach. </item>
+        <item>A man learns practically from experience. </item>
+        <item>Like </item>
+        <item>Over aspiration may end in despair </item>
+        <item>Adversity is the forerunner of prosperity. </item>
+
+    </string-array>
+
+    <string-array name="proverb_f">
+
+        <item>Failure is the pillar of success .\nব্যর্থতাই সাফল্যের চাবি স্তম্ভস্বরূপ।</item>
+        <item>Fair words do not fill the pocket.\nমিষ্টি কথায় চিঁড়ে ভেজে না।</item>
+        <item>Faith will move mountains .\nবিশ্বাস পাহাড়কেও টলায় ।</item>
+        <item>Familiarity breeds contempt.\nঅধিক মাখামাখিতে মান নষ্ট।</item>
+        <item>Fate cannot be resisted.\nভাগ্যের (কপালের) লেখা খণ্ডায় কে।</item>
+        <item>Fate rules everywhere .\nভাগ্যং ফলিত সর্বত্র ।</item>
+        <item>Faults are thick where love is thin .\nযারে দেখতে নারি, তার চলন বাঁকা ।</item>
+        <item>Faults come thick where love is thin.\nযারে দেখতে নারি তার চলন বাঁকা।</item>
+        <item>Fear makes the blood curdle.\nভয়ে গায়ের রক্ত শুকিয়ে যায়।</item>
+        <item>Fifth columnist .\nঘরের শত্রু বিভীষণ।</item>
+        <item>Fine words butter no parsnips.\nমিষ্টি কথায় চিড়ে ভিজে না।</item>
+        <item>Fire or fine words butter no parsnips .\nশুধু মিষ্টি কথায় চিরে ভেজে না।</item>
+        <item>First come, first served .\nআগে আসলে আগে পাবে ।</item>
+        <item>First deserve than desire .\nপ্রথমে উপযুক্ত হও, তারপর আকাঙ্খা কর ।</item>
+        <item>Fool to others to himself a sage.\nগাঁয়ে মানে না আপনি মোড়ল।</item>
+        <item>Fools of yesterday are the wise men of today.\nবোকারা অনেক দেরিতে বোঝে।</item>
+        <item>Fools praise fools .\nমূর্খই মূর্খের কদর করে ।</item>
+        <item>Fools rush in where angels fear to tread.\nহাতি ঘোড়া গেল তল, পিপড়া বলে কত জল।</item>
+        <item>Forgive and forget .\nক্ষমা পরম ধর্ম ক্ষমা কর ও ভুলে যাও ।</item>
+        <item>Fortune favors the brave.\nভাগ্যবানের বোঝা ভগমানে বয়।</item>
+        <item>Fortune favors the industrious .\nপরিশ্রমীদের প্রতি ভাগ্য সুপ্রসন্ন ।</item>
+        <item>Fortune is fickle .\nলক্ষ্মী চঞ্চলা।</item>
+        <item>From the frying pan to the fire.\nঅধিকতর খারাপ অবস্থায় পড়া।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_f">
+
+        <item>Like </item>
+        <item>The strength of faith is unthinkable. </item>
+        <item>Knowing a person closely for a long time leads to bad feelings. </item>
+        <item>Like </item>
+        <item>None can go unaffected by fate. </item>
+        <item>Less love, more censure, you find everything wrong with a person whom you do not love. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>A disguised enemy in one’s own house </item>
+        <item>Like </item>
+        <item>empty promise will not help anybody in distress, wishes never fill the bag. </item>
+        <item>The first people to arrive will be served first. </item>
+        <item>Be qualified before you hope to get anything. </item>
+        <item>An authoritative person always attempts to dictate in everything though not obeyed by others. </item>
+        <item>Fools understand later. </item>
+        <item>A fool never knows the truth so he easily extols another fool. </item>
+        <item>The rash will undertake a thing from which the wise shrink. </item>
+        <item>Forgiveness is a great virtue. </item>
+        <item>Luck befalls on the courageous. </item>
+        <item>Luck befalls on the courageous </item>
+        <item>Riches have wings. </item>
+        <item>From a bad situation to an even worse one. </item>
+        <item>Like </item>
+
+    </string-array>
+
+    <string-array name="proverb_g">
+
+        <item>Get rid of one who has served the purpose.\nকাজের সময় কাজী, কাজ ফুরালে পাজী।</item>
+        <item>Give him an inch and he will take an ell.\nবানরকে নাই দিলে মাথায় ওঠে।</item>
+        <item>Give the devil his due.\nযার যা প্রাপ্য তাকে তা দাও ; শয়তানকেও তার ন্যায্য পাওনা দেবে।</item>
+        <item>Give the one, the other will follow .\nকান টানলে মাথা আসে ।</item>
+        <item>God helps them who help themselves.\nপরিশ্রমীদের আল্লাহ সাহায্য করেন।</item>
+        <item>God never sends mouths, but He sends meat.\nজ্বীব দিয়েছেন যিনি, আহার দিবেন তিনি।</item>
+        <item>Good news is Good, if it is proves false.\nখুশ খবরের মিথ্যাও ভাল।</item>
+        <item>Good wine needs no bush.\nচেনা বামুনের পৈতা লাগে না।</item>
+        <item>Grasp all lose all.\nঅতি লোভে তাঁতি নষ্ট।</item>
+        <item>Grass in always greener on the other side of the fence .\nদুরের জিনিস ভালো দেখায় ।</item>
+        <item>Grease your own wheel .\nআপনার চরকায় তেল দাও ।</item>
+        <item>Great minds think alike .\nমহৎ লোকেরা এ রকম চিন্তা করেন ।</item>
+        <item>Great talkers are little doers .\nমুখে বুলি লম্বা, কাজে অষ্টরম্ভা।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_g">
+
+        <item>Give no chance to an intruder. </item>
+        <item>Like </item>
+        <item>Be just even to one who does not deserve sympathy. </item>
+        <item>One thing follows another; To be inseparably associated </item>
+        <item>God fevours those who spare no pains. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>A known man needs no recommendation. </item>
+        <item>Like </item>
+        <item>People always think they would be happier in a different set of circumstances. </item>
+        <item>Mind your own business. </item>
+        <item>Men of higher thinking think the same thing. </item>
+        <item>Empty vessels sound much </item>
+
+    </string-array>
+
+    <string-array name="proverb_h">
+
+        <item>Habit is the second nature.\nকুকুরের পেটে ঘি সয় না; ঢেঁকি স্বর্গে গেলেও ধান ভানে।</item>
+        <item>Half a loaf is better than no loaf.\nনাই মামার চেয়ে কানা মামা ভাল।</item>
+        <item>Hand that rocks the cradle rules the world .\nযে হাতে দোলনা দোলায় সে হাত পৃথিবী চালায় ।</item>
+        <item>Handsome is that handsome does.\nরূপে কালো গুণে আলো।</item>
+        <item>Handsome is what handsome does .\nজাতের মেয়ে কালো ভালো নদীর পানি ঘোলা ভালো ।</item>
+        <item>Harm watch, harm catch.\nপরের মন্দ করতে গেলে আপনার মন্দ আগে হয় ভয় করলে ভয় আপনি এসে পড়ে ।</item>
+        <item>Haste makes waste.\nতাড়াতাড়ি কোন কাজ ভালো হয় না।</item>
+        <item>He can hardly keep the wolf from the door.\nদিন আনতে পান্তা ফুরায়।</item>
+        <item>He is a bit crazy or eccentric.\nতার একটু মাথায় ছিট আছে।</item>
+        <item>He is no chicken.\nসে কচি খোকা নয়।</item>
+        <item>He laughs best who loveth best .\nসব ভালো তার শেষ ভালো যার।</item>
+        <item>He poses to be quite simple and innocent.\nভাজা মাছটি উলটে খেতে জানে না।</item>
+        <item>He prayeth best who loveth best.\nজীবে প্রেম করে যেইজন, সেইজন সেবিছে ঈশ্বর ।</item>
+        <item>He runs with the hare and hunts with the hounds.\nসাপ হয়ে কাটে, আর ওঝা হয়ে ঝাড়ে ; বরের ঘরের পিসী, কনের ঘরের মাসী।</item>
+        <item>He that will steal an egg will steal an ox.\nকুটো চুরি করতে করতেই কুলো চোর হয়।</item>
+        <item>He that would the daughter win, must win the mother first begin.\nমেয়েকে জয় করতে হলে আগে তার মাকে খুশী কর।</item>
+        <item>He who begins many things, finishes but few.\nঅনেক কাজ একসাথে শুরু করলে কোনটাই ভালো হয় না।</item>
+        <item>He who follows two hares catches neither .\nদুই নৌকায় পা দিলে কোনটাতেই ওঠা যায় না।</item>
+        <item>He who has nothing to spare must not keep a dog .\nআপনি শুতে ঠাঁই পায় না, শষঙ্করাকে ডাকে।</item>
+        <item>He who is born in misfortune stumbles as he goes.\nঅদৃষ্টে করলা ভাতে, বিচি কচকচ করে তাতে।</item>
+        <item>He who laughs last laughs longest .\nশেষ ভালো যার সব ভালো তার ।</item>
+        <item>He who pays the piper calls the tune.\nযে টাকা দেয় তার ইচ্ছাতেই কর্ম হয়।</item>
+        <item>He who spits against the wind spits against his own face .\nআকাশের দিকে থুথু ফেললে আপন গায়েই লাগে ।</item>
+        <item>He would bend the bow of Ulysses .\nহাতি ঘোড়া গেল তল, পিঁপড়ে বলে কত জল ।</item>
+        <item>He would climb the ladder must begin at the bottom .\nবড় যদি হতে চাও ছোট হও তবে ।</item>
+        <item>Heaven lies at the foot of mother .\nমায়ের পায়ের তলে বেহেস্ত ।</item>
+        <item>Hide in a superficial way.\nশাক দিয়ে মাছ ঢাকা।</item>
+        <item>High winds blow on high hills.\nউঁচু গাছেই বেশি ঝড় লাগে।</item>
+        <item>His stars are now in the ascendant.\nএখন তার একাদশে বৃহস্পতি।</item>
+        <item>Hoist your sail when the wind is fair .\nসময় সুযোগ বুঝে কাজ কর ।</item>
+        <item>Home is where the heart is.\nবাড়ি হলো তাই যেখানে হৃদয় থাকে।</item>
+        <item>Honesty is the best policy .\nসততাই সর্বোত্তম পন্থা ।</item>
+        <item>Horns of dilemma.\nশাঁখের করাত, যেতেও কাটে আসতেও কাটে।</item>
+        <item>Hunger is the best sauce.\nক্ষুধা পেলে বাঘে ধান খায়।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_h">
+
+        <item>Black will take no other hue. </item>
+        <item>Something is better than nothing. </item>
+        <item>mothers are the most powerful people, because they shape their children’s life. </item>
+        <item>A man\'s action is more important rather than his appearance. </item>
+        <item>A man’s action is more important rather than his appearance </item>
+        <item>Like </item>
+        <item>Hurrying will cause you to make mistakes. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>All’s well that ends well. </item>
+        <item>Like </item>
+        <item>To love the creatures of Allah is to pray to Allah </item>
+        <item>To be in both groups. </item>
+        <item>Like </item>
+        <item>To marry a woman one needs to impress her mother first. </item>
+        <item>If you start a lot of projects, you will not have time and energy to complete them all. </item>
+        <item>Everybody should target one objective at a particular time </item>
+        <item>A beggar must not make room for his companion </item>
+        <item>Like </item>
+        <item>All’s well that ends will. </item>
+        <item>He who pays for the cost, controls/ determines how the money is used. </item>
+        <item>he that touches pitch shall be defiled therewith. </item>
+        <item>Fools rush in where angels fear to tread </item>
+        <item>if you want to gain high status, you must start with low status. </item>
+        <item>Obey your mother first. </item>
+        <item>Like </item>
+        <item>The more visible things are often affected. </item>
+        <item>Like </item>
+        <item>Hit the iron while it is hot, make hwy while the sun shines. </item>
+        <item>People long to be at home. </item>
+        <item>One gains by being honest; the best virtue is honesty. </item>
+        <item>Like </item>
+        <item>Hunger gives taste to our food; hunger is a great appetizer. </item>
+
+    </string-array>
+
+    <string-array name="proverb_i">
+
+        <item>I know the ins and outs more than you do.\nতুমি বেড়াও ডালে-ডালে, তো আমি বেড়াই পাতায়-পাতায়।</item>
+        <item>If the cap fits, wear it.\nপড়ল কথা সভার মাঝে, যার কথা তার গায়ে বাজে।</item>
+        <item>If winter comes can spring be far behind? .\nশীত সমাগত, তবুও বসন্ত কি বহু দূরে?; মেঘ দেখে কেউ করিসনে ভয় আড়ালে তার সূর্য হাসে।</item>
+        <item>If you laugh to-day you may cry to-morrow.\nযত হাসি তত কান্না, বলে গেছে রাম শর্মা।</item>
+        <item>Ill got, ill spent.\nপাপের ধন প্রায়শ্চিত্তে যায়।</item>
+        <item>Ill news runs apace.\nমন্দ খবর বাতাসের আগে চলে।</item>
+        <item>Ill news spreads faster than wind .\nমন্দ খবর বাতাসের আগে যায় ।</item>
+        <item>Ill weed\'s grow apace.\nআগাছার বাড় বেশি।</item>
+        <item>Ill weeds grow apace .\nঅজাতের বৃদ্ধি বেশি।</item>
+        <item>Impossibility ; absurdity.\nবেঙের সর্দি হওয়া।</item>
+        <item>In at one ear and out at the another.\nএক কান দিয়ে ঢোকে, আর এক কান দিয়ে বেরোয়।</item>
+        <item>Indolence is the mother of poverty .\nকুঁড়ের অন্ন হয় না ।</item>
+        <item>Industry is the key to success .\nপরিশ্রমই সৌভাগ্যের চাবিকাঠি।</item>
+        <item>Inevitable are the decrees of God.\nবিধাতার লিখন না যায় খন্ডন।</item>
+        <item>Interest is sweeter than the principal.\nআসলের চেয়ে সুদ মিষ্টি।</item>
+        <item>It is a different matter with the rich.\nবড় লোকের বড় কথা।</item>
+        <item>It is a pity he is good for nothing (Ne\'er-do well).\nযার কোন গুণ নাই তার কপালে আগুন।</item>
+        <item>It is beyond human endurance.\nরক্তমাংসের শরীরে এটা সহ্য করতে পারা যায় না।</item>
+        <item>It is easy to say but difficult to do.\nবলা সহজ, করা কঠিন।</item>
+        <item>It is folly to live in Rome and strive with the Pope .\nজলে বাস করে কুমীরের সাথে বিবাদ ।</item>
+        <item>It is hard to sit at Rome and strive with the Pope.\nকুমীরের সঙ্গে বিবাদ করে জলে বাস।</item>
+        <item>It is just the beginning the trouble.\nএই তো কলির সন্ধ্যা ।</item>
+        <item>It is never too late to mend .\nদেরি হলেও সংশোধনের সময় থাকে ।</item>
+        <item>It is no use crying over spilt milk .\nগতস্য শোচনা নাস্তি; অতীত নিয়ে দুঃখ করে লাভ নেই ।</item>
+        <item>It is very easy to find fault with others .\nঅপরের দোষ ধরা সহজ।</item>
+        <item>It never rains but it pours.\nমন্দরা সব একসাথে আসে ।</item>
+        <item>It takes two to make a quarrel or battle.\nএক হাতে তালি বাজে না।</item>
+        <item>It would rather break in twain than bend.\nভাঙে তো মচকায় না।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_i">
+
+        <item>Like </item>
+        <item>Like </item>
+        <item>After cloud comes fair weather </item>
+        <item>Weal and woe come by turns. </item>
+        <item>Money gained dishonestly, spent dishonestly. </item>
+        <item>Like </item>
+        <item>Bad news travels fast. </item>
+        <item>Like </item>
+        <item>Bad things grow rapidly. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>The indolent can never thrive; a sleeping fox catches no poultry. </item>
+        <item>Only diligence can leads to success. </item>
+        <item>Like </item>
+        <item>Bonus of somethings seems greater than the main things. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>It is unwise to fight with the man in authority. </item>
+        <item>Like </item>
+        <item>The commencement of evil. </item>
+        <item>There is always time for rectifying a wrong. </item>
+        <item>Let bygones be bygones; let the dead past bury its dead. </item>
+        <item>Man can easily find fault with others. </item>
+        <item>A lot of bad things tend to happen at the same time. </item>
+        <item>Both are to blame in a quarrel. </item>
+        <item>Like </item>
+
+    </string-array>
+
+    <string-array name="proverb_j_k_l">
+
+        <item>Jack of all trades, master of none .\nসবজান্তা কিন্তু কোনটিতেই ওস্তাদ নয় ।</item>
+        <item>Justice delayed is justice denied .\nবিলম্বে বিচার মানে বিচারের নামে প্রহসন ।</item>
+        <item>Kill the goose that lays golden eggs.\nঅতি লোভে তাঁতি নষ্ট।</item>
+        <item>Knowledge is power.\nবুদ্ধি যার, বল তার; জ্ঞানই বল ।</item>
+        <item>Knowledge without conscience is but the ruin of soul.\nবিবেকহীন জ্ঞান হলো আত্মার মৃত্যু ।</item>
+        <item>Labour of Love or To work for others without remuneration.\nঘরের ভাত খেয়ে বনের মোষ তাড়ানো।</item>
+        <item>Law makers are law breakers .\nযে রক্ষক সে-ই ভক্ষক।</item>
+        <item>Lean on a broken reed.\nভগ্ন যষ্টির উপর ভর দেওয়া।</item>
+        <item>Learning is a priceless treasure.\nবিদ্যা অমূল্য ধন।</item>
+        <item>Lend your money and loss your friend .\nটাকায় বন্ধুত্ব নষ্ট হয় ।</item>
+        <item>Let not the shoemaker go beyond his last .\nকুকুরকে লাই দিও না ।</item>
+        <item>Let sleeping dogs lie .\nকাদা ঘেঁট না।</item>
+        <item>Let us wait to see the conclusion.\nকোথাকার জল কোথায় দাঁড়ায়।</item>
+        <item>Life in action not contemplation .\nচিন্তার মাঝে নয়, কাজের মাঝেই জীবন ।</item>
+        <item>Life is but a walking shadow .\n জীবন চলমান ছায়া ছাড়া আর কিছুই নয় ।</item>
+        <item>Like cures like .\nকাঁটা দিয়ে কাঁটা তোলা; বিষস্য বুষমৌষাধম ।</item>
+        <item>Like dog, like hammer.\nযেমন কুকুর, তেমনি মুগুর।</item>
+        <item>Like father, like son.\nবাপকা বেটা, সিপাইকা ঘোড়া (যেমন বাপ তেমনি বেটা)।</item>
+        <item>Like mother, like daughter .\nযেমন মা, তেমনি মেয়ে ।</item>
+        <item>Like saint, like offering .\nযেমন দেবতা তেমনি নৈবেদ্য ।</item>
+        <item>Little birds may peck a dead lion.\nবেকাদায় পড়লে হাতি চামচিকায় মারে লাথি।</item>
+        <item>Living from hand to mouth.\nদিন আনে, দিন খায়।</item>
+        <item>Long title but little purse.\nতালপুকুর নাম কিন্তু ঘটি ডোবে না।</item>
+        <item>Look before you leap .\nভাবিয়া করিও কাজ, করিয়া ভাবিও না।</item>
+        <item>Lost credit is like a broken glass .\nসম্মান একবার গেলে আর ফিরে আসে না; ভাঙ্গা কপাল জোড়া লাগে না।</item>
+        <item>Love conquers all .\nপ্রেম সব জয় করে ।</item>
+        <item>Love is blind .\nপ্রেম অন্ধ; \nযার সঙ্গে যার মজে মন, কিবা হাড়ি কিবা ডোম ।</item>
+        <item>Love is the best virtue.\nঅহিংসা পরম ধর্ম।</item>
+        <item>Lydford law.\nআগে ফাঁসি তার পর বিচার।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_j_k_l">
+
+        <item>One does many things fairly well, but is not an expert at anything. </item>
+        <item>Justice must be done then and there. </item>
+        <item>Grasp all, lose all; Covet all lose all </item>
+        <item>Like </item>
+        <item>If knowledge is not associated with conscience, then the power emanating from it could be destructive. </item>
+        <item>Like </item>
+        <item>He who is to defend anything, offends that. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Money breaks friendship. </item>
+        <item>Do not allow someone to go beyond his limit. </item>
+        <item>It is useless to deal with the vile; Don’t search for trouble </item>
+        <item>Life lies in action not in mere thinking. </item>
+        <item>Life is very trifling. </item>
+        <item>One poison is antidote against another poison; one thorn drives away another. </item>
+        <item>Tit for tat; as is the evil so is the remedy. </item>
+        <item>Fathers and sons resemble each other; Sons tend to do what their fathers did before them </item>
+        <item>Daughters resemble their mothers. </item>
+        <item>As is the master so is the homage. </item>
+        <item>Little birds may peck a dead lion. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Think before you act. </item>
+        <item>Once fame lost; it can’t be regained. </item>
+        <item>Every man and everything is vulnerable to love. </item>
+        <item>One may fail in love with anybody </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Hoist your sail when the wind is fair </item>
+
+    </string-array>
+
+    <string-array name="proverb_m">
+
+        <item>Make hay while the sun shines .\nঝোপ বুঝে কোপ মার।</item>
+        <item>Make new friends but keep the old.\n These are silver those are gold .\nনতুন বন্ধুত্ব কর কিন্তু পুরনোকে রেখো, কারন নতুনরা হলো রৌপ্য আর পুরনোরা হল সোনা।</item>
+        <item>Man is born free but everywhere he is in chain .\nমানুষ জন্মগতভাবে স্বাধীন, কিন্তু সর্বত্রই সে শৃঙ্খলিত।</item>
+        <item>Man is the architect of his own fate.\nমানুষ নিজেই তার ভাগ্যের নিয়ন্তা।</item>
+        <item>Man live in deeds not in years .\nমানুষ বাঁচে তার কর্মে বয়সে নয় ।</item>
+        <item>Man proposes, but God disposes.\nমানুষ ভাবে এক আর হয় আরেক।</item>
+        <item>Many a little makes a mickle .\nদশের লাঠি একের বোঝা।</item>
+        <item>Many drops make light work .\nদশে মিলে করি কাজ, হারি যিতি নাহি লাজ; দশের লাঠি একের বোঝা।</item>
+        <item>Many men, many minds.\nনানা মানুষ নানা মত।</item>
+        <item>Many men, many opinions.\nনানা মুনির নানা মত।</item>
+        <item>Marry is haste, repent at leisure .\nহুটহাট করে বিয়ে করলে পস্তাতে হয় ।</item>
+        <item>Men live deeds not in years.\nমানুষ বাঁচে তার কর্মে বয়সে নয়।</item>
+        <item>Might is right .\nজোর যার মুল্লুক তার ।</item>
+        <item>Misfortune never comes alone.\nবিপদ কখনও একা আসে না।</item>
+        <item>Money brings (makes) money .\nটাকায় টাকা আনে ।</item>
+        <item>Money is the root of all evils.\nঅর্থই অনর্থের মূল।</item>
+        <item>Money makes everything.\nটাকা্য় কী না হয়।</item>
+        <item>Money makes the man.\nটাকা থাকলেই মানুষ।</item>
+        <item>Money makes the mare go .\nটাকায় সব হয় ।</item>
+        <item>Money talks .\nটাকায় কথা বলে ।</item>
+        <item>Morning shows the day .\nউঠন্তি মূলা পত্তনেই চেনা যায় ।</item>
+        <item>Much ado about nothing .\nবহুবারম্ভে লঘু ক্রিয়া; বেশি আড়ম্বরে কাজ হয় না।</item>
+        <item>Much cry, little water .\nযত গর্জে তত বর্ষে না ।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_m">
+
+        <item>Old friends are much more important than the new ones </item>
+        <item>This earth is full of rules and discipline. </item>
+        <item>Man can shape his own destiny. </item>
+        <item>the value of life depends not on the numbers of years but upon the number of good deeds. </item>
+        <item>Things not happen always as per men wish. </item>
+        <item>Many a penny makes a pound; drops of water make ocean. </item>
+        <item>The quicker the job will get done; the more people that are involved in a job. </item>
+        <item>Different people give different views; all feet tread not in one shoe. </item>
+        <item>Different people give different views; all feet tread not in one shoe. </item>
+        <item>people who marry quickly, suffer at last. </item>
+        <item>Like </item>
+        <item>Only the powerful can enjoy rights. </item>
+        <item>One misfortune follows in the wake of another; danger comes in battalion. </item>
+        <item>Money begets money </item>
+        <item>Money is the root cause of all unhappiness. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Many impossible are made possible by money; money makes everything. </item>
+        <item>People who have a lot of money have more power and influence than others. </item>
+        <item>The child is father of the man. </item>
+        <item>Too much fuss, and little is done; Too much talk ends in nothing </item>
+        <item>Braking dogs seldom bite. </item>
+        <item>Urgent need impels one to devise means. </item>
+
+    </string-array>
+
+    <string-array name="proverb_n">
+
+        <item>Necessity is the mother of invention.\nপ্রয়োজনই আবিষ্কারের প্রসূতি।</item>
+        <item>Necessity knows no law.\nঅভাবে স্বভাব নষ্ট।</item>
+        <item>Necessity never makes a bargain.\nকিনতে ছাগল বেচতে পাগল।</item>
+        <item>Nero fiddles while Rome burns.\nকারও পৌষ মাস, কারও সর্বনাশ।</item>
+        <item>Never fall out with your bread and butter .\nযার নুন খাও তার গুন গাও ।</item>
+        <item>New brooms sweep well.\nনূতন পীরিতের বড় আঠা।</item>
+        <item>New lords, new laws.\nনতুন নেতা, নতুন নীতি।</item>
+        <item>No pains no gains or No sweat, no sweet or No cross, no crown.\nকষ্ট না করলে কেষ্ট মেলে না।</item>
+        <item>No rose without thorns .\nচাঁদেও কলঙ্ক আছে ।</item>
+        <item>No smoke without fire.\nকারণ বিনা কার্য হয় না।</item>
+        <item>Nobody listens to the advice of an ordinary man, however good it may prove in the long run.\nগরিবের কথা বাসি হলে মিষ্টি হয়।</item>
+        <item>None but a fool is always right .\nমানুষ মাত্রই ভুল হয়।</item>
+        <item>None but the brave deserve the fair.\nবীর ভোগ্য বসন্ধরা।</item>
+        <item>None so deaf as those that will not hear.\nযে জেগে ঘুমায়, তারে জাগানো দায়।</item>
+        <item>Not to remember a thing aright.\nপেটে আসছে, মুখে আসছে না।</item>
+        <item>Nothing comes out of nothing .\nকারন বিনা কার্য হয় না ।</item>
+        <item>Nothing like force.\nঠেলার নাম বাবাজি।</item>
+        <item>Nothing like stealing if it goes undetected.\nচুরি-বিদ্যা বড় বিদ্যা যদি না পড়ে ধরা।</item>
+        <item>Nothing succeeds like success.\nজয়কালে ক্ষয় নাই; ঝুঁকি না নিলে লাভ হয় না ।</item>
+        <item>Nunky pays.\nলাগে টাকা দেবে গৌরী সেন।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_n">
+
+        <item>One in extreme want may resort to anything. </item>
+        <item>Like </item>
+        <item>To make merry at the distress of others. </item>
+        <item>Be grateful to your patron. </item>
+        <item>Like </item>
+        <item>When new rulers come, laws are changed. </item>
+        <item>Strive and you will win. </item>
+        <item>There is no unmixed good </item>
+        <item>Like </item>
+        <item>A poor man\'s word is often ignored, though it may be effective sometime. </item>
+        <item>To err is human. </item>
+        <item>Only the brave deserve the best. </item>
+        <item>Don’t worry to waste money inconsiderable </item>
+        <item>Like </item>
+        <item>There is no smoke without fire. </item>
+        <item>All impossible are made possible by force. </item>
+        <item>Stealing is not crime if not caught. </item>
+        <item>Success leads to success. </item>
+        <item>The old merry times are no more. </item>
+        <item>Mind your own business; don\'t pole your nose into the affairs of others. </item>
+
+    </string-array>
+
+    <string-array name="proverb_o">
+
+        <item>Oh the times! Oh the manners .\nসে রামও নাই, অযোধ্যাও নাই ।</item>
+        <item>Oil your own machine.\nনিজের চরকায় তেল দাও।</item>
+        <item>Old habits due hard .\nপুরনো অভ্যাস যেতে চায় না ।</item>
+        <item>Once unlucky, always unlucky.\nআভাগা যেদিকে চায়, সাগর শুকিয়ে যায়।</item>
+        <item>One beats the bush, another catches the bird .\nএক পুরুষে করে ধন আরেক পুরুষে খায় ।</item>
+        <item>One black sheep spoils the whole flock .\nদুষ্ট গরুর চেয়ে শূন্য ঘোয়াল ভালো।</item>
+        <item>One cannot really, feel for another.\nপরে কখনও পরের মর্ম বোঝে না।</item>
+        <item>One does not know whether to laugh or weep.\nহাসিও পায় কান্নাও পায়।</item>
+        <item>One doth the scath and another hath the scorn.\nউদোর পিণ্ডি বুধোর ঘাড়ে।</item>
+        <item>One is not so soon healed as hurt.\nগড়তে যত সময় লাগে ভাঙতে তত সময় লাগে না ।</item>
+        <item>One lie makes many.\nএকটা মিথ্যা ঢাকতে দশটা মিথ্যা বলতে হয়।</item>
+        <item>One man’s meat is another man’s poison .\nকারও পৌষ মাষ কারও সর্বনাশ ।</item>
+        <item>One nail drives out another .\nকাঁটা দিয়ে কাঁটা তুলতে হয় ।</item>
+        <item>One raven will no pluck another\'s eyes.\nকাকের মাংস কাকে খায় না।</item>
+        <item>One sows, another reaps .\nযার ধন তার নয়, নেপোয় মারে দই ; এক পুরুষে করে ধন আরেক পুরুষে খায়।</item>
+        <item>One step forward, two-steps backward.\nএক পা এগোই তো সাত পা পিছোই।</item>
+        <item>One swallow does not makes a summer.\nএক মাঘে শীত যায় না।</item>
+        <item>one’s own things are the best.\nঅসীর চেয়ে মসি বড়; নিজের জিনিস সকলেই ভালো দেখে ।</item>
+        <item>Opportunity knocks but once.\nসুযোগ একবারই আসে।</item>
+        <item>Opportunity makes the thief.\nফাঁক পেলে সবাই চোর হয়।</item>
+        <item>Our of sight, out of mind .\nচোখের আড়াল, মনের আড়াল; কাছে থাকলে পোড়ে মন, দূরে গেলে ঠনঠন।</item>
+        <item>Our sweetest songs are those that tell of saddest thought .\nআমাদের হৃদয়তন্ত্রীতে যে সুর মধুর হয়ে বাজে তা হলো বিষাদের গান।</item>
+        <item>Out of debt, out of danger .\nকর্জ নাই, কষ্টও নাই।</item>
+        <item>Out of sight, out of mind.\nকাছে থাকলে পোড়ে মন, দূরে গেলে ঠনঠন।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_o">
+
+        <item>One cannot change one’s nature. </item>
+        <item>An unlucky man always fails. </item>
+        <item>One sows, another reaps. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>One is punished for another\'s sin. </item>
+        <item>It takes more time to build up than to pull down. </item>
+        <item>To hide one lie one is to tell many lies. </item>
+        <item>What is sport to the cat is death to the rat. </item>
+        <item>Set a thief to catch a thief. </item>
+        <item>Dog does not eat a dog. </item>
+        <item>One cannot enjoy his riches always. </item>
+        <item>Like </item>
+        <item>Nothing ends for ever. </item>
+        <item>eloquent writing persuades people better than military force. </item>
+        <item>One will only have one chance to do something important or profitable. </item>
+        <item>Like </item>
+        <item>absence begets forgetfulness. </item>
+        <item>Song of sad thought lasts long in our hearts. </item>
+        <item>One having no debt is happy. </item>
+        <item>Absence begets forgetfulness. </item>
+        <item>One can digest an insult after getting profit. </item>
+        <item>Like </item>
+
+    </string-array>
+
+    <string-array name="proverb_p_q_r">
+
+        <item>Pain is forgotten where gain follows.\nপেটে খেলে পিঠে সয়।</item>
+        <item>Patience has its reward.\nসবুরে মেওয়া ফলে।</item>
+        <item>Patience is bitter, but its fruit is sweet .\nসবুরে মেওয়া ফলে ।</item>
+        <item>Peace is more covetable than physical comforts.\nসুখের চেয়ে স্বস্তি ভাল।</item>
+        <item>Penny wise, pound foolish .\nবজ্র আঁটুনি ফস্কা গেরো ।</item>
+        <item>Physian, heal thyself .\nকমলা, আপনি সামলা ।</item>
+        <item>Piece-work is ill-paid.\nখুচরা কাজের মজুরি নাই।</item>
+        <item>Pitch your aims high.\nমারিত গন্ডার, লুটিত ভান্ডার ।</item>
+        <item>Possession is nine tenths of the law.\nদখলেই বৈধতার নয় দশমাংশ।</item>
+        <item>Practice makes perfact.\nগাইতে গাইতে গায়েন, বাজাতে বাজাতে বায়েন।</item>
+        <item>Practice what you preach .\nযা বলবে তা করবে ।</item>
+        <item>Praise a fair day at night .\nনা আঁচালে বিশ্বাস নেই ।</item>
+        <item>Precocious child or Enfant terrible.\nএঁচড়ে পাকা ছেলে বা মেয়ে।</item>
+        <item>Prevention is better than cure.\nপ্রতিকারের চেয়ে প্রতিরোধ ভালো।</item>
+        <item>Pride goeth before destruction.\n.\nঅতি দর্পে হতা লঙ্কা।</item>
+        <item>Prosperity brings friends, adversity tries them .\nসুসময়ের বন্ধু অনেকেই হয়, অসময়ে হাহ হায় কেউ কারো নয়।</item>
+        <item>Quit not certainty for hope.\nঅনিশ্চিতের আশায় নিশ্চিত পরিত্যাগ করিও না।</item>
+        <item>Reading makes a full man .\nঅধ্যয়নই মানুষকে পরিপূর্ণ করে তোলে ।</item>
+        <item>Reckless youth makes rueful eyes .\nআগে না বুঝিলে বাছা যৌবনের ভারে, পশ্চাতে কাঁদিতে হবে নয়নের ঝোরে।</item>
+        <item>Respect yourself that you may be respected by others.\nআপনার মান আপনার কাছে।</item>
+        <item>Riches have wings .\nলক্ষ্মী চঞ্চলা।</item>
+        <item>Rogues supplant justice.\nচোরের মার বড় গলা।</item>
+        <item>Rome was not built in a day.\nকোন বৃহৎ কাজ রাতারাতি সম্পন্ন হয় না।</item>
+        <item>Rumour has some element of truth in it.\nযা রটে তা কিছু তো বটে।</item>
+        <item>Run before one can walk.\nহেলে ধরতে পারে না, কেউটে ধরতে চায়।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_p_q_r">
+
+        <item>Patience, however painful in the beginning, brings happiness in the end. </item>
+        <item>Like </item>
+        <item>Thrifty in small things and careless in large ones. </item>
+        <item>do not rebuke someone for a fault or problem you have yourself. </item>
+        <item>Like </item>
+        <item>Always think great and perform great. </item>
+        <item>If someone has a possession over something, it is difficult to take that away from him. </item>
+        <item>Doing something over and over again is the only way to learn to do it well. </item>
+        <item>You yourself should do the things you advise other people to do. </item>
+        <item>Suspend your judgment till the end. </item>
+        <item>Like </item>
+        <item>It is better to try to keep a bad thing from happening than it is to fix the bad thing once it has happened. </item>
+        <item>Pride has its fall; pride goes before a fall. </item>
+        <item>A friend in need is a friend indeed. </item>
+        <item>Do not exchange the substance for the shadow; never lose your today for tomorrow. </item>
+        <item>Reading makes a man dutiful, educated and conscientitious. </item>
+        <item>Careless youth ends in limitless suffering. </item>
+        <item>Like </item>
+        <item>Fortune is fickle. </item>
+        <item>Like </item>
+        <item>It takes a lot of time to achieve something important. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To be forewarned is to be forearmed </item>
+        <item>Like </item>
+
+    </string-array>
+
+    <string-array name="proverb_s">
+
+        <item>Safe bind, safe find .\nসাবধানের মার নেই।</item>
+        <item>Scatter with one hand, gather with two.\nএক হাতে ছড়াও, দুই হাতে কুড়াও।</item>
+        <item>Seeing is believing.\nদেখতে পাইলেই বিশ্বাস হয় ;\n আগে দর্শনদারি, পরে গুণবিচারি।</item>
+        <item>Self help is the best help .\nস্বাবলম্বনই সর্বশ্রেষ্ট অবলম্বন ।</item>
+        <item>Self preservation is the first law of nature .\nচাচা আপন প্রাণ বাঁচা।</item>
+        <item>Self-preservation is the first law of nature.\nআপনি (নিজে) বাঁচলে বাপের নাম।</item>
+        <item>Show the thumb in derision.\nবুড়ো আঙুল দেখানো।</item>
+        <item>Silence gives consent.\nমৌনতাই সম্মতির লক্ষণ।</item>
+        <item>Six of the one and half-a-dozen of the other.\nযার নাম ভাজা চাল, তার নাম মুড়ি।</item>
+        <item>Slow and steady wins the race .\nঅধ্যবসায়ের ফলেই সাফল্যের লাভ ঘটে ।</item>
+        <item>Slow to work but quick to eat.\nকর্মে কুড়ে ভোজনে দেড়ে।</item>
+        <item>Small seeds, great harvests.\nউনো বীজ, দুনো ফসল।</item>
+        <item>Something is better than nothing.\nনাই-মামর চাইতে কানা-মামা ভালো।</item>
+        <item>Soon ripe, soon rotten .\nইঁচড়ে পাকলে গোল্লায় যায় ।</item>
+        <item>Spare the rod and spoil the child .\nশাস্তি না দিলে ছেলে শাসন হয় না।</item>
+        <item>Strike the iron while it is hot.\nঝোপ বুঝে কোপ মারা।</item>
+        <item>Sweet are the uses of adversity.\nবিপর্যয় অভিশাপ নয়, আশীর্বাদ।</item>
+        <item>Sweet\'s the wine, but sour\'s the payment.\nনিতে জানি দিতে জানি না।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_s">
+
+        <item>Like </item>
+        <item>It is hard to believe something you have not seen.</item>
+        <item>Like </item>
+        <item>Depend on yourself. </item>
+        <item>Every living thing must fight to survive; It is natural to think of yourself first. </item>
+        <item>Every living thing must fight to survive; It is natural to think of yourself first </item>
+        <item>Like </item>
+        <item>If nothing is said against a suggestion it may be considered to be accepted. </item>
+        <item>Like </item>
+        <item>Perseverance begets success. </item>
+        <item>A glutton is often very slack </item>
+        <item>Like </item>
+        <item>Half a loaf is better than no bread. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Early ripe, early rotten. </item>
+        <item>Children are better disciplined when they are afraid of bodily punishment. </item>
+        <item>Make hay while the sun shines. </item>
+
+    </string-array>
+
+    <string-array name="proverb_t">
+
+        <item>Tame the animal while it is young.\nকাঁচায় না নোয়ালে বাঁশ, পাকলে করে ঠাস ঠাস।</item>
+        <item>The best prove itself in the long.\nওস্তাদের মার শেষ রাতে।</item>
+        <item>The cat is out of the bag.\nরহস্য ফাঁস হয়ে গেছে \nহাটে হাঁড়ি ভেঙে দিল।</item>
+        <item>The child is the father to the man.\nউঠণ্ডি মুলো পত্তনেই চেনা যায়।</item>
+        <item>The chip tougher than the old block.\nবাশেঁর চেয়ে কঞ্চি শক্ত।</item>
+        <item>The cobbler must stick to his last.\nআদার ব্যাপারীর জাহাজের খবর কেন?।</item>
+        <item>The crown and glory of life is character .\nচরিত্রই মানব জীবনের সর্বশ্রেষ্ঠ সম্পদ।</item>
+        <item>The devil listening to the Scriptures.\nভূতের মুখে রাম রাম।</item>
+        <item>The devil would not listen to the Scriptures.\nচোরে না শোনে ধর্মের কাহিনী।</item>
+        <item>The end justifies the means.\nউদ্দেশ্য দিয়েই উপায়ের বিচার করা উচিত।</item>
+        <item>The eyes are the window of the soul.\nচোখ হল মনের জানালা।</item>
+        <item>The grapes are sour.\nপায় না, তাই খায় না।</item>
+        <item>The leopard cannot change its spots.\nস্বভাব যায় না মরলে, আর ইল্লৎ যায় না ধুলে।</item>
+        <item>The master\'s will is law.\nকর্তার ইচ্ছাই কর্ম।</item>
+        <item>The more laws, the more flaws.\nবজ্র আঁটুনি ফসকা গেরো।</item>
+        <item>The more you get/have, the more you want.\nযত পায়, তত চায়।</item>
+        <item>The more you read, the more you learn.\nযতই পড়িবে, ততই শিখিবে।</item>
+        <item>The more, the merrier.\nঅধিকন্তু ন দোষায়।</item>
+        <item>The nearer the church, the farther from god.\nআলোর নিচেই অন্ধকার।</item>
+        <item>The owl thinks all her young one’s beauties.\nআপন ধান বিশ পসুরি পরের ধান এক পসুরি।</item>
+        <item>The parent\'s life is the child\'s copybook.\nবাপ-মার দেখেই ছেলেপিলে শেখে।</item>
+        <item>The pen is mightier than the sword.\nঅসির চেয়ে মসীর শক্তি বেশি।</item>
+        <item>The pot calls the kettle black.\nচালনী বলে ছুঁচ তুমি কেন ছেদা।</item>
+        <item>The real dignity of a man lies not in what he has but in what he is.\nমানুষের প্রকৃত মর্যাদা নির্ভর করে তিনি যা তার উপর, তার কি আছে তার উপর নয়।</item>
+        <item>The saucepan should not call the kettle black.\nচালুনি বলে ছুঁচ তোর পিছে কেন ছ্যাঁদা।</item>
+        <item>The shaft once shot does not return.\nহাতের ঢিল ছুড়লে আর ফেরে না।</item>
+        <item>The sheep return to the flock.\nঝাঁকের কই ঝাঁকে যায়।</item>
+        <item>The sin is past all atonement.\nএ পাপের প্রায়শ্চিত্ত নেই।</item>
+        <item>The spoilt child of a rich parent.\nআলালের ঘরের দুলাল।</item>
+        <item>The very ruins of greatness are great.\nমরা হাতি লাখ টাকা।</item>
+        <item>The wages of the sin is death.\nপাপে মৃত্যু আনে।</item>
+        <item>The wearer best knows where the shoe pinches.\nযার জ্বালা সেই জানে।</item>
+        <item>There are less to every wine.\nচাঁদেও কলঙ্ক আছে।</item>
+        <item>There is no argument like that of the stick.\nমারের মতন ঔষধ নাই।</item>
+        <item>There is no rose without a throne.\nকষ্ট ছাড়া কেষ্ট মেলে না।</item>
+        <item>There is no smoke without fire.\nকারণ বিনা কার্য হয় না; যা রটে তার কিছু ঘটে।</item>
+        <item>There is no unmixed good.\nচাঁদেরও কলঙ্ক আছে।</item>
+        <item>They see eye to eye with one another.\nসব শিয়ালের এক রা।</item>
+        <item>Think twice before you take a risk.\nভাবিয়া করিও কাজ।</item>
+        <item>Those who are born must die.\nজন্মিলে মরিতে হবে অমরকে কোথা যাবে।</item>
+        <item>Thou he is careless to make his mark, others are moving mountains for him.\nযার বিয়ে তার মনে নেই, পাড়াপড়শীর ঘুম নেই।</item>
+        <item>Time and tide wait for none.\nসময় এবং স্রোত কাহারও জন্য অপেক্ষা করে না।</item>
+        <item>Time cures more than the doctor.\nসময়েই ক্ষত শুকোয়।</item>
+        <item> Time is the best healer.\nসময়ই সবচেয়ে ভাল উপাশক।</item>
+        <item>Tit for tat.\nইটটি মারলে পাটকেলটি খেতে হয়।</item>
+        <item>To a biased mind everything is in fault.\nপক্ষপাত দুষ্ট লোকের নিকট সবই দুষ্ট।</item>
+        <item>To act surreptitiously.\nডুবে ডুবে জল খাওয়া।</item>
+        <item>To add insult to injury or To rub in.\nকাটা গায়ে নুনের ছিটা দেওয়া।</item>
+        <item>To attract pointed attention towards.\nচোখে আঙুল দিয়ে দেখানো।</item>
+        <item>To be abashed or disconcerted.\nথোঁতা মুখ ভোঁতা হওয়া।</item>
+        <item>To be abused by them we do good.\nযার জন্যে (তরে) চুরি করি সেই বলে চোর।</item>
+        <item>To be careless about what happens.\nনাকে তেল দিয়ে ঘুমানো।</item>
+        <item>To be caught unprepared.\nওঠ ছুঁড়ি তোর বিয়ে।</item>
+        <item>To be completely upset.\nমাথায় হাত দিয়ে বসে পড়া।</item>
+        <item>To be quick to occupy.\nউড়ে এসে জুড়ে বসা।</item>
+        <item>To be satisfied with an inferior substitute .\nদুধের স্বাদ ঘোলে মেটানো।</item>
+        <item>To be spoiled in early youth.\nকাঁচা বাঁশে ঘুণ ধরা।</item>
+        <item>To be tarred with the same brush.\nএক ক্ষুরে মাথা মুড়ানো।</item>
+        <item>To be up and doing.\nআদা জল খেয়ে লাগা।</item>
+        <item>To beat about the bush.\nঅন্ধকারে ঢিল মারা।</item>
+        <item>To beat black and blue.\nমারের নাম মহাশয়।</item>
+        <item>To bell the cat.\nবিড়ালের গলায় ঘন্টা বাঁধা।</item>
+        <item>To big a talk for a child.\nছোট মুখে বড় কথা।</item>
+        <item>To bite the hand that feeds you.\nউপকারীর অপকার করা।</item>
+        <item>To blow hot and cold in the same breath.\nএক মুখে দুই কথা বা দুরকম কথা।</item>
+        <item>To break a butterfly upon a wheel.\nমশা মারতে কামান দাগা।</item>
+        <item>To bring a calamity by one’s own imprudence.\nখাল কেটে কুমির আনা।</item>
+        <item>To bring a hornet\'s nest about one\'s ears.\nভিমরুলের চাকে কাঠি (ঢিল) দেওয়া।</item>
+        <item>To bring utter ruin.\nভিটায় ঘুঘু চরানো।</item>
+        <item>To build castle in the air.\nআকাশ-কুসুম রচনা করা।</item>
+        <item>To burn one\'s house to frighten away the mice.\nনিজের নাক কেটে পরের যাত্রা ভঙ্গ করা।</item>
+        <item>To burn the candle at both ends.\nভীষণ পরিশ্রম করা।</item>
+        <item>To carry coal to Newcastle.\nতেলা মাথায় তেল দেওয়া।</item>
+        <item>To cast pearls before swine.\nউলুবনে মুক্তা ছড়ানো।</item>
+        <item>To cherish a serpent in one’s bosom.\nদুধ কলা দিয়ে কালসাপ পোষা।</item>
+        <item>To count one\'s chickens before they are hatched.\nগাছে কাঁঠাল গোঁফে তেল।</item>
+        <item>To cry in the wilderness.\nঅরণ্যে রোদন।</item>
+        <item>To cut off one\'s nose to spite one\'s face.\nচোরের উপর রাগ করে মাটিতে ভাত খওয়া।</item>
+        <item>To dig one\'s own grave.\nনিজের পায়ে নিজে কুড়াল মারা।</item>
+        <item>To do a great injury.\nপাকা ধানে মই দেওয়া।</item>
+        <item>To earn fame by spending another\'s money.\nপরের ধনে পোদ্দারি করা।</item>
+        <item>To earn one\'s bread by the sweat of one\'s brow.\nমাথার ঘাম পায়ে পড়া।</item>
+        <item>To eat happily one\'s bread of labour.\nদু্ঃখের ভাত সুখ করে খাওয়া।</item>
+        <item>To enjoy a life of ease.\nখাই দাই ডুগডুগি বাজাই।</item>
+        <item>To err is human.\nমুনীনাঞ্চ মতিভ্রমঃ।</item>
+        <item>To exact to the last penny.\nকড়ায় কণ্ডায় আদায় করা।</item>
+        <item>To fall between two stools.\nএকুল-ওকুল দুকুল গেল।</item>
+        <item>To feather one’s nest.\nআপন কোলে ঝোল টানা।</item>
+        <item>To feel ill at ease.\nসুখে থাকতে ভূতে কিলায়।</item>
+        <item>To fish in troubled water.\nগোলে হরিবোল দেয়া।</item>
+        <item>To follow in the footsteps of the wise.\nমহাজন যে-পথে করেছে গমন।</item>
+        <item>To gain without spending.\nমাছের (কৈয়ের) তেলে মাছ (কৈ) ভাজা।</item>
+        <item>To have one foot in the grave.\nকখন আছি, কখন নাই।</item>
+        <item>To hide in a superficial way.\nশাক দিয়ে মাছ ঢাকা।</item>
+        <item>To hoist with one\'s own petard.\nনিজের ফাঁদে নিজেই জড়িয়ে পড়া।</item>
+        <item>To keep counsel.\nপেটের কথা পেটে রাখা।</item>
+        <item>To kill two birds with one stone.\nএক ঢিলে দুই পাখি মারা।</item>
+        <item>To know how many beans, make five.\nকত ধানে কত চাল জানা।</item>
+        <item>To lead the life of a dog.\nহীন অবস্থাতে দিন কাটানো।</item>
+        <item>To leave one in the lurch.\nগাছে তুলে মই কেড়ে নেয়া।</item>
+        <item>To lock the stable door when the steed is stolen.\nচোর পালালে বুদ্ধি বাড়ে।</item>
+        <item>To make a cat\'s paw of a person.\nপরের মাথায় কাঁটাল ভাঙা।</item>
+        <item>To make a mountain of a molehill.\nতিলকে তাল করা।</item>
+        <item>To make cat’s paw of person.\nপরের মাথায় কাঁঠাল ভাঙা, উদোর পিন্ডি বুদোর ঘাড়ে।</item>
+        <item>To make free with another’s money.\nপরের ধরে পোদ্দারি করা।</item>
+        <item>To make free with public property.\nকোম্পানিকা মাল দরিয়ামে ঢাল।</item>
+        <item>To make gift at the cost of the owner.\nগঙ্গাজলে গঙ্গাপূজা করা।</item>
+        <item>To make sure of something without risking anything.\nধরি মাছ না-ছুঁই পানি।</item>
+        <item>To mend nature or Fools rush in where angels fear to tread.\nখোদার উপর খোদকারি করা।</item>
+        <item>To play with fire.\nআগুন নিয়ে খেলা করা।</item>
+        <item>To pocket an insult.\nকিল খেয়ে কিল চুরি করা।</item>
+        <item>To pour water on a drowned mouse.\nমরার উপর খাঁড়ার ঘা।</item>
+        <item>To pull the wires.\nআড়ালে থেকে কল টেপা।</item>
+        <item>To put the cart before the horse.\nঘোড়ার আগে গাড়ি যোতা।</item>
+        <item>To reap the double advantage.\nগাছের পাড়া, তলারও কুড়ানো।</item>
+        <item>To revile or abuse to one\'s heart\'s content.\nচৌদ্দ পুরুষ উদ্ধার করা।</item>
+        <item>To rob Peter to pay Paul.\nগরু মেরে জুতা দান।</item>
+        <item>To rob the robber.\nচোরের উপর বাটপাড়ি।</item>
+        <item>To see sparks before the eyes.\nচোখে সর্ষেফুল দেখা।</item>
+        <item>To set a fox to keep one’s geese.\nশেয়ালের কাছে মুরগী বর্গা দেয়া।</item>
+        <item>To set a thief to catch a thief or Like cures like.\nকাঁটা দিয়ে কাঁটা তোলা।</item>
+        <item>To swallow the bait.\nকাকে কান নিয়েছে শুনে কাকের পিছনে ছোটা।</item>
+        <item>To take a hammer to spread a plaster.\nমশা মারতে কামান লাগে।</item>
+        <item>To teach the guilty a lesson by railing at the innocent.\nঝিকে মেরে বৌকে শেখানো।</item>
+        <item>To the pure all things are pure.\nআপনি (নিজে) ভাল তো জগৎ ভাল।</item>
+        <item>To think twice.\nসাত-পাঁচ ভাবা।</item>
+        <item>To try to hush something up, when it already known to many.\nশাক দিয়ে মাছ ঢাকা।</item>
+        <item>To utter a downright false-hood.\nদিনকে রাত করা।</item>
+        <item> To water the top of a plant after laying the axe to its root.\nগোড়া কেটে আগায় জল দেওয়া।</item>
+        <item>Too much cooks spoil the broth.\nঅধিক সন্ন্যাসীতে গাঁজন নষ্ট।</item>
+        <item>Too much courtesy, too much or full of craft.\nঅতি ভক্তি চোরের লক্ষণ।</item>
+        <item>Too much cunning overreaches itself.\nঅতি চালাকের গলায় দড়ি।</item>
+        <item>Truth has no colour.\nসত্যের কোন রূপান্তর নেই, আজও যা কালও তা।</item>
+        <item>Truth is stranger than fiction.\nকল্পকথার চেয়ে বাস্তব অধিকতর বিস্ময়কর।</item>
+        <item>Truth sits upon the lips of dying men.\nমৃত্যুপথযাত্রীর কথা সত্য হয়।</item>
+        <item>Truth will out.\nসত্য কখনো চাপা থাকে না।</item>
+        <item>Two heads are better than one.\nদশে মিলে করি কাজ, হারি জিতি নাহি লাজ।</item>
+        <item>Two is company, three is none.\nদুইজনে বন্ধুত্ব হয়, তিনজনে হয় কলহ।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_t">
+
+        <item>Like </item>
+        <item>Like </item>
+        <item>A pet lamb makes a cross lamb. </item>
+        <item>The most expert person start at last. </item>
+        <item>To disclose anything in public. </item>
+        <item>Morning shows the day. </item>
+        <item>The son shows off much more </item>
+        <item>The son show off much more than the father. </item>
+        <item>Character is the best wealth in a man’s life. </item>
+        <item>Like </item>
+        <item>You can never reform a rogue. </item>
+        <item>In order to achieve an important or noble aim, it is acceptable to do something bad; you can use bad or immoral methods as long as you accomplish something good by using them. </item>
+        <item>Man’s eyes indicate inner emotions. </item>
+        <item>One blames what one cannot get. </item>
+        <item>One cannot change one’s nature; Old habits die hard. </item>
+        <item>The powerful make law. </item>
+        <item>The opposites are also available. </item>
+        <item>People are never satisfied with what they have. </item>
+        <item>The more one reads, the more one knows. </item>
+        <item>it is all the better to have more than less </item>
+        <item>The bad and the good exist side by side. </item>
+        <item>One’s own things are the best </item>
+        <item>Like </item>
+        <item>Eloquent writing persuades people better than military force. </item>
+        <item>You should not criticize someone for a fault that you have too. </item>
+        <item>Dignity of a man comes through his qualities and character, not through his worldly possessions. </item>
+        <item>One bad man should not call another bad man a rogue. </item>
+        <item>Like </item>
+        <item>Birds of feather flock together. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Costly things are always costly. </item>
+        <item>Sin ultimately leads to death </item>
+        <item>None but the sufferer knows his trouble. </item>
+        <item>There is no unmixed good. </item>
+        <item>Like </item>
+        <item>No pains, no gains </item>
+        <item>There can be no effect without a cause. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Look before you leap </item>
+        <item>Death is a must for a living being. </item>
+        <item>Like </item>
+        <item>Things will not wait for you are late, time flows and goes on working its own way. </item>
+        <item>Time is the best healer </item>
+        <item>Emotional pain will grow less as a time passes; Time is great physician. </item>
+        <item>Exact retaliation. </item>
+        <item>All seem yellow to the jaundiced eye. </item>
+        <item>Like </item>
+        <item>All seem yellow to the jaundiced eye. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To arrange something instantly without any preparation </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To be of same habit </item>
+        <item>Like </item>
+        <item>To talk about something for a long time without coming to the main point.l </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To heart someone who has helped you. </item>
+        <item>To say two contradictory words. </item>
+        <item>To make a great arrangement for a little thing. </item>
+        <item>To make way for one’s own destroyer. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>to indulge onself in day-dream </item>
+        <item>Like </item>
+        <item>Too much work or too hard. </item>
+        <item>Like </item>
+        <item>Waste too good a thing on one least deserving. </item>
+        <item>Like </item>
+        <item>To patronize an enemy. </item>
+        <item>Like </item>
+        <item>Futile effort or prayer. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>It is natural for man to make mistakes. </item>
+        <item>Like </item>
+        <item>To lose both sides. </item>
+        <item>To use power and prestige selfishly to provide for oneself. </item>
+        <item>Like </item>
+        <item>To gain something in disorder</item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To be much old and very near to death. </item>
+        <item>To try or conceal anything and thereby to distract one’s attention to another affair. </item>
+        <item>A man falls in that trap which he makes for others. </item>
+        <item>Like </item>
+        <item> To be benefited doubly at the same time.</item>
+        <item>To be worldly wise. </item>
+        <item>Like </item>
+        <item>No to help after giving the promise of help. </item>
+        <item>It is easy to be wise after the event; after death comes the doctor. </item>
+        <item>One doth the geath, another hath the scorn. </item>
+        <item>Magnify trifles. </item>
+        <item>one both the geath, another hath the scorn. </item>
+        <item>To be careless with another’s money. </item>
+        <item>To waste inconsiderably. </item>
+        <item>To entertain a man by this own money. </item>
+        <item>A cat loves fishes but is loath to wet her feet. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To forbear an insult. </item>
+        <item>To slay the slain. </item>
+        <item>Like </item>
+        <item>To make a mess or diforder of something; to reverse the natural facts </item>
+        <item>To be benefited doubly at the same time. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To cheat a cheat. </item>
+        <item>To be confounded or nonghosted. </item>
+        <item>A cheat must not be trusted with anything. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>To teach something to someone tactfully. </item>
+        <item>No evil can touch the pure. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Too many helpers make a mess of the thing. </item>
+        <item>Too much flattery often results in misdeed. </item>
+        <item>A very cunning fellow seldom wins. </item>
+        <item>Truth has no change as the different changing colours of falsehood. </item>
+        <item>Reality may sometime be more surprising than the fiction. </item>
+        <item>The words uttered by dying men are always true. </item>
+        <item>The truth will always be discovered </item>
+        <item>We stand or fall together. </item>
+
+    </string-array>
+
+    <string-array name="proverb_u_v">
+
+        <item>Uneasy lies the head that wears a crown.\nযে শিরে মুকুট থাকে সে শির স্বস্তিতে থাকে না।</item>
+        <item>United we stand, divided we fail.\nএকতায় উত্থান, বিভেদে পতন।</item>
+        <item>Unwilling to work when there is somebody to help.\nঘোড়া দেখে খোঁড়া হওয়া।</item>
+        <item>Variety is the spice of the life.\nজীবনের স্বাদ বৈচিত্র্যে।</item>
+        <item>Virtue proclaims itself.\nধর্মের কল বাতাসে নড়ে।</item>
+        <item>Virtue thrives best in adversity.\nবিপদের মধ্যে গুনের পরীক্ষা হয়।</item>
+        <item>Vows made in storm are forgotten in clam.\nকাজের সময় কাজী, কাজ ফুরালে পাজী।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_u_v">
+
+        <item>Two people make friendship, but three people cause a rift among them. </item>
+        <item>None is without tension and anxiety handling of wealth or traces. </item>
+        <item>Unity is strength, disruption is ruin. </item>
+        <item>Loath to work finding someone to depend upon. </item>
+        <item>Trying different things keeps life interesting. </item>
+        <item>Truth will come out naturally. </item>
+        <item>Men’s qualities come out in danger. </item>
+
+    </string-array>
+
+    <string-array name="proverb_w">
+
+        <item>Wash one\'s dirty linen in public.\nঘরের কেচ্ছা বাইরে গাওয়া।</item>
+        <item>Waste not, want not.\nঅপচয় কোরো না অভাবে পোড়ো না; দিনে বাতি যার ঘরে, তার ভিটায় ঘুঘু চরে।</item>
+        <item>We first make our habits, and than our habits make us.\nশরীরের নাম মহাশয় যা সওয়াবে তাই সয়।</item>
+        <item>We live in deed, not in years.\nমানুষ বাঁচে তাহার কর্মে, বয়সের মধ্যে নহে।</item>
+        <item>We must learn to walk before we can run.\nদৌড়ানো শেখার পূর্বে হাটা শিখতে হয়।</item>
+        <item>We never know the worth of water till the well is dry.\nদাঁত থাকতে দাঁতের মর্যাদা বোঝা যায় না।</item>
+        <item>We stand or fall together.\nদশে মিলি করি কাজ, হারি জিতি নাহি লাজ।</item>
+        <item>Weal and weo come by turns.\nহাসির পরে আসে কান্না।</item>
+        <item>Well begun is half done.\nসুন্দর শুরুই অর্ধেক সাফল্য।</item>
+        <item>What can’t be cured must be endured.\nপ্রতিকারের উপায় না থাকলে সহ্য করতে হয়।</item>
+        <item>What god wills is for good.\nসৃষ্টিকর্তা যা করেন মঙ্গলের জন্যেই করেন।</item>
+        <item>What god wills no frost can kill.\nরাখে আল্লাহ মারে কে।</item>
+        <item>What goes up must come down.\nসব জিনিসেরই এক সময় পতন ঘটে।</item>
+        <item>What is done cannot be undone.\nযা হবার হয়ে গেছে; ঘটে যাওয়া জিনিসের পরিবর্তন সম্ভব নয়।</item>
+        <item>What is everybody’s business is nobody’s business.\nঅধিক সন্ন্যাসীতে গাজন নষ্ট।</item>
+        <item>What is lotted cannot be blotted.\nকপালের লিখন না যায় খন্ডন।</item>
+        <item>What is sauce for the gander is not for the goose.\nসকল রোগীর এক পথ্য নহে।</item>
+        <item>What is sport to the cat is death to the rat.\nকারও সর্বনাশ, কারও পৌষমাস।</item>
+        <item>What must be, must be and what will be, will be.\nভাগ্যকে পরিবর্তন করা যায় না।</item>
+        <item>What the eye doesn’t see, the heart doesn’t grieve over.\nনা জানলে মন খারাপ হয় না।</item>
+        <item>What’s in a name.\nনামে কিবা আসে যায়?।</item>
+        <item>When in Rome, do as Romans do.\nযেখানে যেমন, সেখানে তেমন।</item>
+        <item>When in Rome, do as the Romans do.\nযস্মিন দেশে যাদাচার; যখন যেমন, তখন তেমন।</item>
+        <item>When one door shuts, another opens.\nএক দুয়ার বন্ধ তো হাজার দুয়ার খোলা।</item>
+        <item>When poverty comes in at the door, love flies out of the window.\nঅভাব দেখা দিলে ভালবাসা জানালা দিয়ে পালায়।</item>
+        <item>When the cat’s away, the mice will play.\nবামন গেল ঘর তো লাঙ্গল তুলে ধর।</item>
+        <item>When the going gets tough, the tough gets going.\nকাজ বা পরিস্থিতি যতটা প্রতিকূল হবে ততটাই দৃঢ়প্রতিজ্ঞ হতে হবে।</item>
+        <item>Where ignorance is bliss, tis folly to be wise.\nকখনও কখনও জানার চেয়ে না জানাই ভালো।</item>
+        <item>Where there is a will, there is a way.\nইচ্ছা থাকিলেই উপায় হয়।</item>
+        <item>Where there is justice, there is victory.\nযথা ধর্ম তথা জয়।</item>
+        <item>While there is life, there is hope.\nযতক্ষণ শ্বাস ততক্ষণ আঁশ।</item>
+        <item>Who is bell the cat.\nবিড়ালের গলায় ঘন্টা বাঁধবে কে।</item>
+        <item>Who knows nothings, doubts nothing.\nনির্বোধের নাই প্রমাদের ভয়।</item>
+        <item>Whoever calumniates his preceptor is damned.\nগুরুনিন্দায় অধোগতি।</item>
+        <item>Why buy a cow when you can get milk for free.\nসুযোগ হারাবে কেন?।</item>
+        <item>Wishes never fill the bag.\nশুধু কথায় পেট ভরে না।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_w">
+
+        <item>When danger is gone, God is forgotten. </item>
+        <item>To disclose inner words before outward people. </item>
+        <item>someone may be listening. </item>
+        <item>Like </item>
+        <item>Good deeds make a man immortal. </item>
+        <item>You must master a basic skill before you are able to learn more complex things. </item>
+        <item>Blessings are not valued till they are gone </item>
+        <item>Like </item>
+        <item>After fair weather comes cloud, change is the law of nature. </item>
+        <item>Beginning a project well makes it easier to do the rest. </item>
+        <item>One must submit to the inevitable. </item>
+        <item>Be content with the result after doing anything. </item>
+        <item>None can harm when Allah saves. </item>
+        <item>Anything that has risen or been raised up must eventually fall down </item>
+        <item>One cannot change what has already happened </item>
+        <item>Things are mismanaged when too many are interest in them; Too many cooks spoil the broth </item>
+        <item>One must submit to the inevitable. </item>
+        <item>What suits one may not suit another. </item>
+        <item>What is good for one may be harmful to another. </item>
+        <item>If something is fated to happen, one cannot stop it form happening; what is lotted can’t be blotted. </item>
+        <item>What you don’t know won’t hurt you. </item>
+        <item>The name of a thing does not matter as much as the quality of a thing. </item>
+        <item>Do as the time demands. </item>
+        <item>do as the time demands. </item>
+        <item>When you lose one opportunity, you often find a different one. </item>
+        <item>The couple will stop loving each other when the money runs out. When the wolf comes in at the door, love creeps out of the window </item>
+        <item>when no one in authority is present, the subordinates can do as they please. </item>
+        <item>When things are difficult, strong people take action and do not despair </item>
+        <item>If knowing something makes you unhappy, it would be better not to know it. </item>
+        <item>A strong will carries everything before it. </item>
+        <item>Like </item>
+        <item>A drowing man catches at a straw </item>
+        <item>who will take the risk and responsibilities of doing a difficult task. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item>Why pay for something that you can get for free otherwise. </item>
+        <item>Only fine words butter no parsnips. </item>
+
+    </string-array>
+
+    <string-array name="proverb_y">
+
+        <item>You cannot catch an old bird with chaff.\nপাকা লোক ফাঁকা কথায় ভোলে না।</item>
+        <item>You cannot make a man of an ass.\nগাধা পিটে ঘোড়া হয় না।</item>
+        <item>You cannot make a silk purse out of a sow\'s ear.\nআমড়া গাছে আম হয় না।</item>
+        <item>You have seen the sweet fruit, but not the bitter.\nঘুঘূ দেখেছো, ফাঁদ দেখনি।</item>
+        <item>You must not see things with half an eye.\nঘুঘূ দেখেছো, ফাঁদ দেখনি।</item>
+        <item>You will know now what\'s what.\nকত ধানে কত চাল বুঝবে।</item>
+
+    </string-array>
+    <string-array name="proverb_meaning_y">
+
+        <item>Wise men are not easily fooled. </item>
+        <item>You cannot make someone more refined than he or she is by nature. </item>
+        <item>Don’t consider only the pros overlooking the cons of a thing; don’t think of prospects forgetting the problems of a thing. </item>
+        <item>Like </item>
+        <item>Like </item>
+        <item> </item>
+
+    </string-array>
+
+</resources>
