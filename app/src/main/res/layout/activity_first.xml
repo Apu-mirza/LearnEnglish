@@ -1,48 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_background"
-    android:padding="5dp"
-    android:gravity="center"
-    tools:context=".FirstActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+     android:background="@drawable/main_background"
+    tools:context=".Activity.FirstActivity">
 
     <RelativeLayout
-        android:padding="5dp"
-        android:id="@+id/gridLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         >
 
-        <GridView
-            android:gravity="center"
-            android:id="@+id/gridViewId"
+        <LinearLayout
+            android:id="@+id/motivationLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:numColumns="3"
-            />
+            app:cardCornerRadius="8dp"
+            android:padding="2dp"
+            android:layout_margin="8sp"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background"
+            >
+            <TextView
+                android:id="@+id/motivationHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="quote of the day"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_background2"
+                android:padding="7dp"
+                />
+            <TextView
+                android:id="@+id/motivationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="motivations"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10sp"
+                android:padding="10dp"
+                />
 
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/motivationLayout"
+            android:id="@+id/wordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:padding="2dp"
+            android:layout_margin="8sp"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background"
+            >
+            <TextView
+                android:id="@+id/wordHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="word of the day"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_background2"
+                android:padding="7dp"
+                />
+            <TextView
+                android:id="@+id/wordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="never lose your hope"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10sp"
+                android:padding="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/newsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wordLayout"
+            app:cardCornerRadius="8dp"
+            android:padding="2dp"
+            android:layout_margin="8sp"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_background"
+            >
+            <TextView
+                android:id="@+id/newsHead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What's happening in the world!?"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:background="@drawable/rounded_background2"
+                android:padding="7dp"
+                />
+            <TextView
+                android:id="@+id/newsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Breakings of the day"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10sp"
+                android:padding="10dp"
+                />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/newsLayout"
+            android:id="@+id/recyclerView"
+            android:padding="5dp"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+            app:spanCount="3"
+            tools:listitem="@layout/grid_sample"
+            />
 
     </RelativeLayout>
 
-    <com.google.android.gms.ads.AdView
-        android:visibility="gone"
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="3dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-    </com.google.android.gms.ads.AdView>
 
-
-
-</RelativeLayout>
+</ScrollView>

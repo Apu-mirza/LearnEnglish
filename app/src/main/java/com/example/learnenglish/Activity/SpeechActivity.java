@@ -1,13 +1,11 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Activity;
+
+import static android.content.ContentValues.TAG;
 
 import android.Manifest;
-import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
-import android.graphics.drawable.AnimationDrawable;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -15,16 +13,13 @@ import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.speech.tts.TextToSpeech;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.animation.ScaleAnimation;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +28,7 @@ import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.example.learnenglish.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -148,6 +144,15 @@ public class SpeechActivity extends AppCompatActivity {
             }
         });
 
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+            // Permission not granted, request it
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO},
+                    REQUEST_RECORD_AUDIO_PERMISSION);
+        } else {
+            // Permission already granted, initialize speech recognizer
+            initializeSpeechRecognizer();
+        }
+
 
         textHeaderEnglish.setText(headerEnglish);
         textHeaderBangla.setText(headerBangla);
@@ -166,6 +171,7 @@ public class SpeechActivity extends AppCompatActivity {
                 final long totalTime = elapsedTime;  // Total elapsed time for the animation
                 final long visibleTime = 800;       // Duration to keep the background visible
                 final long goneTime = 300;           // Duration to keep the background gone
+
 
                 Runnable runnable = new Runnable() {
                     boolean isVisible = true;
@@ -193,29 +199,28 @@ public class SpeechActivity extends AppCompatActivity {
                 };
 
                 handler.post(runnable);
-                startSpeechToText();
+//                startSpeechToText();
 
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        // Remove the rounded background
+                        Log.d(TAG, "totaltime run: "+totalTime);
                         micButton.setBackground(null);
                         cardView.setBackground(null);
-//                        micButton.setBorderColor(Color.TRANSPARENT);
                     }
                 }, elapsedTime);
                 startSpeechToText();
             }
         });
 
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
-            // Permission not granted, request it
-            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO},
-                    REQUEST_RECORD_AUDIO_PERMISSION);
-        } else {
-            // Permission already granted, initialize speech recognizer
-            initializeSpeechRecognizer();
-        }
+//        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+//            // Permission not granted, request it
+//            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO},
+//                    REQUEST_RECORD_AUDIO_PERMISSION);
+//        } else {
+//            // Permission already granted, initialize speech recognizer
+//            initializeSpeechRecognizer();
+//        }
 
     }
 
@@ -353,7 +358,7 @@ public class SpeechActivity extends AppCompatActivity {
         switch (id){
             case R.id.settings1:
                 Toast.makeText(getApplicationContext(),"settings is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(),SettingsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.share_app1:
@@ -366,7 +371,7 @@ public class SpeechActivity extends AppCompatActivity {
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent1 = new Intent(getApplicationContext(),PrivacyActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), PrivacyActivity.class);
                 startActivity(intent1);
                 return true;
 

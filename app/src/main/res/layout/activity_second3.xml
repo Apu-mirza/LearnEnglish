@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@drawable/main_background"
     android:padding="5dp"
-    tools:context=".FirstActivity">
+    tools:context=".Activity.FirstActivity">
 
     <GridView
         android:id="@+id/gridViewId"

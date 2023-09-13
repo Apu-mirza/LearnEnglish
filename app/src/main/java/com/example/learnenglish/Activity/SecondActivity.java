@@ -1,4 +1,4 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,13 +16,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
+import com.example.learnenglish.R;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-
-import java.util.ArrayList;
 
 
 public class SecondActivity extends AppCompatActivity {
@@ -130,7 +125,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Intent intent = new Intent(getApplicationContext(),ThirdActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ThirdActivity.class);
                 if (position == 0){
                     intent.putExtra("dataHeader",phrase_a);
                     intent.putExtra("dataChild",phrase_example_a);
@@ -229,7 +224,7 @@ public class SecondActivity extends AppCompatActivity {
         switch (id){
             case R.id.settings1:
                 Toast.makeText(getApplicationContext(),"settings is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(),SettingsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.share_app1:
@@ -242,7 +237,7 @@ public class SecondActivity extends AppCompatActivity {
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent1 = new Intent(getApplicationContext(),PrivacyActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), PrivacyActivity.class);
                 startActivity(intent1);
                 return true;
 

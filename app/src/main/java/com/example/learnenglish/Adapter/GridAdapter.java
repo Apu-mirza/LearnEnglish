@@ -1,4 +1,4 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,13 +8,15 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.learnenglish.R;
+
 public class GridAdapter extends BaseAdapter {
         String[] topics;
         int[] icons;
         Context context;
         LayoutInflater layoutInflater;
 
-        GridAdapter(Context context, String[] topics, int[] icons){
+        public GridAdapter(Context context, String[] topics, int[] icons){
             this.context = context;
             this.topics = topics;
             this.icons = icons;

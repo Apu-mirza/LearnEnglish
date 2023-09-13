@@ -7,7 +7,7 @@
     android:orientation="vertical"
     style="@style/screen"
     android:background="@drawable/main_background"
-    tools:context=".ThirdActivity">
+    tools:context=".Activity.ThirdActivity">
 
     <ListView
         android:id="@+id/thirdListView"

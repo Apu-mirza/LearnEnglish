@@ -1,8 +1,10 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Activity;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -13,18 +15,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AbsListView;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
+import com.example.learnenglish.R;
+import com.example.learnenglish.Adapter.SecondGridAdapter;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 public class SecondActivity3 extends AppCompatActivity {
 
@@ -32,6 +34,7 @@ public class SecondActivity3 extends AppCompatActivity {
     private Button button;
     private GridView gridView;
     AdView mAdView;
+    String[] motivationList;
     private String[] subTopics, animal, color, conversation, date_time, driving, emergency, fruits_vegetables,
             greetings, grocery,health, home, humanbody, kitchen, office, relation, shopping, sports, travel, weather;
     private int[] flags = {R.drawable.fox, R.drawable.colour, R.drawable.talking, R.drawable.schedule, R.drawable.car,
@@ -68,6 +71,7 @@ public class SecondActivity3 extends AppCompatActivity {
         relation = getResources().getStringArray(R.array.relation);
         shopping = getResources().getStringArray(R.array.shopping);
         weather = getResources().getStringArray(R.array.weather);
+
 
 
 
@@ -229,9 +233,11 @@ public class SecondActivity3 extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    //options menu selected button
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
+
         if (item.getItemId() == android.R.id.home) {
             onBackPressed();
             return true;
@@ -240,7 +246,7 @@ public class SecondActivity3 extends AppCompatActivity {
         switch (id){
             case R.id.settings1:
                 Toast.makeText(getApplicationContext(),"settings is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(),SettingsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.share_app1:
@@ -253,7 +259,7 @@ public class SecondActivity3 extends AppCompatActivity {
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent1 = new Intent(getApplicationContext(),PrivacyActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), PrivacyActivity.class);
                 startActivity(intent1);
                 return true;
 
@@ -261,6 +267,7 @@ public class SecondActivity3 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    //app sharing method
     public void shareApp(){
         try {
             Intent intent = new Intent();
@@ -273,6 +280,8 @@ public class SecondActivity3 extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),"unable to share this app",Toast.LENGTH_SHORT).show();
         }
     }
+
+    //app rating method
     public void rateApp(){
         Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
         Intent intent1 = new Intent(Intent.ACTION_VIEW,uri);
@@ -280,7 +289,8 @@ public class SecondActivity3 extends AppCompatActivity {
         try {
             startActivity(intent1);
         }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"Ubanle to rate this app",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
         }
     }
+
 }

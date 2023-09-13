@@ -1,4 +1,4 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,6 +17,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.preference.PreferenceFragmentCompat;
+
+import com.example.learnenglish.R;
 
 public class SettingsActivity extends AppCompatActivity {
 

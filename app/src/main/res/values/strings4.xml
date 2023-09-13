@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="motivations">
+
+        <item>“Success is not final; failure is not fatal: It is the courage to continue that counts.”\n– Winston S. Churchill</item>
+        <item>“The road to success and the road to failure are almost exactly the same.”\n– Colin R. Davis</item>
+        <item>“Success usually comes to those who are too busy to be looking for it.”\n– Henry David Thoreau</item>
+        <item>“Opportunities don’t happen. You create them.”\n– Chris Grosser</item>
+        <item>“Don’t be afraid to give up the good to go for the great.”\n– John D. Rockefeller</item>
+        <item>“I find that the harder I work, the more luck I seem to have.”\n– Thomas Jefferson</item>
+        <item>“There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed.”\n– Ray Goforth</item>
+        <item>“Successful people do what unsuccessful people are not willing to do. Don’t wish it were easier; wish you were better.”\n– Jim Rohn</item>
+        <item>“Never give in except to convictions of honor and good sense.”\n– Winston Churchill</item>
+        <item>“Stop chasing the money and start chasing the passion.”\n– Tony Hsieh</item>
+        <item>Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. The slogan ‘Press On’ has solved and always will solve the problems of the human race.”\n– Calvin Coolidge</item>
+        <item>“There are three ways to ultimate success: The first way is to be kind. The second way is to be kind. The third way is to be kind.”\n– Mister Rogers</item>
+        <item>“Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable.”\n– John Wooden</item>
+        <item>“I never dreamed about success. I worked for it.”\n– Estée Lauder\</item>
+        <item>“Success is getting what you want, happiness is wanting what you get.”\n– W. P. Kinsella\</item>
+        <item>“Success is walking from failure to failure with no loss of enthusiasm.”\n– Winston Churchill\</item>
+        <item>“I owe my success to having listened respectfully to the very best advice, and then going away and doing the exact opposite.”\n– G. K. Chesterton</item>
+        <item>“Would you like me to give you a formula for success? It’s quite simple, really: Double your rate of failure. You are thinking of failure as the enemy of success. But it isn’t at all. You can be discouraged by failure or you can learn from it, so go ahead and make mistakes. Make all you can. Because remember that’s where you will find success.”\n– Thomas J. Watson\</item>
+        <item>“There are no secrets to success. It is the result of preparation, hard work, and learning from failure.”\n– Colin Powell</item>
+        <item>“Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit.”\n– Conrad Hilton</item>
+        <item>“If you really want to do something, you’ll find a way. If you don’t, you’ll find an excuse.”\n– Jim Rohn</item>
+        <item>“I cannot give you the formula for success, but I can give you the formula for failure – It is: Try to please everybody.”\n– Herbert Bayard Swope</item>
+        <item>“Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.”\n– Albert Schweitzer</item>
+        <item>“Success isn’t just about what you accomplish in your life; it’s about what you inspire others to do.”\n– Unknown</item>
+        <item>“Some people dream of success while others wake up and work.”\n- Unknown</item>
+        <item>“The difference between who you are and who you want to be is what you do.”\n- Unknown</item>
+        <item>“In order to succeed, your desire for success should be greater than your fear of failure.”\n- Bill Cosby</item>
+        <item>“In order to succeed, we must first believe that we can.”\n- Nikos Kazantzakis</item>
+        <item>“Dreams don’t work unless you do.”\n- John C. Maxwell</item>
+        <item>“Go the extra mile. It’s never crowded there.”\n- Dr. Wayne D. Dyer</item>
+        <item>“Keep your face always toward the sunshine – and shadows will fall behind you.”\n- Walt Whitman</item>
+        <item>“What defines us is how well we rise after falling.”\n- Lionel from Maid in Manhattan Movie</item>
+        <item>“Make each day your masterpiece.”\n- John Wooden</item>
+        <item>“Wherever you go, go with all your heart”\n- Confucius</item>
+        <item>“Turn your wounds into wisdom”\n- Oprah</item>
+        <item>“We can do anything we want to if we stick to it long enough.”\n- Helen Keller</item>
+        <item>“Begin anywhere.”\n- John Cage</item>
+        <item>“Many of life’s failures are people who did not realize how close they were to success when they gave up.”\n- Thomas Edison</item>
+        <item>“Don’t be distracted by criticism. Remember–the only taste of success some people get is to take a bite out of you.”\n- Zig Ziglar</item>
+        <item>“The secret of success is to do the common thing uncommonly well.”\n- John D. Rockefeller Jr.</item>
+        <item>“You know you are on the road to success if you would do your job, and not be paid for it.”\n– Oprah Winfrey</item>
+        <item>“I never did anything worth doing by accident, nor did any of my inventions come indirectly through accident, except the phonograph. No, when I have fully decided that a result is worth getting, I go about it, and make trial after trial, until it comes.”\n– Thomas Edison</item>
+        <item>“I failed my way to success.”\n– Thomas Edison</item>
+        <item>“There is a powerful driving force inside every human being that, once unleashed, can make any vision, dream, or desire a reality.”\n– Anthony Robbins</item>
+        <item>“The secret to success is to know something nobody else knows.”\n– Aristotle Onassis</item>
+        <item>“I never dreamed about success, I worked for it.”\n– Estee Lauder</item>
+        <item>“The only place where success comes before work is in the dictionary.”\n– Vince Lombardi</item>
+        <item>“You get what you give.”\n– Jennifer Lopez</item>
+        <item>“Your life only gets better when you get better.”\n– Brian Tracy</item>
+        <item>“Happiness is not by chance, but by choice.”\n– Jim Rohn</item>
+        <item>“Be the change that you wish to see in the world.”\n– Mahatma Gandhi</item>
+        <item>“If I cannot do great things, I can do small things in a great way.”\n– Martin Luther King Jr.</item>
+        <item>“We generate fears while we sit. We overcome them by action.”\n– Dr. Henry Link</item>
+        <item>“Today’s accomplishments were yesterday’s impossibilities.”\n– Robert H. Schuller</item>
+        <item>“The bad news is time flies. The good news is you’re the pilot.”\n– Michael Altshuler</item>
+        <item>“Never limit yourself because of others’ limited imagination; never limit others because of your own limited imagination.”\n– Mae Jemison</item>
+        <item>“Let us make our future now, and let us make our dreams tomorrow’s reality.”\n– Malala Yousafzai</item>
+        <item>“Just one small positive thought in the morning can change your whole day.”\n– Dalai Lama</item>
+        <item>“Love your family, work super hard, live your passion.”\n– Gary Vaynerchuk</item>
+        <item>“Don’t let someone else’s opinion of you become your reality”\n– Les Brown</item>
+        <item>“If you’re not positive energy, you’re negative energy.”\n– Mark Cuban</item>
+        <item>“I am not a product of my circumstances. I am a product of my decisions.”\n– Stephen R. Covey</item>
+        <item>“The best revenge is massive success.”\n– Frank Sinatra</item>
+        <item>“What’s on the other side of fear? Nothing.”\n– Jamie Foxx</item>
+        <item>“Quitters never win. Winners never quit!”\n– Dr. Irene C. Kassorla</item>
+        <item>“It’s not your salary that makes you rich, it’s your spending habits.”\n– Charles A. Jaffe</item>
+        <item>“If there is no wind, row.”\n– Latin Proverb</item>
+        <item>“It’s never too late for a new beginning in your life.”\n– Joyce Meyers</item>
+        <item>“If opportunity doesn’t knock, build a door.”\n– Milton Berle</item>
+        <item>“Action is the foundational key to all success.”\n– Pablo Picasso</item>
+        <item>“I never dreamt of success. I worked for it.”\n– Estee Lauder</item>
+        <item>“A goal is a dream with a deadline.”\n– Napoleon Hill</item>
+        <item>“You could rattle the stars,” she whispered. “You could do anything, if only you dared. And deep down, you know it, too. That’s what scares you most.”\n– Sarah J. Maas</item>
+        <item>“It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest.”\n– Walter Anderson</item>
+        <item>“The adventure of life is to learn. The purpose of life is to grow. The nature of life is to change. The challenge of life is to overcome. The essence of life is to care. The opportunity of life is to serve. The secret of life is to dare. The spice of life is to befriend. The beauty of life is to give.”\n– William Arthur Ward</item>
+        <item>“When you know your worth, no one can make you feel worthless.”\n– Unknown</item>
+        <item>“If you’ve never eaten while crying you don’t know what life tastes like.”\n– Johann Wolfgang von Goethe</item>
+        <item>“If you judge people, you have no time to love them.”\n– Mother Teresa</item>
+        <item>“Once you do know what the question actually is, you’ll know what the answer means.”\n– Douglas Adams</item>
+        <item>“The two most important days in your life are the day you’re born and the day you find out why.”\n– Mark Twain</item>
+        <item>“Nothing ever goes away until it teaches us what we need to know.”\n– Pema Chodron</item>
+        <item>‘We can see through others only when we can see through ourselves.”\n– Bruce Lee</item>
+        <item>“You don’t get paid for the hour. You get paid for the value you bring to the hour.”\n– Jim Rohn</item>
+        <item>“Be an Encourager: When you encourage others, you boost their self-esteem, enhance their self-confidence, make them work harder, lift their spirits and make them successful in their endeavors. Encouragement goes straight to the heart and is always available. Be an encourager. Always.” \n– Roy T. Bennett”</item>
+        <item>“Remember, you have been criticizing yourself for years and it hasn’t worked. Try approving of yourself and see what happens.”\n– Louise L Hay</item>
+        <item>“Work hard and don’t give up hope. Be open to criticism and keep learning. Surround yourself with happy, warm and genuine people.”\n– Tena Desae</item>
+        <item>“Stay true to yourself, yet always be open to learn. Work hard, and never give up on your dreams, even when nobody else believes they can come true but you. These are not cliches but real tools you need no matter what you do in life to stay focused on your path.”\n– Phillip Sweet</item>
+        <item>“You can control two things: your work ethic and your attitude about anything.”\n– Ali Krieger</item>
+        <item>“Success isn’t always about greatness. It’s about consistency. Consistent hard work leads to success. Greatness will come.”\n– Dwayne Johnson</item>
+        <item>“One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don’t throw it away.”\n– Stephen Hawking</item>
+        <item>“Some women choose to follow men, and some women choose to follow their dreams. If you’re wondering which way to go, remember that your career will never wake up and tell you that it doesn’t love you anymore.”\n– Lady Gaga</item>
+        <item>“Read, read, read. Read everything – trash, classics, good and bad, and see how they do it. Just like a carpenter who works as an apprentice and studies the master. Read! You’ll absorb it. Then write. If it’s good, you’ll find out. If it’s not, throw it out of the window.”\n– William Faulkner</item>
+        <item>“The best way to get started is to quit talking and begin doing.”\n– Walt Disney</item>
+        <item>“Leaders never use the word failure. They look upon setbacks as learning experiences.”\n– Brian Tracy</item>
+        <item>“There are no limits to what you can accomplish, except the limits you place on your own thinking.”\n– Brian Tracy</item>
+        <item>“Someone is sitting in the shade today because someone planted a tree a long time ago.”\n– Warren Buffet</item>
+        <item>“The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty.”\n– Winston Churchill</item>
+        <item>“You learn more from failure than from success. Don’t let it stop you. Failure builds character.”\n– Unknown</item>
+        <item>“If you are working on something that you really care about, you don’t have to be pushed. The vision pulls you.”\n– Steve Jobs</item>
+        <item>“Entrepreneurs are great at dealing with uncertainty and also very good at minimizing risk. That’s the classic entrepreneur.”\n– Mohnish Pabrai</item>
+        <item>“The man who has confidence in himself gains the confidence of others.”\n– Hasidic Proverb</item>
+        <item>“What you lack in talent can be made up with desire, hustle and giving 110% all the time.”\n– Don Zimmer</item>
+        <item>“Fake it until you make it! Act as if you had all the confidence you require until it becomes your reality.”\n– Brian Tracy</item>
+        <item>“I think goals should never be easy, they should force you to work, even if they are uncomfortable at the time.”\n– Michael Phelps</item>
+        <item>“Leaders think and talk about the solutions. Followers think and talk about the problems.”\n– Brian Tracy</item>
+        <item>“Don’t let yesterday take up too much of today.”\n– Will Rogers</item>
+        <item>“Experience is a hard teacher because she gives the test first, the lesson afterwards.”\n– Vernon Sanders Law</item>
+        <item>“To know how much there is to know is the beginning of learning to live.”\n– Dorothy West</item>
+        <item>“Goal setting is the secret to a compelling future.”\n– Tony Robbins</item>
+        <item>“Whether you think you can or think you can’t, you’re right.”\n– Henry Ford</item>
+        <item>“Security is mostly a superstition. Life is either a daring adventure or nothing.”\n– Helen Keller</item>
+        <item>“Creativity is intelligence having fun.”\n– Albert Einstein</item>
+        <item>“Knowing is not enough; we must apply. Wishing is not enough; we must do.”\n– Johann Wolfgang Von Goethe</item>
+        <item>“Develop an ‘attitude of gratitude.’ Say thank you to everyone you meet for everything you do.”\n– Brian Tracy</item>
+        <item>“To see what is right and not do is a lack of courage.”\n– Confucius</item>
+        <item>“Don’t say you don’t have enough time. You have exactly the same number of hours per day that were given to Helen Keller, Pasteur, Michelangelo, Mother Teresa, Leonardo Da Vinci, Thomas Jefferson, and Albert Einstein.”\n– H. Jackson Brown Jr.</item>
+        <item>“Hard work beats talent when talent doesn’t work hard.”\n– Tim Notke</item>
+        <item>“If everything seems to be under control, you’re not going fast enough.”\n– Mario Andretti</item>
+        <item>“Opportunity is missed by most people because it is dressed in overalls and looks like work.”\n– Thomas Edison</item>
+        <item>“The only difference between ordinary and extraordinary is that little extra.”\n– Jimmy Johnson</item>
+        <item>“The best way to appreciate your job is to imagine yourself without one.”\n– Oscar Wilde</item>
+        <item>“Unsuccessful people make their decisions based on their current situations. Successful people make their decisions based on where they want to be.”\n– Benjamin Hardy</item>
+        <item>“Never stop doing your best just because someone doesn’t give you credit.”\n– Kamari aka Lyrikal</item>
+        <item>“Work hard for what you want because it won’t come to you without a fight. You have to be strong and courageous and know that you can do anything you put your mind to. If somebody puts you down or criticizes you, just keep on believing in yourself and turn it into something positive.”\n– Leah LaBelle</item>
+        <item>“Work hard, be kind, and amazing things will happen.”\n– Conan O’Brien</item>
+        <item>“Go as far as you can see; when you get there, you’ll be able to see further.”\n– Thomas Carlyle</item>
+        <item>“Your talent determines what you can do. Motivation determines how much you’re willing to do. Your attitude determines how well you do it.”\n– Lou Holtz</item>
+        <item>“The individual who says it is not possible should move out of the way of those doing it.”\n– Tricia Cunningham</item>
+        <item>“I learned this, at least, by my experiment; that if one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.”\n– Henry David Thoreau</item>
+        <item>“When someone tells me ‘no,’ it doesn’t mean I can’t do it, it simply means I can’t do it with them.”\n– Karen E. Quinones Miller</item>
+        <item>“Build your own dreams or someone else will hire you to build theirs.”\n– Farrah Gray</item>
+        <item>“A year from now you may wish you had started today.”\n– Karen Lamb</item>
+        <item>“Light tomorrow with today.”\n– Elizabeth Barrett Browning</item>
+        <item>“Someday is not a day of the week.”\n– Janet Dailey</item>
+        <item>“Don’t count the days, make the days count.”\n– Muhammad Ali</item>
+        <item>“Believe you can and you’re halfway there.”\n– Theodore Roosevelt</item>
+        <item>“The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle.”\n– Steve Jobs</item>
+        <item>“Even if you’re on the right track, you’ll get run over if you just sit there.”\n– Will Rogers</item>
+        <item>“Nothing can stop the man with the right mental attitude from achieving his goal. Nothing on earth can help the man with the wrong attitude.”\n– Thomas Jefferson</item>
+        <item>“The more I want to get something done the less I call it work.”\n– Richard Bach</item>
+        <item>“Success is the sum of small efforts repeated day in and day out.”\n– Robert Collier</item>
+        <item>“If everything seems under control, you’re not going fast enough.”\n– Mario Andretti</item>
+        <item>“Your imagination is your preview of life’s coming attractions.”\n– Albert Einstein</item>
+        <item>“Try not. Do, or do not. There is no try.”\n– Yoda</item>
+        <item>“The true meaning of life is to plant trees under whose shade you do not expect to sit.”\n– Nelson Henderson</item>
+        <item>“I would rather die of passion than of boredom.”\n– Emile Zola</item>
+        <item>“Very often a change of self is needed more than a change of scene.”\n– Arthur Christopher Benson</item>
+        <item>“If you don’t design your own life plan, chances are you’ll fall into someone else’s plan and guess what they have planned for you? Not much.”\n– Jim Rohn</item>
+        <item>“Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.”\n– Dale Carnegie</item>
+        <item>“Failure is the condiment that gives success its flavor.”\n– Truman Capote</item>
+        <item>“It takes courage to grow up and become who you really are.”\n– E.E. Cummings</item>
+        <item>“What we fear of doing most is usually what we most need to do.”\n– Ralph Waldo Emerson</item>
+        <item>“It is better to fail in originality than to succeed in imitation.”\n– Herman Melville</item>
+        <item>“Fall 7 times, stand up 8.”\n– Japanese Proverb</item>
+        <item>“It’s not what you say out of your mouth that determines your life, it’s what you whisper to yourself that has the most power.”\n– Robert T. Kiyosaki</item>
+        <item>“Success only comes to those who dare to attempt.”\n– Mallika Tripathi</item>
+        <item>“People rarely succeed unless they have fun in what they are doing.”\n– Dale Carnegie</item>
+        <item>“We must be willing to let go of the life we planned so as to have the life that is waiting for us.”\n– Joseph Campbell</item>
+        <item>“Success is liking yourself, liking what you do, and liking how you do it.”\n– Maya Angelou</item>
+        <item>“Coming together is a beginning, keeping together is progress, working together is success.”\n– Henry Ford</item>
+        <item>“Don’t aim for success if you want it, just do what you love and believe in and it will come naturally.”\n– David Frost</item>
+        <item>“The size of your success is measured by the strength of your desire, the size of your dream, and how you handle disappointment along the way.”\n– Robert Kiyosaki</item>
+        <item>“The question isn’t who is going to let me, it’s who is going to stop me.”\n– Ayn Rand</item>
+        <item>“Success is a state of mind. If you want success, start thinking of yourself as a success.”\n– Joyce Brothers</item>
+        <item>“The elevator to success is out of order. You’ll have to use the stairs, one step at a time.”\n– Joe Girard</item>
+        <item>“Be a positive energy trampoline – absorb what you need and rebound more back.”\n– Dave Carolan</item>
+        <item>“People often say that motivation doesn’t last. Well, neither does bathing – that’s why we recommend it daily.”\n– Zig Ziglar</item>
+        <item>“Work until your bank account looks like a phone number.”\n– Unknown</item>
+        <item>“I am so clever that sometimes I don’t understand a single word of what I am saying.”\n– Oscar Wilde</item>
+        <item>“People say nothing is impossible, but I do nothing every day.”\n– Winnie the Pooh</item>
+        <item>“Life is like a sewer… what you get out of it depends on what you put into it.”\n– Tom Lehrer</item>
+        <item>“I always wanted to be somebody, but now I realise I should have been more specific.”\n– Lily Tomlin</item>
+        <item>“Always be careful when you follow the masses. Sometimes the m is silent.”\n– Unknown</item>
+        <item>“Never let anyone treat you like you’re regular glue. You’re glitter glue.”\n– Unknown</item>
+        <item>“If you fall – I’ll be there.”\n– Floor</item>
+        <item>“When Plan “A” doesn’t work, don’t worry, you still have 25 more letters to go through.”\n– Unknown</item>
+        <item>“If you think you’re too small to make a difference, try sleeping with a mosquito.”\n– Dalai Lama</item>
+        <item>“If at first you don’t succeed, then skydiving isn’t for you.”\n– Steven Wright</item>
+        <item>“A diamond is merely a lump of coal that did well under pressure.”\n– Unknown</item>
+        <item>“I find television very educational. Every time someone turns it on, I go in the other room and read a book.’\n– Groucho Marx</item>
+        <item>“Opportunity does not knock, it presents itself when you beat down the door.”\n– Kyle Chandler</item>
+        <item>“I have not failed. I’ve just found 10,000 ways that won’t work.”\n– Thomas A. Edison</item>
+        <item>“Women challenge the status quo because we are never it.”\n– Cindy Gallop</item>
+        <item>“We don’t just sit around and wait for other people. We just make, and we do.”\n– Arlan Hamilton</item>
+        <item>“Think like a queen. A queen is not afraid to fail. Failure is another stepping stone to greatness.”\n– Oprah Winfrey</item>
+        <item>“The strongest actions for a woman is to love herself, be herself and shine amongst those who never believed she could.”\n– Unknown</item>
+        <item>“Whenever you see a successful woman, look out for three men who are going out of their way to try to block her.”\n– Yulia Tymoshenko</item>
+        <item>“Some women choose to follow men, and some choose to follow their dreams. If you’re wondering which way to go, remember that your career will never wake up and tell you that it doesn’t love you anymore.”\n– Lady Gaga</item>
+        <item>“The thing women have yet to learn is nobody gives you power. You just take it.”\n– Roseanne Barr</item>
+        <item>“No woman wants to be in submission to a man who isn’t in submission to God!”\n– T D Jakes</item>
+        <item>“A witty woman is a treasure; a witty beauty is a power.”\n– George Meredith</item>
+        <item>“When a woman becomes her own best friend life is easier.”\n– Diane Von Furstenberg</item>
+        <item>“If you want something said, ask a man; if you want something done, ask a woman.”\n– Margaret Thatcher</item>
+        <item>“We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored.”\n– Sheryl Sandberg</item>
+        <item>“It took me quite a long time to develop a voice, and now that I have it, I am not going to be silent.”\n– Madeleine Albright</item>
+        <item>“Women must learn to play the game as men do.”\n– Eleanor Roosevelt</item>
+        <item>“I swear, by my life and my love of it, that I will never live for the sake of another man, nor ask another man to live for mine.”\n– Ayn Rand</item>
+        <item>“He who conquers himself is the mightiest warrior.”\n– Confucius</item>
+        <item>“Try not to become a man of success, but rather become a man of value.”\n– Albert Einstein</item>
+        <item>“One man with courage makes a majority.”\n– Andrew Jackson</item>
+        <item>“One secret of success in life is for a man to be ready for his opportunity when it comes.”\n– Benjamin Disraeli</item>
+        <item>“A man who has committed a mistake and doesn’t correct it is committing another mistake.”\n– Confucius Kongzi</item>
+        <item>“The successful man will profit from his mistakes and try again in a different way.” \n– Dale Carnegie</item>
+        <item>“A successful man is one who can lay a firm foundation with the bricks others have thrown at him.” \n– David Brinkley</item>
+        <item>“He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.” \n– Epictetus</item>
+        <item>“Talent wins games, but teamwork and intelligence win championships.” \n– Michael Jordan</item>
+        <item>“Individual commitment to a group effort—that is what makes a teamwork, a company work, a society work, a civilization work.” \n– Vince Lombardi</item>
+        <item>“Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.” \n– Andrew Carnegie</item>
+        <item>“Coming together is a beginning. Keeping together is progress. Working together is success.” — Henry Ford</item>
+        <item>“Alone we can do so little, together we can do so much.” \n– Helen Keller</item>
+        <item>“Remember, teamwork begins by building trust. And the only way to do that is to overcome our need for invulnerability.” \n– Patrick Lencioni</item>
+        <item>“You can get everything in life you want if you will just help enough other people get what they want.” \n– Zig Ziglar</item>
+        <item>“Inspiration does exist, but it must find you working.” \n– Pablo Picasso</item>
+        <item>“Don’t settle for average. Bring your best to the moment. Then, whether it fails or succeeds, at least you know you gave all you had.” \n– Angela Bassett</item>
+        <item>“Show up, show up, show up, and after a while the muse shows up, too.” \n– Isabel Allende</item>
+        <item>“Don’t bunt. Aim out of the ballpark. Aim for the company of immortals.” \n– David Ogilvy</item>
+        <item>“I have stood on a mountain of no’s for one yes.” \n– Barbara Elaine Smith</item>
+        <item>“If you believe something needs to exist, if it’s something you want to use yourself, don’t let anyone ever stop you from doing it.” \n– Tobias Lütke</item>
+        <item>“The miracle is not that we do this work, but that we are happy to do it.” \n– Mother Teresa</item>
+        <item>“Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.” \n– Earl Nightingale</item>
+        <item>“If you work on something a little bit every day, you end up with something that is massive.” \n– Kenneth Goldsmith</item>
+        <item>“The big secret in life is that there is no secret. Whatever your goal, you can get there if you’re willing to work.” \n– Oprah Winfrey</item>
+        <item>“If you cannot do great things, do small things in a great way.” \n– Napoleon Hill</item>
+        <item>“Never allow a person to tell you no who doesn’t have the power to say yes.” \n– Eleanor Roosevelt</item>
+        <item>“At any given moment you have the power to say: this is not how the story is going to end.” \n– Unknown</item>
+        <item>“Amateurs sit around and wait for inspiration. The rest of us just get up and go to work.” \n– Stephen King</item>
+        <item>“Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.” \n– Steve Jobs</item>
+        <item>“Nothing will work unless you do.” \n– Maya Angelou</item>
+        <item>“Never regret a day in your life. Good days bring you happiness and bad days give you experience.” \n– Unknown</item>
+        <item>“Either you run the day, or the day runs you.” \n– Jim Rohn</item>
+        <item>“Only I can change my life. No one can do it for me.” \n– Carol Burnett</item>
+        <item>“Life is 10% what happens to you and 90% how you react to it.” \n– Charles R. Swindoll</item>
+        <item>“Act as if what you do makes a difference. It does.” \n– William James</item>
+        <item>“When the pain of an obstacle is too great, challenge yourself to be stronger.” \n– Will Rogers</item>
+        <item>“Even if you’re on the right track, you’ll get run over if you just sit there.” \n– Will Rogers</item>
+        <item>“Very little is needed to make a happy life; it is all within yourself, in your way of thinking.” \n– Marcus Aurelius</item>
+        <item>“Life is either a daring adventure or nothing at all.” \n– Helen Keller</item>
+        <item>“The woman who follows the crowd will usually go no further than the crowd. The woman who walks alone is likely to find herself in places no one has been before.” \n– Albert Einstein</item>
+        <item>“Life’s like a movie, write your own ending. Keep believing, keep pretending.” \n– Jim Hensen</item>
+        <item>“The same boiling water that softens the potato hardens the egg. It’s what you’re made of. Not the circumstances.” \n– Unknown</item>
+        <item>“If we have the attitude that it’s going to be a great day it usually is.” \n– Catherine Pulsifier</item>
+        <item>“You can either experience the pain of discipline or the pain of regret. The choice is yours.”  – Unknown</item>
+        <item>“Impossible is just an opinion.” \n– Paulo Coelho</item>
+        <item>“Your passion is waiting for your courage to catch up.” \n– Isabelle Lafleche</item>
+        <item>“Magic is believing in yourself. If you can make that happen, you can make anything happen.” \n– Johann Wolfgang Von Goethe</item>
+        <item>“If something is important enough, even if the odds are stacked against you, you should still do it.” \n– Elon Musk</item>
+        <item>“Hold the vision, trust the process.” \n– Unknown</item>
+        <item>“Don’t be afraid to give up the good to go for the great.” \n– John D. Rockefeller</item>
+        <item>“People who wonder if the glass is half empty or full miss the point. The glass is refillable.” \n– Unknown</item>
+        <item>“The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.”- Mark Caine</item>
+        <item>“When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.” \n– Audre Lorde</item>
+        <item>“Whenever you find yourself on the side of the majority, it is time to pause and reflect.” \n– Mark Twain</item>
+        <item>“There is no traffic jam along the extra mile.” \n– Roger Staubach</item>
+        <item>“If you genuinely want something, don’t wait for it–teach yourself to be impatient.” \n– Gurbaksh Chahal</item>
+        <item>“If you want to make a permanent change, stop focusing on the size of your problems and start focusing on the size of you!” \n– T. Harv Eker</item>
+        <item>“If you are not willing to risk the usual, you will have to settle for the ordinary.”- Jim Rohn</item>
+        <item>“The ones who are crazy enough to think they can change the world, are the ones that do.”- Anonymous</item>
+        <item>“Do one thing every day that scares you.” \n– Anonymous</item>
+        <item>“All progress takes place outside the comfort zone.” \n– Michael John Bobak</item>
+        <item>“People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy.” \n– Tony Robbins</item>
+        <item>“Don’t let the fear of losing be greater than the excitement of winning.” \n– Robert Kiyosaki</item>
+        <item>“If you really look closely, most overnight successes took a long time.” \n– Steve Jobs</item>
+        <item>“The real test is not whether you avoid this failure, because you won’t. It’s whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere.” \n– Barack Obama</item>
+        <item>“The only limit to our realization of tomorrow will be our doubts of today.” \n– Franklin D. Roosevelt</item>
+        <item>“Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.” \n– Helen Keller</item>
+        <item>“The successful warrior is the average man, with laser-like focus.” \n– Bruce Lee</item>
+        <item>“You can’t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something–your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.” \n– Steve Jobs</item>
+        <item>“Two roads diverged in a wood and I took the one less traveled by, and that made all the difference.” \n– Robert Frost</item>
+        <item>“The number one reason people fail in life is because they listen to their friends, family, and neighbors.” \n– Napoleon Hill</item>
+        <item>“The reason most people never reach their goals is that they don’t define them, or ever seriously consider them as believable or achievable. Winners can tell you where they are going, what they plan to do along the way, and who will be sharing the adventure with them.” \n– Denis Waitley</item>
+        <item>“In my experience, there is only one motivation, and that is desire. No reasons or principle contain it or stand against it.” \n– Jane Smiley</item>
+        <item>“No one is to blame for your future situation but yourself. If you want to be successful, then become “Successful.”- Jaymin Shah</item>
+        <item>“Things may come to those who wait, but only the things left by those who hustle.”- Abraham Lincoln</item>
+        <item>“Everything comes to him who hustles while he waits.”- Thomas Edison</item>
+        <item>“Every sucessful person in the world is a hustler one way or another. We all hustle to get where we need to be. Only a fool would sit around and wait on another man to feed him.” \n– K’wan</item>
+        <item>“Invest in your dreams. Grind now. Shine later.” \n– Unknown</item>
+        <item>“Hustlers don’t sleep, they nap.” \n– Unknown</item>
+        <item>“Greatness only comes before hustle in the dictionary.” \n– Ross Simmonds</item>
+        <item>“Without hustle, talent will only carry you so far.” \n– Gary Vaynerchuk</item>
+        <item>“Work like there is someone working twenty-four hours a day to take it away from you.” \n– Mark Cuban</item>
+        <item>“Hustle in silence and let your success make the noise.” \n– Unknown</item>
+        <item>“The hard days are what make you stronger.” \n– Aly Raisman</item>
+        <item>“If you believe it’ll work out, you’ll see opportunities. If you don’t believe it’ll work out, you’ll see obstacles.” \n– Wayne Dyer</item>
+        <item>“You can waste your lives drawing lines. Or you can live your life crossing them.” \n– Shonda Rhimes</item>
+        <item>“You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.” \n– George Lorimer</item>
+        <item>“I now tried a new hypothesis: It was possible that I was more in charge of my happiness than I was allowing myself to be.” \n– Michelle Obama</item>
+        <item>“In a gentle way, you can shake the world.” \n– Mahatma Gandhi</item>
+        <item>“If opportunity doesn’t knock, build a door.” \n– Kurt Cobain</item>
+        <item>“Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart.” \n– Roy T. Bennett</item>
+        <item>“Work hard in silence, let your success be the noise.” \n– Frank Ocean</item>
+        <item>“If you obey all the rules, you miss all the fun.” \n– Katharine Hepburn</item>
+        <item>“You were born to be a player. You were meant to be here. This moment is yours.” \n– Herb Brooks</item>
+        <item>“Life is not what you alone make it. Life is the input of everyone who touched your life and every experience that entered it. We are all part of one another.” \n– Yuri Kochiyama</item>
+        <item>“When you reach the end of your rope, tie a knot and hang out.” \n– Abraham Lincoln</item>
+        <item>“Never regret anything that made you smile.” \n– Mark Twain</item>
+        <item>“You must do the thing you think you cannot do.” \n– Eleanor Roosevelt</item>
+        <item>“If you want to fly give up everything that weighs you down.” \n– Buddha</item>
+        <item>“Doubt kills more dreams than failure ever will.” \n– Suzy Kassem</item>
+        <item>“I never lose. Either I win or learn.” \n– Nelson Mandela</item>
+        <item>“Today is your opportunity to build the tomorrow you want.” \n– Ken Poirot</item>
+        <item>“Getting over a painful experience is much like crossing the monkey bars. You have to let go at some point in order to move forward.” \n– C.S. Lewis</item>
+        <item>“Success does not consist in never making mistakes but in never making the same one a second time.” \n– George Bernard Shaw</item>
+        <item>“I don’t want to get to the end of my life and find that I lived just the length of it. I want to have lived the width of it as well.” \n– Diane Ackerman</item>
+        <item>“You must expect great things of yourself before you can do them.” \n– Michael Jordan</item>
+        <item>“Motivation is what gets you started. Habit is what keeps you going.” \n– Jim Ryun</item>
+        <item>“There is no chance, no destiny, no fate, that can hinder or control the firm resolve of a determined soul.” \n– Ella Wheeler Wilcox</item>
+        <item>“Our greatest fear should not be of failure but of succeeding at things in life that don’t really matter.” \n– Francis Chan</item>
+        <item>“A goal is not always meant to be reached; it often serves simply as something to aim at.” \n– Bruce Lee</item>
+        <item>“Success is … knowing your purpose in life, growing to reach your maximum potential, and sowing seeds that benefit others.” \n– John C. Maxwell</item>
+        <item>“Be miserable. Or motivate yourself. Whatever has to be done, it’s always your choice.” \n– Wayne Dyer</item>
+        <item>“To accomplish great things, we must not only act, but also dream, not only plan, but also believe.” \n– Anatole France</item>
+        <item>“Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no help at all.” \n– Dale Carnegie</item>
+        <item>“You measure the size of the accomplishment by the obstacles you had to overcome to reach your goals.” \n– Booker T. Washington</item>
+        <item>“Real difficulties can be overcome; it is only the imaginary ones that are unconquerable.” \n– Theodore N. Vail</item>
+        <item>“What would you do if you weren’t afraid.” \n– Spencer Johnson</item>
+        <item>“Little minds are tamed and subdued by misfortune, but great minds rise above it.” \n– Washington Irving</item>
+        <item>“Don’t let what you cannot do interfere with what you can do.” \n– John R. Wooden</item>
+        <item>“You may have to fight a battle more than once to win it.” \n– Margaret Thatcher</item>
+        <item>“Focus on being productive instead of busy.” \n– Tim Ferriss</item>
+        <item>“You don’t need to see the whole staircase, just take the first step.” \n– Martin Luther King Jr.</item>
+        <item>“It’s not all sunshine and rainbows, but a good amount of it actually is.” \n– Unknown</item>
+        <item>“When someone says you can’t do it, do it twice and take pictures. – Estee Lauder</item>
+        <item>“I didn’t get there by wishing for it, but by working for it.” \n– Estee Lauder</item>
+        <item>“She remembered who she was and the game changed.” \n– Lalah Deliah</item>
+        <item>“If you’re too comfortable, it’s time to move on. Terrified of what’s next? You’re on the right track.” \n– Susan Fales-Hill</item>
+        <item>“Be happy with what you have while working for what you want.” \n– Helen Keller</item>
+        <item>“Sunshine all the time makes a desert.” \n– Arabic Proverb</item>
+        <item>“The big lesson in life is never be scared of anyone or anything.” \n– Frank Sinatra</item>
+        <item>“Blessed are those who can give without remembering and take without forgetting.” \n– Anonymous</item>
+        <item>“What’s the point of being alive if you don’t at least try to do something remarkable.” \n– Anonymous</item>
+        <item>“Life is not about finding yourself. Life is about creating yourself.” \n– Lolly Daskal</item>
+        <item>“Nothing in the world is more common than unsuccessful people with talent.” \n– Anonymous</item>
+        <item>“Knowledge is being aware of what you can do. Wisdom is knowing when not to do it.” \n– Anonymous</item>
+        <item>“You can do anything, but not everything.” \n– Anonymous</item>
+        <item>“Innovation distinguishes between a leader and a follower.” \n– Steve Jobs</item>
+        <item>“Thinking should become your capital asset, no matter whatever ups and downs you come across in your life.” \n– A.P.J. Abdul Kalam</item>
+        <item>“The starting point of all achievement is desire.” \n– Napoleon Hill</item>
+        <item>“If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work.” \n– Thomas J. Watson</item>
+        <item>“You may only succeed if you desire succeeding; you may only fail if you do not mind failing.” \n– Philippos</item>
+        <item>“Courage is resistance to fear, mastery of fear–not the absence of fear.” \n– Mark Twain</item>
+        <item>“Only put off until tomorrow what you are willing to die having left undone.” \n– Pablo Picasso</item>
+        <item>“People often say that motivation doesn’t last. Well, neither does bathing–that’s why we recommend it daily.” \n– Zig Ziglar</item>
+        <item>“We become what we think about most of the time, and that’s the strangest secret.” \n– Earl Nightingale</item>
+        <item>“Too many of us are not living our dreams because we are living our fears.” \n– Les Brown</item>
+        <item>“I find that when you have a real interest in life and a curious life, that sleep is not the most important thing.” —Martha Stewart</item>
+        <item>“It’s not what you look at that matters, it’s what you see.” \n– Anonymous</item>
+        <item>“The function of leadership is to produce more leaders, not more followers.” \n– Ralph Nader</item>
+        <item>“As we look ahead into the next century, leaders will be those who empower others.” \n– Bill Gates</item>
+        <item>“A real entrepreneur is somebody who has no safety net underneath them.” \n– Henry Kravis</item>
+        <item>“Do the best you can. No one can do more than that.” \n– John Wooden</item>
+        <item>“Do what you can, with what you have, where you are.” \n– Theodore Roosevelt</item>
+        <item>‘It’s never too late to be what you might’ve been.” \n– George Eliot</item>
+        <item>“If you can dream it, you can do it.” \n– Walt Disney</item>
+        <item>“Trust yourself that you can do it and get it.” \n– Baz Luhrmann</item>
+        <item>“Don’t let what you can’t do interfere with what you can do.” \n– Unknown</item>
+        <item>“You can do anything you set your mind to.” \n– Benjamin Franklin</item>
+        <item>“All we can do is the best we can do.” \n– David Axelrod</item>
+        <item>“You never know what you can do until you try.” \n–  William Cobbett</item>
+        <item>“Twenty years from now you’ll be more disappointed by the things you did not do than the ones you did.” \n– Mark Twain</item>
+        <item>Keep your eyes on the stars, and your feet on the ground.” \n– Theodore Roosevelt</item>
+        <item>“Do not stop thinking of life as an adventure. You have no security unless you can live bravely, excitingly, imaginatively; unless you can choose a challenge instead of competence.” \n– Eleanor Roosevelt</item>
+        <item>“Perfection is not attainable. But if we chase perfection we can catch excellence.” \n– Vince Lombardi</item>
+        <item>“Get a good idea and stay with it. Dog it, and work at it until it’s done right.” \n– Walt Disney</item>
+        <item>“Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.” \n– Helen Keller</item>
+        <item>“If you want to achieve greatness stop asking for permission.” \n– Anonymous</item>
+        <item>“Things work out best for those who make the best of how things work out.” \n– John Wooden</item>
+        <item>“To live a creative life, we must lose our fear of being wrong.” \n– Anonymous</item>
+        <item>“If you are not willing to risk the usual you will have to settle for the ordinary.” \n– Jim Rohn</item>
+        <item>“Trust because you are willing to accept the risk, not because it’s safe or certain.” \n– Anonymous</item>
+        <item>“Take up one idea. Make that one idea your life – think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.” \n– Swami Vivekananda</item>
+        <item>“I am thankful for all of those who said NO to me. It’s because of them I’m doing it myself.” \n– Wayne W. Dyer</item>
+        <item>“It’s okay to outgrow people who don’t grow. Grow tall anyways.” \n– Anonymous</item>
+        <item>“When you feel like giving up just remember that there are a lot of people you still have to prove wrong.” \n– Anonymous</item>
+        <item>“The world is full of nice people. If you can’t find one, be one.” \n– Nishan Panwar</item>
+        <item>“Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got to keep going.” \n– Chantal Sutherland</item>
+        <item>“A walk to a nearby park may give you more energy and inspiration in life than spending two hours in front of a screen.” \n– Tsang Lindsay</item>
+        <item>“If you can’t do anything about it then let it go. Don’t be a prisoner to things you can’t change.” \n– Tony Gaskins</item>
+        <item>“You can’t go back and change the beginning, but you can start where you are and change the ending.” \n– C.S. Lewis</item>
+        <item>“Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.” \n– Rumi</item>
+        <item>“I can and I will. Watch me.” \n– Carrie Green</item>
+        <item>“Good things come to people who wait, but better things come to those who go out and get them.” \n– Anonymous</item>
+        <item>“If you do what you always did, you will get what you always got.” \n– Anonymous</item>
+        <item>“Just when the caterpillar thought the world was ending, he turned into a butterfly.” \n– Proverb</item>
+        <item>“Successful entrepreneurs are givers and not takers of positive energy.” \n– Anonymous</item>
+        <item>“Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them.” \n– Vaibhav Shah</item>
+        <item>“Opportunities don’t happen, you create them.” \n– Chris Grosser</item>
+        <item>“Try not to become a person of success, but rather try to become a person of value.” \n– Albert Einstein</item>
+        <item>“Great minds discuss ideas; average minds discuss events; small minds discuss people.” \n– Eleanor Roosevelt</item>
+        <item>“If you don’t value your time, neither will others. Stop giving away your time and talents – start charging for it.” \n– Kim Garst</item>
+        <item>“No one can make you feel inferior without your consent.” \n– Eleanor Roosevelt</item>
+        <item>“The whole secret of a successful life is to find out what is one’s destiny to do, and then do it.” \n– Henry Ford</item>
+        <item>“All our dreams can come true if we have the courage to pursue them.” \n– Walt Disney</item>
+        <item>“If you’re going through hell keep going.” \n– Winston Churchill</item>
+        <item>“Don’t raise your voice, improve your argument.” \n– Anonymous</item>
+        <item>“What seems to us as bitter trials are often blessings in disguise.” \n– Oscar Wilde</item>
+        <item>“The meaning of life is to find your gift. The purpose of life is to give it away.” \n– Anonymous</item>
+        <item>“The distance between insanity and genius is measured only by success.” \n– Bruce Feirstein</item>
+        <item>“When you stop chasing the wrong things, you give the right things a chance to catch you.” \n– Lolly Daskal</item>
+        <item>“I believe that the only courage anybody ever needs is the courage to follow your own dreams.” \n– Oprah Winfrey</item>
+        <item>“No masterpiece was ever created by a lazy artist.” \n– Anonymous</item>
+        <item>“Happiness is a butterfly, which when pursued, is always beyond your grasp, but which, if you will sit down quietly, may alight upon you.” \n– Nathaniel Hawthorne</item>
+        <item>“If you can’t explain it simply, you don’t understand it well enough.” \n– Albert Einstein</item>
+        <item>“Oh yes, the past can hurt. But the way I see it, you can either run from it or learn from it.” \n– The Lion King</item>
+        <item>“We’re on the brink of adventure, children. Don’t spoil it with questions.” \n– Mary Poppins</item>
+        <item>“Life moves pretty fast. If you don’t stop and look around once in a while, you could miss it.”- Ferris Bueller</item>
+        <item>“I just wanna let them know that they didn’t break me.” \n– Pretty in Pink</item>
+        <item>“I’m going to make him an offer he can’t refuse.” \n– The Godfather</item>
+        <item>“No one has ever made a difference by being like everyone else.” \n– The Greatest Showman</item>
+        <item>“Spend a little more time trying to make something of yourself and a little less time trying to impress people.” \n– The Breakfast Club</item>
+        <item>“The problem is not the problem. The problem is your attitude about the problem.” \n– Pirates of the Caribbean</item>
+        <item>“Remember you’re the one who can fill the world with sunshine.” \n– Snow White</item>
+        <item>“You’ll have bad times, but it’ll always wake you up to the good stuff you weren’t paying attention to.” \n– Good Will Hunting</item>
+        <item>“And when you get the choice to sit it out or dance… I hope you dance.” \n– I Hope You Dance, Lee Ann Womack</item>
+        <item>“Just because it burns doesn’t mean you’re gonna die you’ve gotta get up and try.” \n– Try, P!nk</item>
+        <item>“Life’s a game made for everyone and love is the prize” \n– Wake Me Up, Avicii</item>
+        <item>“It’s a new dawn, it’s a new day, it’s a life for me and I’m feeling good.” \n– Feeling Good, Michael Buble</item>
+        <item>“Today is where your book begins, the rest is still unwritten.” \n– Unwritten, Natasha Bedingfield</item>
+        <item>“A million dreams for the world we’re gonna make’ – The Greatest Showman</item>
+        <item>“It’s my life It’s now or never I ain’t gonna live forever I just want to live while I’m alive” \n– It’s My Life, Bon Jovi</item>
+        <item>“I could build a castle out of all the bricks they threw at me” \n– New Romantics, Taylor Swift</item>
+        <item>“Cause the grass is greener under me bright as technicolor, I can tell that you can see” \n– Sorry Not Sorry, Demi Lovato</item>
+        <item>“Everyday women and men become legends” \n– Glory, John Legend and Common</item>
+        <item>“It’s not your salary that makes you rich, it’s your spending habits.” \n– Charles A. Jaffe</item>
+        <item>“Don’t stay in bed unless you can make money in bed.” \n– George Burns</item>
+        <item>“You must gain control over your money or the lack of it will forever control you.” \n– Dave Ramsey</item>
+        <item>“Only buy something that you’d be perfectly happy to hold if the market shuts down for ten years.” \n– Warren Buffett</item>
+        <item>“That man is richest whose pleasures are cheapest.” \n– Henry David Thoreau</item>
+        <item>“Money can’t buy happiness, but it can make you awfully comfortable while you’re being miserable.” \n– Clare Boothe Luce</item>
+        <item>“Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.” \n– Jen Sincero</item>
+        <item>“You’re already a financial trader. You might not think of it in just this way, but if you work for a living, you’re trading your time for money. Frankly, it’s just about the worst trade you can make. Why? You can always get more money, but you can’t get more time.” \n– Tony Robbins</item>
+        <item>“You can only become truly accomplished at something you love. Don’t make money your goal. Instead, pursue the things you love doing and then do them so well that people can’t take their eyes off of you.”- Maya Angelou</item>
+        <item>“Formal education will make you a living; self-education will make you a fortune.” \n– Jim Rohn</item>
+        <item>“Time is what we want most and what we use worst.” \n– William Penn</item>
+        <item>“It’s not about having enough time, it’s about making enough time.” \n– Rachael Bermingham</item>
+        <item>“Time is money.” \n– Benjamin Franklin</item>
+        <item>“Better three hours too soon than a minute too late.” \n– William Shakespeare</item>
+        <item>“The trouble is, you think you have time.” \n– Buddha</item>
+        <item>“The greatest gift you could give someone is your time. Because when you give your time, you are giving a portion of your life you can’t get back.” \n– Unknown</item>
+        <item>“Punctuality is not just limited to arriving at a place at the right time, it is also about taking actions at the right time.” \n– Amit Kalantri</item>
+        <item>“Time always exposes what you mean to someone.” \n– Unknown</item>
+        <item>“After all this time? Always.” \n– J.K. Rowling</item>
+        <item>“You can’t let your failures define you. You have to let your failures teach you.” \n– Barack Obama</item>
+        <item>“Success is a lousy teacher. It seduces smart people into thinking they can’t lose.” \n– Bill Gates</item>
+        <item>“Stop being afraid of what could go wrong, and start being excited about what could go right.” \n– Tony Robbins</item>
+        <item>“Think like a Queen. A Queen is not afraid to fail. Failure is another stepping stone to greatness.” \n– Oprah</item>
+        <item>“Defeat is a state of mind; no one is ever defeated until defeat is accepted as a reality.” \n– Bruce Lee</item>
+        <item>“Our greatest glory is not in never falling, but in rising every time we fall.” \n– Confucius</item>
+        <item>“It is impossible to live without failing at something unless you live so cautiously that you might as well not have lived at all – in which case, you fail by default.” \n– J.K. Rowling</item>
+        <item>“Success is going from failure to failure without losing your enthusiasm.” \n– Winston Churchill</item>
+        <item>“Why do we grieve failures longer than we celebrate wins?” \n– Komal Kapoor</item>
+        <item>“Failure isn’t the end of the road. It’s a big red flag saying to you ‘Wrong way. Turn around.’” \n– Oprah Winfrey</item>
+        <item>“Whenever you feel like a failure, just remember that even Coca Cola only sold 25 bottles their first year – Unknown</item>
+        <item>“A reader lives a thousand lives before he dies. The man who never reads lives only one.” \n– George R.R. Martin</item>
+        <item>“I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.” \n– Groucho Marx</item>
+        <item>“Never stop learning because life never stops teaching.” \n– Unknown</item>
+        <item>“If you’re the smartest person in the room, you’re in the wrong room.” \n– Unknown</item>
+        <item>“The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.” \n– Brian Herbert</item>
+        <item>“The man who does not read has no advantage over the man who cannot read.” \n– Mark Twain</item>
+        <item>“To learn a language is to have one more window from which to look at the world.” \n– Chinese Proverb</item>
+        <item>“I’m still learning.” \n– Michelangelo</item>
+        <item>“Live as if you were to die tomorrow. Learn as if you were to live forever.” \n– Mahatma Gandhi</item>
+        <item>“Education is the most powerful weapon you can use to change the world.” \n– Nelson Mandela</item>
+        <item>“You were born to win, but to be a winner, you must plan to win, prepare to win, and expect to win.” \n– Zig Ziglar</item>
+        <item>“One thing’s for sure, if you don’t play, you don’t win.” \n– Kylie Francis</item>
+        <item>“Winning means you’re willing to go longer, work harder, and give more than anyone else.” \n– Vince Lombardi</item>
+        <item>“Talent wins games, but teamwork wins championships.” \n– Michael Jordan</item>
+        <item>“When I win and when I lose, I take ownership of it, because I really am in charge of what I do.” \n– Nicki Minaj</item>
+        <item>“A champion is afraid of losing. Everyone else is afraid of winning.” \n– Billie Jean King</item>
+        <item>‘Competing at the highest level is not about winning. It’s about preparation, courage, understanding, nurturing your people, and heart. Winning is the result.” \n– Joe Torre</item>
+        <item>“A winner is a dreamer who never gives up.” \n– Nelson Mandela</item>
+        <item>“The secret of your future is hidden in your daily routine.” \n– Mike Murdock</item>
+        <item>“Losers quit when they fail. Winners fail until they succeed.” \n– Robert T. Kiyosaki</item>
+        <item>“It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent.” \n– Charlie Munger</item>
+        <item>“When I believe in something, I’m like a dog with a bone.” \n– Melissa McCarthy</item>
+        <item>“And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.” \n– Anaïs Nin</item>
+        <item>“The standard you walk past is the standard you accept.” \n– David Hurley</item>
+        <item>“I’ve searched all the parks in all the cities and found no statues of committees.” \n– Gilbert K. Chesterton</item>
+        <item>“Success is stumbling from failure to failure with no loss of enthusiasm.” \n– Winston Churchill</item>
+        <item>“The best way to predict your future is to create it.” \n– Abraham Lincoln</item>
+        <item>“Successful people are not gifted; they just work hard, then succeed on purpose.” \n– G.K. Nielson</item>
+        <item>“Don’t watch the clock; do what it does. Keep going.” \n– Sam Levenson</item>
+        <item>“Work until your rivals become idols.” \n– Drake</item>
+        <item>“You can’t have a million-dollar dream on a minimum wage work ethic.” \n– Unknown</item>
+        <item>“You must do the kind of things you think you cannot do.” \n– Eleanor Roosevelt</item>
+        <item>“It’s not what you do once in a while it’s what you do day in and day out that makes the difference.” \n– Jenny Craig</item>
+        <item>“Falling down is how we grow. Staying down is how we die.” \n– Brian Vaszily</item>
+        <item>“Wealth isn’t about having a lot of money it’s about having a lot of options.” \n– Chris Rock</item>
+        
+    </string-array>
+
+    <string-array name="vocabulary">
+
+        <item>afraid\nভয় </item>
+        <item>agree\nএকমত </item>
+        <item>allow\nঅনুমতি </item>
+        <item>apple\nআপেল </item>
+        <item>arrange\nসাঁতার কাটা </item>
+        <item>atom\nপরমাণু </item>
+        <item>above\nউপরে</item>
+        <item>again\nআবার</item>
+        <item>air\nবায়ু</item>
+        <item>all\nসব</item>
+        <item>animal\nপশু</item>
+        <item>answer\nউত্তর</item>
+        <item>anthem\nগীত</item>
+        <item>any\nকোনো</item>
+        <item>apple\nআপেল</item>
+        <item>are\nহয়</item>
+        <item>ask\nজিজ্ঞাসা</item>
+        <item>asks\nজিজ্ঞাসা করে</item>
+        <item>back\nপিছনে</item>
+        <item>ball\nবল</item>
+        <item>be\nহতে</item>
+        <item>because\nকারণ</item>
+        <item>been\nছিল</item>
+        <item>before\nআগে</item>
+        <item>behind\nপিছনে</item>
+        <item>being\nহচ্ছে</item>
+        <item>best\nসেরা</item>
+        <item>big\nবড়</item>
+        <item>bird\nপাখি</item>
+        <item>black\nকালো</item>
+        <item>blue\nনীল</item>
+        <item>book\nবই</item>
+        <item>both\nউভয়</item>
+        <item>boy\nছেলে</item>
+        <item>break\nভাঙা</item>
+        <item>but\nকিন্তু</item>
+        <item>by\nদ্বারা</item>
+        <item>basic\nমৌলিক </item>
+        <item>beat\nবীট </item>
+        <item>bell\nঘণ্টা </item>
+        <item>bit\nকিছুক্ষণ </item>
+        <item>bone\nহাড় </item>
+        <item>branch\nশাখা </item>
+        <item>bread\nরুটি </item>
+        <item>broad\nবিস্তৃত </item>
+        <item>burn\nবার্ন </item>
+        <item>call\nডাক</item>
+        <item>came\nএসেছিলেন</item>
+        <item>can\nকরতে পারেন</item>
+        <item>car\nগাড়ি</item>
+        <item>case\nকেস</item>
+        <item>cat\nবিড়াল</item>
+        <item>change\nপরিবর্তন</item>
+        <item>child\nশিশু</item>
+        <item>city\nশহর</item>
+        <item>class\nশ্রেণী</item>
+        <item>come\nআসুন</item>
+        <item>could\nপারতেন</item>
+        <item>country\nদেশ</item>
+        <item>cry\nকান্না</item>
+        <item>camp\nশিবির </item>
+        <item>capital\nরাজধানী </item>
+        <item>card\nকার্ড </item>
+        <item>catch\nধরা </item>
+        <item>century\nশতাব্দীর </item>
+        <item>chair\nচেয়ার </item>
+        <item>chance\nসুযোগ </item>
+        <item>chart\nচার্ট </item>
+        <item>chick\nকুক্কুট </item>
+        <item>chief\nপ্রধান </item>
+        <item>chord\nজ্যা </item>
+        <item>coat\nকোট </item>
+        <item>colony\nউপনিবেশ </item>
+        <item>compare\nতুলনা </item>
+        <item>condition\nশর্ত </item>
+        <item>connect\nসংযোগ </item>
+        <item>consider\nবিবেচনা করা </item>
+        <item>copy\nকপি </item>
+        <item>corner\nকোণ </item>
+        <item>cotton\nতুলা </item>
+        <item>create\nতৈরি </item>
+        <item>current\nবর্তমান </item>
+        <item>day\nদিন</item>
+        <item>different\nভিন্ন</item>
+        <item>dog\nকুকুর</item>
+        <item>done\nকরা</item>
+        <item>door\nদরজা</item>
+        <item>draw\nআঁকা</item>
+        <item>dad\nবাবা </item>
+        <item>danger\nবিপদ </item>
+        <item>death\nমৃত্যুর </item>
+        <item>degree\nডিগ্রী </item>
+        <item>depend\nনির্ভর করে </item>
+        <item>describe\nবর্ণনা </item>
+        <item>determine\nনির্ধারণ </item>
+        <item>difficult\nকঠিন </item>
+        <item>discuss\nআলোচনা </item>
+        <item>division\nবিভাগ </item>
+        <item>duck\nহাঁস </item>
+        <item>each\nপ্রতিটি</item>
+        <item>eat\nখাওয়া</item>
+        <item>egg\nডিম</item>
+        <item>end\nশেষ</item>
+        <item>even\nএমনকি</item>
+        <item>every\nপ্রতিটি</item>
+        <item>example\nউদাহরণ</item>
+        <item>eye\nচোখ</item>
+        <item>effect\nপ্রভাব </item>
+        <item>electric\nবৈদ্যুতিক </item>
+        <item>element\nউপাদান </item>
+        <item>enemy\nশত্রু </item>
+        <item>enter\nপ্রবেশ </item>
+        <item>evening\nসন্ধ্যায় </item>
+        <item>expect\nআশা করা </item>
+        <item>experience\nঅভিজ্ঞতা </item>
+        <item>face\nমুখ</item>
+        <item>far\nদূরে</item>
+        <item>father\nবাবা</item>
+        <item>few\nকিছু</item>
+        <item>find\nখুঁজে</item>
+        <item>first\nপ্রথম</item>
+        <item>fish\nমাছ</item>
+        <item>five\nপাঁচ</item>
+        <item>follow\nঅনুসরণ</item>
+        <item>food\nখাদ্য</item>
+        <item>for\nজন্য</item>
+        <item>four\nচার</item>
+        <item>friend\nবন্ধু</item>
+        <item>from\nথেকে</item>
+        <item>fruit\nফল</item>
+        <item>fun\nমজা</item>
+        <item>favor\nআনুকূল্য </item>
+        <item>feed\nফিড </item>
+        <item>fight\nযুদ্ধ </item>
+        <item>figure\nচিত্র </item>
+        <item>finger\nআঙুল </item>
+        <item>forward\nঅগ্রবর্তী </item>
+        <item>fresh\nতাজা </item>
+        <item>fruit\nফল </item>
+        <item>gather\nসাক্ষাৎ </item>
+        <item>glad\nআনন্দিত </item>
+        <item>guide\nকৌশল </item>
+        <item>gun\nবন্দুক </item>
+        <item>girl\nমেয়ে</item>
+        <item>give\nদিতে</item>
+        <item>go\nযাওয়া</item>
+        <item>good\nভাল</item>
+        <item>government\nসরকার</item>
+        <item>had\nছিল</item>
+        <item>hand\nহাত</item>
+        <item>has\nআছে</item>
+        <item>have\nআছে</item>
+        <item>head\nমাথা</item>
+        <item>hear\nশুনতে</item>
+        <item>help\nসাহায্য</item>
+        <item>her\nতাকে</item>
+        <item>here\nএখানে</item>
+        <item>high\nউঁচু</item>
+        <item>him\nতাকে</item>
+        <item>home\nবাড়ি</item>
+        <item>horse\nঘোড়া</item>
+        <item>house\nঘর</item>
+        <item>how\nকিভাবে</item>
+        <item>hat\nটুপি </item>
+        <item>hill\nপাহাড় </item>
+        <item>huge\nবিশাল </item>
+        <item>human\nমানবীয় </item>
+        <item>hurry\nত্বরা </item>
+        <item>idea\nধারণা</item>
+        <item>if\nযদি</item>
+        <item>important\nগুরুত্বপূর্ণ</item>
+        <item>in\nমধ্যে</item>
+        <item>information\nতথ্য</item>
+        <item>instead\nপরিবর্তে</item>
+        <item>interest\nউদ্দেশ্য</item>
+        <item>is\nহয়</item>
+        <item>it\nএটি</item>
+        <item>its\nএর</item>
+        <item>imagine\nকল্পনা </item>
+        <item>industry\nশিল্প </item>
+        <item>instant\nতাত্ক্ষণিক </item>
+        <item>indicate\nনির্দেশ </item>
+        <item>invent\nউদ্ভাবিত </item>
+        <item>job\nকাজ</item>
+        <item>just\nশুধু</item>
+        <item>keep\nরাখা</item>
+        <item>kind\nধরন</item>
+        <item>king\nরাজা</item>
+        <item>know\nজানতে</item>
+        <item>land\nভূমি</item>
+        <item>last\nশেষ</item>
+        <item>late\nদেরী</item>
+        <item>letter\nচিঠি</item>
+        <item>life\nজীবন</item>
+        <item>like\nপছন্দ</item>
+        <item>little\nছোট</item>
+        <item>long\nদীর্ঘ</item>
+        <item>look\nদেখতে</item>
+        <item>led\nচালিত </item>
+        <item>lift\nলিফট </item>
+        <item>liquid\nতরল </item>
+        <item>locate\nসনাক্ত </item>
+        <item>log\nলগ ইন </item>
+        <item>make\nতৈরি</item>
+        <item>man\nপুরুষ</item>
+        <item>many\nঅনেক</item>
+        <item>may\nসম্ভবত</item>
+        <item>me\nআমাকে</item>
+        <item>meet\nসাক্ষাৎ</item>
+        <item>men\nপুরুষ</item>
+        <item>might\nসম্ভবত</item>
+        <item>milk\nদুধ</item>
+        <item>minute\nমিনিট</item>
+        <item>mother\nমা</item>
+        <item>move\nচলা</item>
+        <item>much\nঅনেক</item>
+        <item>must\nঅবশ্যই</item>
+        <item>music\nসঙ্গীত</item>
+        <item>magnet\nচুম্বক </item>
+        <item>major\nপ্রধান </item>
+        <item>market\nবাজার </item>
+        <item>mass\nভর </item>
+        <item>match\nম্যাচ </item>
+        <item>meant\nবোঝানো </item>
+        <item>modern\nআধুনিক </item>
+        <item>molecule\nঅণু </item>
+        <item>motion\nগতি </item>
+        <item>nature\nপ্রকৃতি </item>
+        <item>necessary\nপ্রয়োজনীয় </item>
+        <item>neck\nঘাড় </item>
+        <item>neighbor\nপ্রতিবেশী </item>
+        <item>nine\nনয় </item>
+        <item>noise\nশব্দ </item>
+        <item>nor\nনা </item>
+        <item>nose\nনাক </item>
+        <item>name\nনাম</item>
+        <item>new\nনতুন</item>
+        <item>night\nরাত</item>
+        <item>no\nনা</item>
+        <item>not\nনা</item>
+        <item>number\nসংখ্যা</item>
+        <item>of\nএর</item>
+        <item>off\nবন্ধ</item>
+        <item>old\nপুরাতন</item>
+        <item>on\nতে</item>
+        <item>one\nএক</item>
+        <item>only\nশুধুমাত্র</item>
+        <item>open\nখোলা</item>
+        <item>or\nবা</item>
+        <item>other\nঅন্য</item>
+        <item>our\nআমাদের</item>
+        <item>out\nবাইরে</item>
+        <item>occur\nঘটতে </item>
+        <item>opposite\nবিপরীত </item>
+        <item>oxygen\nঅক্সিজেন </item>
+        <item>period\nসময়ের </item>
+        <item>pitch\nপিচ </item>
+        <item>planet\nগ্রহ </item>
+        <item>plural\nবহুবচন </item>
+        <item>prepare\nপ্রস্তুত </item>
+        <item>proper\nসঠিক </item>
+        <item>property\nসম্পত্তি </item>
+        <item>protect\nরক্ষা </item>
+        <item>provide\nপ্রদান </item>
+        <item>page\nপৃষ্ঠা</item>
+        <item>paper\nকাগজ</item>
+        <item>parent\nবাবা-মা</item>
+        <item>part\nঅংশ</item>
+        <item>people\nমানুষ</item>
+        <item>place\nজায়গা</item>
+        <item>plant\nগাছ</item>
+        <item>play\nখেলা</item>
+        <item>point\nবিন্দু</item>
+        <item>poor\nদরিদ্র</item>
+        <item>possible\nসম্ভব</item>
+        <item>power\nশক্তি</item>
+        <item>pretty\nসুন্দর</item>
+        <item>problem\nসমস্যা</item>
+        <item>pull\nটান</item>
+        <item>push\nধাক্কা</item>
+        <item>question\nপ্রশ্ন</item>
+        <item>rain\nবৃষ্টি</item>
+        <item>red\nলাল</item>
+        <item>right\nডান</item>
+        <item>river\nনদী</item>
+        <item>road\nরাস্তা</item>
+        <item>round\nগোলাকার</item>
+        <item>said\nবললেন</item>
+        <item>same\nএকই</item>
+        <item>school\nবিদ্যালয়</item>
+        <item>sea\nসমুদ্র</item>
+        <item>see\nদেখতে</item>
+        <item>seem\nলাগতে</item>
+        <item>sell\nবেচা</item>
+        <item>she\nসে</item>
+        <item>short\nছোট</item>
+        <item>should\nসম্ভবত</item>
+        <item>show\nদেখাতে</item>
+        <item>side\nপাশ</item>
+        <item>sign\nচিহ্ন</item>
+        <item>simple\nসহজ</item>
+        <item>since\nযেহেতু</item>
+        <item>small\nছোট</item>
+        <item>so\nতাই</item>
+        <item>some\nকিছু</item>
+        <item>son\nছেলে</item>
+        <item>soon\nশীঘ্রই</item>
+        <item>sound\nশব্দ</item>
+        <item>space\nস্থান</item>
+        <item>spell\nবানান</item>
+        <item>sport\nক্রীড়া</item>
+        <item>star\nতারা</item>
+        <item>still\nএখনও</item>
+        <item>street\nরাস্তার</item>
+        <item>such\nএমন</item>
+        <item>sun\nসূর্য</item>
+        <item>system\nব্যবস্থা</item>
+        <item>table\nটেবিল</item>
+        <item>take\nনিতে</item>
+        <item>talk\nকথা বলতে</item>
+        <item>tell\nবলে</item>
+        <item>ten\nদশ</item>
+        <item>than\nএর চেয়ে বেশি</item>
+        <item>that\nযে</item>
+        <item>the\nদ্য</item>
+        <item>their\nতাদের</item>
+        <item>them\nতাদের</item>
+        <item>then\nতারপর</item>
+        <item>there\nসেখানে</item>
+        <item>these\nএই</item>
+        <item>they\nতারা</item>
+        <item>thing\nজিনিস</item>
+        <item>think\nভাবতে</item>
+        <item>third\nতৃতীয়</item>
+        <item>this\nএই</item>
+        <item>those\nসেই</item>
+        <item>thought\nভাব</item>
+        <item>three\nতিন</item>
+        <item>through\nমাধ্যমে</item>
+        <item>time\nসময়</item>
+        <item>to\nতে</item>
+        <item>today\nআজ</item>
+        <item>together\nএকসাথে</item>
+        <item>too\nও</item>
+        <item>tree\nগাছ</item>
+        <item>try\nচেষ্টা</item>
+        <item>turn\nঘুরতে</item>
+        <item>two\nদুই</item>
+        <item>under\nনীচে</item>
+        <item>up\nউপরে</item>
+        <item>us\nআমাদের</item>
+        <item>use\nব্যবহার</item>
+        <item>very\nখুব</item>
+        <item>village\nগ্রাম</item>
+        <item>voice\nকণ্ঠস্বর</item>
+        <item>walk\nহাঁটা</item>
+        <item>want\nচাই</item>
+        <item>war\nযুদ্ধ</item>
+        <item>wash\nধোয়া</item>
+        <item>water\nপানি</item>
+        <item>way\nপথ</item>
+        <item>we\nআমরা</item>
+        <item>well\nভালো</item>
+        <item>were\nছিলেন</item>
+        <item>what\nকি</item>
+        <item>when\nযখন</item>
+        <item>where\nকোথায়</item>
+        <item>which\nযা</item>
+        <item>white\nসাদা</item>
+        <item>who\nকে</item>
+        <item>why\nকেন</item>
+        <item>will\nহবে</item>
+        <item>with\nসঙ্গে</item>
+        <item>woman\nমহিলা</item>
+        <item>word\nশব্দ</item>
+        <item>work\nকাজ</item>
+        <item>world\nবিশ্ব</item>
+        <item>would\nwould</item>
+        <item>write\nলিখতে</item>
+        <item>year\nবছর</item>
+        <item>you\nআপনি</item>
+        <item>young\nতরুণ</item>
+
+    </string-array>
+
+    <string-array name="vocabulary1">
+
+        <item>as\nযেমন</item>
+        <item>I\nআমি</item>
+        <item>his\nতার</item>
+        <item>that\nযে</item>
+        <item>he\nতিনি</item>
+        <item>was\nছিল</item>
+        <item>for\nজন্য</item>
+        <item>on\nউপর</item>
+        <item>are\nহয়</item>
+        <item>with\nসঙ্গে</item>
+        <item>they\nতারা</item>
+        <item>be\nহতে</item>
+        <item>at\nএ</item>
+        <item>one\nএক</item>
+        <item>have\nআছে</item>
+        <item>this\nএই</item>
+        <item>from\nথেকে</item>
+        <item>by\nদ্বারা</item>
+        <item>hot\nগরম</item>
+        <item>word\nশব্দ</item>
+        <item>but\nকিন্তু</item>
+        <item>what\nকি</item>
+        <item>some\nকিছু</item>
+        <item>is\nহয়</item>
+        <item>it\nএটা</item>
+        <item>you\nআপনি</item>
+        <item>or\nবা</item>
+        <item>had\nছিল</item>
+        <item>the\nদী</item>
+        <item>of\nএর</item>
+        <item>to\nথেকে</item>
+        <item>and\nএবং</item>
+        <item>a\nএকটি</item>
+        <item>in\nমধ্যে</item>
+        <item>we\nআমরা</item>
+        <item>can\nকরতে পারেন</item>
+        <item>out\nআউট</item>
+        <item>other\nঅন্যান্য</item>
+        <item>were\nছিল</item>
+        <item>which\nযা</item>
+        <item>do\nকি</item>
+        <item>their\nতাদের</item>
+        <item>time\nসময়</item>
+        <item>if\nযদি</item>
+        <item>will\nঅভিলাষ</item>
+        <item>how\nকিভাবে</item>
+        <item>said\nতিনি বলেন,</item>
+        <item>an\nএকটি</item>
+        <item>each\nপ্রতিটি</item>
+        <item>tell\nবলুন</item>
+        <item>does\nনা</item>
+        <item>set\nসেট</item>
+        <item>three\nতিন</item>
+        <item>want\nচান</item>
+        <item>air\nবায়ু</item>
+        <item>well\nভাল</item>
+        <item>also\nএছাড়াও</item>
+        <item>play\nখেলা</item>
+        <item>small\nছোট</item>
+        <item>end\nশেষ</item>
+        <item>put\nকরা</item>
+        <item>home\nহোম</item>
+        <item>read\nপড়া</item>
+        <item>hand\nহাত</item>
+        <item>port\nপোর্ট</item>
+        <item>large\nবড়</item>
+        <item>spell\nবানান</item>
+        <item>add\nযোগ করা</item>
+        <item>even\nএমনকি</item>
+        <item>land\nজমি</item>
+        <item>here\nএখানে</item>
+        <item>must\nঅবশ্যই</item>
+        <item>big\nবড়</item>
+        <item>high\nউচ্চ</item>
+        <item>such\nএমন</item>
+        <item>follow\nঅনুসরণ করা</item>
+        <item>act\nআইন</item>
+        <item>why\nকেন</item>
+        <item>ask\nজিজ্ঞাসা</item>
+        <item>men\nপুরুষ</item>
+        <item>change\nপরিবর্তন</item>
+        <item>went\nগিয়েছিলাম</item>
+        <item>light\nআলো</item>
+        <item>kind\nধরনের</item>
+        <item>off\nবন্ধ</item>
+        <item>need\nপ্রয়োজন</item>
+        <item>house\nঘর</item>
+        <item>picture\nছবি</item>
+        <item>try\nচেষ্টা</item>
+        <item>us\nআমাদের</item>
+        <item>again\nআবার</item>
+        <item>animal\nপশু</item>
+        <item>point\nবিন্দু</item>
+        <item>mother\nমা</item>
+        <item>world\nবিশ্বের</item>
+        <item>near\nকাছাকাছি</item>
+        <item>build\nনির্মাণ</item>
+        <item>self\nস্ব</item>
+        <item>earth\nপৃথিবী</item>
+        <item>father\nবাবা</item>
+        <item>any\nকোনো</item>
+        <item>new\nনতুন</item>
+        <item>work\nকাজ</item>
+        <item>part\nঅংশ</item>
+        <item>take\nগ্রহণ করা</item>
+        <item>get\nপাওয়া</item>
+        <item>place\nস্থান</item>
+        <item>made\nতৈরি</item>
+        <item>live\nবাস</item>
+        <item>where\nযেখানে</item>
+        <item>after\nপরে</item>
+        <item>back\nফিরে</item>
+        <item>little\nসামান্য</item>
+        <item>only\nশুধুমাত্র</item>
+        <item>round\nবৃত্তাকার</item>
+        <item>man\nমানুষ</item>
+        <item>year\nবছর</item>
+        <item>came\nআসেন</item>
+        <item>show\nশো</item>
+        <item>every\nপ্রতি</item>
+        <item>good\nভাল</item>
+        <item>me\nআমাকে</item>
+        <item>give\nদিতে</item>
+        <item>our\nআমাদের</item>
+        <item>under\nঅধীন</item>
+        <item>name\nনাম</item>
+        <item>very\nখুব</item>
+        <item>through\nমাধ্যমে</item>
+        <item>just\nঠিক</item>
+        <item>form\nফর্ম</item>
+        <item>sentence\nবাক্য</item>
+        <item>great\nমহান</item>
+        <item>think\nমনে</item>
+        <item>say\nবলে</item>
+        <item>help\nসাহায্য</item>
+        <item>low\nকম</item>
+        <item>line\nলাইন</item>
+        <item>differ\nপৃথক</item>
+        <item>turn\nপালা</item>
+        <item>cause\nকারণ</item>
+        <item>much\nঅনেক</item>
+        <item>mean\nগড়</item>
+        <item>before\nআগে</item>
+        <item>move\nপদক্ষেপ</item>
+        <item>right\nঅধিকার</item>
+        <item>boy\nছেলে</item>
+        <item>old\nপুরাতন</item>
+        <item>too\nখুব</item>
+        <item>same\nএকই</item>
+        <item>she\nতিনি</item>
+        <item>all\nসব</item>
+        <item>there\nসেখানে</item>
+        <item>when\nযখন</item>
+        <item>up\nআপ</item>
+        <item>use\nব্যবহার</item>
+        <item>your\nআপনার</item>
+        <item>way\nউপায়</item>
+        <item>about\nসম্পর্কে</item>
+        <item>many\nঅনেক</item>
+        <item>then\nতারপর</item>
+        <item>them\nতাদের</item>
+        <item>write\nলিখুন</item>
+        <item>would\nহবে</item>
+        <item>like\nমত</item>
+        <item>so\nসুতরাং</item>
+        <item>these\nএই</item>
+        <item>her\nতার</item>
+        <item>long\nদীর্ঘ</item>
+        <item>make\nনা</item>
+        <item>thing\nবিষয়</item>
+        <item>see\nদেখা</item>
+        <item>him\nতাকে</item>
+        <item>two\nদুই</item>
+        <item>has\nআছে</item>
+        <item>look\nচেহারা</item>
+        <item>more\nআরো</item>
+        <item>day\nদিন</item>
+        <item>could\nপারা</item>
+        <item>go\nযাওয়া</item>
+        <item>come\nআসা</item>
+        <item>did\nকি</item>
+        <item>number\nসংখ্যা</item>
+        <item>sound\nশব্দ</item>
+        <item>no\nকোন</item>
+        <item>most\nসবচেয়ে</item>
+        <item>people\nমানুষ</item>
+        <item>my\nআমার</item>
+        <item>over\nউপর</item>
+        <item>know\nজানা</item>
+        <item>water\nজল</item>
+        <item>than\nতুলনায়</item>
+        <item>call\nকল</item>
+        <item>first\nপ্রথম</item>
+        <item>who\nযারা</item>
+        <item>may\nহতে পারে</item>
+        <item>down\nনিচে</item>
+        <item>side\nপাশ</item>
+        <item>been\nহয়েছে</item>
+        <item>now\nএখন</item>
+        <item>find\nএটি</item>
+        <item>head\nমাথা</item>
+        <item>stand\nদাঁড়ানো</item>
+        <item>own\nনিজস্ব</item>
+        <item>page\nপৃষ্ঠা</item>
+        <item>should\nউচিত</item>
+        <item>country\nদেশ</item>
+        <item>found\nপাওয়া</item>
+        <item>answer\nউত্তর</item>
+        <item>school\nস্কুল</item>
+        <item>grow\nহত্তয়া</item>
+        <item>study\nগবেষণা</item>
+        <item>still\nএখনও</item>
+        <item>learn\nশেখা</item>
+        <item>plant\nউদ্ভিদ</item>
+        <item>cover\nকভার</item>
+        <item>food\nখাদ্য</item>
+        <item>sun\nসূর্য</item>
+        <item>four\nচার</item>
+        <item>between\nমধ্যে</item>
+        <item>state\nরাষ্ট্র</item>
+        <item>keep\nরাখা</item>
+        <item>eye\nচিন্তার</item>
+        <item>never\nনা</item>
+        <item>last\nশেষ</item>
+        <item>let\nযাক</item>
+        <item>thought\nচিন্তার</item>
+        <item>city\nশহর</item>
+        <item>tree\nগাছ</item>
+        <item>cross\nক্রুশ</item>
+        <item>farm\nখামার</item>
+        <item>hard\nকঠিন</item>
+        <item>start\nশুরু</item>
+        <item>might\nহতে পারে</item>
+        <item>story\nগল্প</item>
+        <item>saw\nকরাত</item>
+        <item>far\nপর্যন্ত</item>
+        <item>sea\nসমুদ্র</item>
+        <item>draw\nআঁকা</item>
+        <item>left\nবাকি</item>
+        <item>late\nদেরী</item>
+        <item>run\nরান</item>
+        <item>don’t\nনা</item>
+        <item>while\nযখন</item>
+        <item>press\nপ্রেস</item>
+        <item>close\nবন্ধ</item>
+        <item>night\nরাত</item>
+        <item>real\nবাস্তব</item>
+        <item>life\nজীবন</item>
+        <item>few\nকয়েক</item>
+        <item>north\nউত্তর</item>
+        <item>book\nবই</item>
+        <item>carry\nবহন</item>
+        <item>took\nগ্রহণ</item>
+        <item>science\nবিজ্ঞান</item>
+        <item>eat\nখাওয়া</item>
+        <item>room\nরুম</item>
+        <item>friend\nবন্ধু</item>
+        <item>began\nশুরু</item>
+        <item>idea\nধারণা</item>
+        <item>fish\nমাছ</item>
+        <item>mountain\nপর্বত</item>
+        <item>stop\nবন্ধ</item>
+        <item>once\nএকবার</item>
+        <item>base\nঘাঁটি</item>
+        <item>hear\nশ্রবণ</item>
+        <item>horse\nঘোড়া</item>
+        <item>cut\nকাটা</item>
+        <item>sure\nনিশ্চিত</item>
+        <item>watch\nঘড়ি</item>
+        <item>color\nরঙ</item>
+        <item>face\nমুখ</item>
+        <item>wood\nকাঠ</item>
+        <item>main\nপ্রধান</item>
+        <item>open\nখোলা</item>
+        <item>seem\nমনে হচ্ছে</item>
+        <item>together\nএকসঙ্গে</item>
+        <item>next\nপরবর্তী</item>
+        <item>white\nসাদা</item>
+        <item>children\nশিশু</item>
+        <item>always\nসবসময়</item>
+        <item>music\nসঙ্গীত</item>
+        <item>those\nযারা</item>
+        <item>both\nউভয়</item>
+        <item>mark\nচিহ্ন</item>
+        <item>often\nপ্রায়ই</item>
+        <item>letter\nচিঠি</item>
+        <item>until\nপর্যন্ত</item>
+        <item>mile\nমাইল</item>
+        <item>river\nনদী</item>
+        <item>car\nগাড়ী</item>
+        <item>feet\nফুট</item>
+        <item>care\nযত্ন</item>
+        <item>second\nদ্বিতীয়</item>
+        <item>enough\nযথেষ্ট </item>
+        <item>plain\nসাধারণ </item>
+        <item>girl\nমেয়ে </item>
+        <item>usual\nস্বাভাবিক </item>
+        <item>young\nতরুণ </item>
+        <item>ready\nপ্রস্তুত </item>
+        <item>above\nউপরে </item>
+        <item>ever\nকখনও </item>
+        <item>red\nলাল </item>
+        <item>list\nতালিকা </item>
+        <item>though\nযদিও </item>
+        <item>feel\nমনে </item>
+        <item>talk\nআলাপ </item>
+        <item>bird\nপাখি </item>
+        <item>soon\nশীঘ্রই </item>
+        <item>body\nশরীর </item>
+        <item>dog\nকুকুর </item>
+        <item>family\nপরিবার </item>
+        <item>direct\nসরাসরি </item>
+        <item>pose\nজাহির করা </item>
+        <item>leave\nত্যাগ </item>
+        <item>song\nগান </item>
+        <item>measure\nপরিমাপ </item>
+        <item>door\nদরজা </item>
+        <item>product\nপণ্য </item>
+        <item>black\nকালো </item>
+        <item>short\nসংক্ষিপ্ত </item>
+        <item>numeral\nসংখ্যা </item>
+        <item>class\nবর্গ </item>
+        <item>wind\nবায়ু </item>
+        <item>question\nপ্রশ্ন </item>
+        <item>happen\nঘটা </item>
+        <item>complete\nসম্পূর্ণ </item>
+        <item>ship\nজাহাজ </item>
+        <item>area\nক্ষেত্র </item>
+        <item>half\nঅর্ধ </item>
+        <item>rock\nশিলা </item>
+        <item>order\nযাতে </item>
+        <item>fire\nআগুন </item>
+        <item>south\nদক্ষিণ </item>
+        <item>problem\nসমস্যা </item>
+        <item>piece\nটুকরা </item>
+        <item>told\nবলা </item>
+        <item>knew\nজানতাম </item>
+        <item>pass\nপাস </item>
+        <item>since\nখবর </item>
+        <item>top\nশীর্ষ </item>
+        <item>whole\nসমগ্র </item>
+        <item>king\nরাজা </item>
+        <item>street\nরাস্তায় </item>
+        <item>inch\nইঞ্চি </item>
+        <item>multiply\nসংখ্যাবৃদ্ধি </item>
+        <item>nothing\nকিছুই </item>
+        <item>course\nমাঠ </item>
+        <item>stay\nথাকার </item>
+        <item>wheel\nচাকা </item>
+        <item>full\nপূর্ণ </item>
+        <item>force\nবল </item>
+        <item>blue\nনীল </item>
+        <item>object\nবস্তু </item>
+        <item>decide\nস্থির করা </item>
+        <item>surface\nপৃষ্ঠ </item>
+        <item>deep\nগভীর </item>
+        <item>moon\nচাঁদ </item>
+        <item>island\nদ্বীপ </item>
+        <item>foot\nপা </item>
+        <item>system\nসিস্টেম </item>
+        <item>busy\nব্যস্ত </item>
+        <item>test\nপরীক্ষা </item>
+        <item>record\nরেকর্ড </item>
+        <item>boat\nনৌকা </item>
+        <item>common\nসাধারণ </item>
+        <item>gold\nস্বর্ণ </item>
+        <item>possible\nসম্ভব </item>
+        <item>plane\nসমতল </item>
+        <item>stead\nউপকার </item>
+        <item>dry\nশুষ্ক </item>
+        <item>wonder\nআশ্চর্যের </item>
+        <item>laugh\nমজা </item>
+        <item>thousand\nহাজার </item>
+        <item>ago\nআগে </item>
+        <item>ran\nবিশেষত্বহীন </item>
+        <item>check\nচেক </item>
+        <item>game\nখেলা </item>
+        <item>shape\nআকৃতি </item>
+        <item>equate\nসমীকরণ </item>
+        <item>hot\nগরম </item>
+        <item>miss\nমিস্ </item>
+        <item>brought\nউপনীত </item>
+        <item>heat\nতাপ </item>
+        <item>snow\nতুষার </item>
+        <item>tire\nটায়রা </item>
+        <item>bring\nআনা </item>
+        <item>yes\nহ্যাঁ </item>
+        <item>distant\nদূরবর্তী </item>
+        <item>fill\nপূরণ </item>
+        <item>east\nপূর্ব </item>
+        <item>paint\nআঁকা </item>
+        <item>language\nভাষা </item>
+        <item>among\nমধ্যে </item>
+        <item>unit\nইউনিট </item>
+        <item>power\nক্ষমতা </item>
+        <item>town\nশহরে </item>
+        <item>fine\nজরিমানা </item>
+        <item>certain\nনির্দিষ্ট </item>
+        <item>fly\nউড়ে </item>
+        <item>fall\nপড়া </item>
+        <item>lead\nনেতৃত্ব </item>
+        <item>cry\nকান্নাকাটি </item>
+        <item>dark\nঅন্ধকার </item>
+        <item>machine\nমেশিন </item>
+        <item>note\nনোট </item>
+        <item>wait\nঅপেক্ষা করুন </item>
+        <item>plan\nপরিকল্পনা </item>
+        <item>figure\nব্যক্তিত্ব </item>
+        <item>star\nতারা </item>
+        <item>box\nবক্স </item>
+        <item>noun\nবিশেষ্য </item>
+        <item>field\nক্ষেত্র </item>
+        <item>rest\nবাকি </item>
+        <item>correct\nসঠিক </item>
+        <item>able\nসক্ষম </item>
+        <item>pound\nআধা কেজি </item>
+        <item>done\nকাজ </item>
+        <item>beauty\nসৌন্দর্য </item>
+        <item>drive\nড্রাইভ </item>
+        <item>stood\nদাঁড়িয়ে </item>
+        <item>contain\nধারণ </item>
+        <item>front\nসামনে </item>
+        <item>teach\nশেখান </item>
+        <item>week\nসপ্তাহে </item>
+        <item>final\nচূড়ান্ত </item>
+        <item>gave\nদিয়েছেন </item>
+        <item>green\nসবুজ </item>
+        <item>oh\nউহু </item>
+        <item>quick\nদ্রুত </item>
+        <item>develop\nবিকাশ </item>
+        <item>ocean\nমহাসাগর </item>
+        <item>warm\nউষ্ণ </item>
+        <item>free\nবিনামূল্যে </item>
+        <item>minute\nমিনিট </item>
+        <item>strong\nশক্তিশালী </item>
+        <item>special\nবিশেষ </item>
+        <item>mind\nমন </item>
+        <item>behind\nপিছনে </item>
+        <item>clear\nস্পষ্ট </item>
+        <item>tail\nলেঙ্গুড় </item>
+        <item>produce\nউত্পাদন </item>
+        <item>fact\nআসলে </item>
+        <item>space\nস্থান </item>
+        <item>heard\nশোনা </item>
+        <item>best\nসেরা </item>
+        <item>hour\nঘন্টা </item>
+        <item>better\nভাল </item>
+        <item>true\nসত্য </item>
+        <item>during\nসময় </item>
+        <item>hundred\nশত </item>
+        <item>five\nপাঁচ </item>
+        <item>remember\nমনে রাখবেন, </item>
+        <item>step\nপদক্ষেপ </item>
+        <item>early\nপ্রথম </item>
+        <item>hold\nরাখা </item>
+        <item>west\nপশ্চিম </item>
+        <item>ground\nস্থল </item>
+        <item>interest\nসুদ </item>
+        <item>reach\nনাগাল </item>
+        <item>fast\nদ্রুত </item>
+        <item>verb\nক্রিয়া </item>
+        <item>sing\nগাত্তয়া </item>
+        <item>listen\nশুনতে </item>
+        <item>six\nছয় </item>
+        <item>table\nটেবিল </item>
+        <item>travel\nভ্রমণ </item>
+        <item>less\nকম </item>
+        <item>morning\nসকাল </item>
+        <item>ten\nদশ </item>
+        <item>simple\nসহজ </item>
+        <item>several\nবিভিন্ন </item>
+        <item>vowel\nস্বরবর্ণ </item>
+        <item>toward\nদিকে </item>
+        <item>war\nযুদ্ধ </item>
+        <item>lay\nরাখা </item>
+        <item>against\nবিরুদ্ধে </item>
+        <item>pattern\nপ্যাটার্ন </item>
+        <item>slow\nধীর </item>
+        <item>center\nকেন্দ্র </item>
+        <item>love\nপ্রেম </item>
+        <item>person\nব্যক্তি </item>
+        <item>money\nটাকা </item>
+        <item>serve\nপরিবেশন করা </item>
+        <item>appear\nপ্রদর্শিত </item>
+        <item>road\nরাস্তা </item>
+        <item>map\nমানচিত্র </item>
+        <item>rain\nবৃষ্টি </item>
+        <item>rule\nনিয়ম </item>
+        <item>govern\nশাসন করা </item>
+        <item>baby\nশিশুর </item>
+        <item>eight\nআট </item>
+        <item>village\nগ্রাম </item>
+        <item>meet\nদেখা </item>
+        <item>root\nরুট </item>
+        <item>buy\nকিনতে </item>
+        <item>raise\nবাড়াতে </item>
+        <item>solve\nসমাধান </item>
+        <item>metal\nধাতু </item>
+        <item>whether\nকিনা </item>
+        <item>push\nধাক্কা </item>
+        <item>seven\nসাত </item>
+        <item>paragraph\nঅনুচ্ছেদ </item>
+        <item>third\nতৃতীয় </item>
+        <item>shall\nহইবে </item>
+        <item>held\nঅনুষ্ঠিত </item>
+        <item>hair\nচুল </item>
+        <item>describe\nবর্ণনা </item>
+        <item>cook\nরান্নাঘর </item>
+        <item>floor\nমেঝে </item>
+        <item>either\nহয় </item>
+        <item>result\nফলে </item>
+        <item>burn\nবার্ন </item>
+        <item>hill\nপাহাড় </item>
+        <item>safe\nনিরাপদ </item>
+        <item>cat\nবিড়াল </item>
+        <item>century\nশতাব্দীর </item>
+        <item>consider\nবিবেচনা করা </item>
+        <item>type\nটাইপ </item>
+        <item>law\nআইন </item>
+        <item>bit\nকিছুক্ষণ </item>
+        <item>coast\nউপকূল </item>
+        <item>copy\nকপি </item>
+        <item>phrase\nফ্রেজ </item>
+        <item>silent\nনীরব </item>
+        <item>tall\nলম্বা </item>
+        <item>sand\nবালি </item>
+        <item>soil\nমাটি </item>
+        <item>roll\nরোল </item>
+        <item>temperature\nতাপমাত্রা </item>
+        <item>finger\nআঙুল </item>
+        <item>industry\nশিল্প </item>
+        <item>value\nমূল্য </item>
+        <item>fight\nযুদ্ধ </item>
+        <item>lie\nমিথ্যা </item>
+        <item>beat\nবীট </item>
+        <item>excite\nজাগান </item>
+        <item>natural\nপ্রাকৃতিক </item>
+        <item>view\nদেখুন </item>
+        <item>sense\nজ্ঞান </item>
+        <item>capital\nরাজধানী </item>
+        <item>won’t\nনা করবে না </item>
+        <item>chair\nচেয়ার </item>
+        <item>danger\nবিপদ </item>
+        <item>fruit\nফল </item>
+        <item>rich\nসমৃদ্ধ </item>
+        <item>thick\nপুরু </item>
+        <item>soldier\nসৈনিক </item>
+        <item>process\nপ্রক্রিয়া </item>
+        <item>operate\nকাজ </item>
+        <item>practice\nঅনুশীলন </item>
+        <item>separate\nপৃথক </item>
+        <item>difficult\nকঠিন </item>
+        <item>doctor\nডাক্তার </item>
+        <item>please\nকরুন </item>
+        <item>protect\nরক্ষা </item>
+        <item>noon\nদুপুর </item>
+        <item>crop\nফসল </item>
+        <item>modern\nআধুনিক </item>
+        <item>element\nউপাদান </item>
+        <item>hit\nআঘাত </item>
+        <item>student\nছাত্র </item>
+        <item>corner\nকোণ </item>
+        <item>party\nদল </item>
+        <item>supply\nসরবরাহ </item>
+        <item>whose\nযার </item>
+        <item>locate\nসনাক্ত </item>
+        <item>ring\nরিং </item>
+        <item>character\nচরিত্র </item>
+        <item>insect\nপোকা </item>
+        <item>caught\nধরা </item>
+        <item>period\nসময়ের </item>
+        <item>indicate\nনির্দেশ </item>
+        <item>radio\nরেডিও </item>
+        <item>spoke\nবক্তব্য রাখেন </item>
+        <item>atom\nপরমাণু </item>
+        <item>human\nমানবীয় </item>
+        <item>history\nইতিহাস </item>
+        <item>effect\nপ্রভাব </item>
+        <item>electric\nবৈদ্যুতিক </item>
+        <item>expect\nআশা করা </item>
+        <item>bone\nহাড় </item>
+        <item>rail\nরেল </item>
+        <item>imagine\nকল্পনা </item>
+        <item>provide\nপ্রদান </item>
+        <item>agree\nএকমত </item>
+        <item>thus\nএইভাবে </item>
+        <item>gentle\nমৃদু </item>
+        <item>woman\nনারী </item>
+        <item>captain\nঅধিনায়ক </item>
+        <item>guess\nঅনুমান </item>
+        <item>necessary\nপ্রয়োজনীয় </item>
+        <item>sharp\nধারালো </item>
+        <item>wing\nগরূৎ </item>
+        <item>create\nতৈরি </item>
+        <item>neighbor\nপ্রতিবেশী </item>
+        <item>wash\nধোয়ার </item>
+        <item>bat\nবাদুড় </item>
+        <item>rather\nবরং </item>
+        <item>crowd\nভিড় </item>
+        <item>corn\nভূট্টা </item>
+        <item>compare\nতুলনা </item>
+        <item>poem\nকবিতা </item>
+        <item>string\nস্ট্রিং </item>
+        <item>bell\nঘণ্টা </item>
+        <item>depend\nনির্ভর করে </item>
+        <item>meat\nমাংস </item>
+        <item>rub\nবিপত্তি </item>
+        <item>tube\nটিউব </item>
+        <item>famous\nবিখ্যাত </item>
+        <item>dollar\nডলার </item>
+        <item>stream\nপ্রবাহ </item>
+        <item>fear\nভয় </item>
+        <item>sight\nদৃষ্টিশক্তি </item>
+        <item>thin\nপাতলা </item>
+        <item>triangle\nত্রিভুজ </item>
+        <item>planet\nগ্রহ </item>
+        <item>hurry\nত্বরা </item>
+        <item>chief\nপ্রধান </item>
+        <item>colony\nউপনিবেশ </item>
+        <item>clock\nঘড়ি </item>
+        <item>mine\nখনি </item>
+        <item>tie\nটাই </item>
+        <item>enter\nপ্রবেশ </item>
+        <item>major\nপ্রধান </item>
+        <item>fresh\nতাজা </item>
+        <item>search\nঅনুসন্ধান </item>
+        <item>send\nপাঠান </item>
+        <item>yellow\nহলুদ </item>
+        <item>gun\nবন্দুক </item>
+        <item>allow\nঅনুমতি </item>
+        <item>print\nমুদ্রণ </item>
+        <item>dead\nমৃত </item>
+        <item>spot\nঅকুস্থল </item>
+        <item>desert\nমরুভূমি </item>
+        <item>suit\nমামলা </item>
+        <item>current\nবর্তমান </item>
+        <item>lift\nলিফট </item>
+        <item>rose\nগোলাপ </item>
+        <item>arrive\nপৌঁছা </item>
+        <item>master\nমাস্টার </item>
+        <item>track\nট্র্যাক </item>
+        <item>parent\nপিতা বা মাতা </item>
+        <item>shore\nতীরে </item>
+        <item>division\nবিভাগ </item>
+        <item>sheet\nশীট </item>
+        <item>substance\nপদার্থ </item>
+        <item>favor\nআনুকূল্য </item>
+        <item>connect\nসংযোগ </item>
+        <item>post\nপোস্ট </item>
+        <item>spend\nব্যয় </item>
+        <item>chord\nজ্যা </item>
+        <item>fat\nচর্বি </item>
+        <item>glad\nআনন্দিত </item>
+        <item>original\nমূল </item>
+        <item>share\nভাগ </item>
+        <item>station\nস্টেশন </item>
+        <item>dad\nবাবা </item>
+        <item>bread\nরুটি </item>
+        <item>charge\nচার্জ </item>
+        <item>proper\nসঠিক </item>
+        <item>bar\nবার </item>
+        <item>offer\nপ্রস্তাব </item>
+        <item>segment\nঅংশ </item>
+        <item>slave\nক্রীতদাস </item>
+        <item>duck\nহাঁস </item>
+        <item>instant\nতাত্ক্ষণিক </item>
+        <item>market\nবাজার </item>
+        <item>degree\nডিগ্রী </item>
+        <item>populate\nপূরণ </item>
+        <item>chick\nকুক্কুট </item>
+        <item>dear\nদুর্মূল্য </item>
+        <item>enemy\nশত্রু </item>
+        <item>reply\nউত্তর </item>
+        <item>drink\nপানীয় </item>
+        <item>occur\nঘটতে </item>
+        <item>support\nসমর্থন </item>
+        <item>speech\nবক্তৃতা </item>
+        <item>nature\nপ্রকৃতি </item>
+        <item>range\nপরিসর </item>
+        <item>steam\nবাষ্প </item>
+        <item>motion\nগতি </item>
+        <item>path\nপথ </item>
+        <item>liquid\nতরল </item>
+        <item>log\nলগ ইন </item>
+        <item>meant\nবোঝানো </item>
+        <item>quotient\nভাগফল </item>
+        <item>teeth\nদাঁত </item>
+        <item>shell\nখোলা </item>
+        <item>neck\nঘাড় </item>
+        <item>oxygen\nঅক্সিজেন </item>
+        <item>sugar\nচিনি </item>
+        <item>death\nমৃত্যুর </item>
+        <item>pretty\nচমত্কার </item>
+        <item>skill\nদক্ষতা </item>
+        <item>women\nনারী </item>
+        <item>season\nঋতু </item>
+        <item>solution\nসমাধান </item>
+        <item>magnet\nচুম্বক </item>
+        <item>silver\nরূপালী </item>
+        <item>thank\nধন্যবাদ </item>
+        <item>branch\nশাখা </item>
+        <item>match\nম্যাচ </item>
+        <item>suffix\nমূল শব্দের অন্তে যুক্ত প্রত্যয় বিভক্তি প্রভৃতি </item>
+        <item>especially\nবিশেষ করে </item>
+        <item>fig\nডুমুর </item>
+        <item>afraid\nভয় </item>
+        <item>huge\nবিশাল </item>
+        <item>sister\nবোন </item>
+        <item>steel\nইস্পাত </item>
+        <item>discuss\nআলোচনা </item>
+        <item>forward\nঅগ্রবর্তী </item>
+        <item>similar\nঅনুরূপ </item>
+        <item>guide\nকৌশল </item>
+        <item>experience\nঅভিজ্ঞতা </item>
+        <item>score\nস্কোর </item>
+        <item>apple\nআপেল </item>
+        <item>bought\nকেনা </item>
+        <item>led\nচালিত </item>
+        <item>pitch\nপিচ </item>
+        <item>coat\nকোট </item>
+        <item>mass\nভর </item>
+        <item>card\nকার্ড </item>
+        <item>band\nব্যান্ড </item>
+        <item>rope\nদড়ি </item>
+        <item>slip\nস্লিপ </item>
+        <item>win\nজয় </item>
+        <item>dream\nস্বপ্ন </item>
+        <item>evening\nসন্ধ্যায় </item>
+        <item>condition\nশর্ত </item>
+        <item>feed\nফিড </item>
+        <item>tool\nটুল </item>
+        <item>total\nমোট </item>
+        <item>basic\nমৌলিক </item>
+        <item>smell\nগন্ধ </item>
+        <item>valley\nউপত্যকা </item>
+        <item>nor\nনা </item>
+        <item>double\nডবল </item>
+        <item>seat\nআসন </item>
+        <item>continue\nঅবিরত </item>
+        <item>block\nব্লক </item>
+        <item>chart\nচার্ট </item>
+        <item>hat\nটুপি </item>
+        <item>sell\nবিক্রি </item>
+        <item>success\nসাফল্য </item>
+        <item>company\nকোম্পানি </item>
+        <item>subtract\nবিয়োগ করা </item>
+        <item>event\nঘটনা </item>
+        <item>particular\nবিশেষ </item>
+        <item>deal\nলেনদেন </item>
+        <item>swim\nসাঁতার কাটা </item>
+        <item>term\nশব্দ </item>
+        <item>opposite\nবিপরীত </item>
+        <item>wife\nস্ত্রী </item>
+        <item>shoe\nজুতো </item>
+        <item>shoulder\nকাঁধ </item>
+        <item>spread\nস্বপ্ন </item>
+        <item>arrange\nসাঁতার কাটা </item>
+        <item>camp\nশিবির </item>
+        <item>invent\nউদ্ভাবিত </item>
+        <item>cotton\nতুলা </item>
+        <item>born\nজন্ম </item>
+        <item>determine\nনির্ধারণ </item>
+        <item>quart\nগ্যালনের চতুর্থাংশ </item>
+        <item>nine\nনয় </item>
+        <item>truck\nট্রাক </item>
+        <item>noise\nশব্দ </item>
+        <item>level\nস্তর </item>
+        <item>chance\nসুযোগ </item>
+        <item>gather\nসাক্ষাৎ </item>
+        <item>shop\nদোকান </item>
+        <item>stretch\nপ্রসারিত </item>
+        <item>throw\nছোড়া </item>
+        <item>shine\nউজ্জ্বল </item>
+        <item>property\nসম্পত্তি </item>
+        <item>column\nকলাম </item>
+        <item>molecule\nঅণু </item>
+        <item>select\nনির্বাচন </item>
+        <item>wrong\nভুল </item>
+        <item>gray\nধূসর </item>
+        <item>repeat\nপুনরাবৃত্তি </item>
+        <item>require\nপ্রয়োজন </item>
+        <item>broad\nবিস্তৃত </item>
+        <item>prepare\nপ্রস্তুত </item>
+        <item>salt\nলবণ </item>
+        <item>nose\nনাক </item>
+        <item>plural\nবহুবচন </item>
+
+    </string-array>
+
+</resources>

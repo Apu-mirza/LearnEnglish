@@ -1,40 +1,29 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Activity;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.speech.RecognizerIntent;
 import android.speech.tts.TextToSpeech;
-import android.text.Html;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.MenuItemCompat;
 
-import com.google.android.gms.ads.AdRequest;
+import com.example.learnenglish.R;
+import com.example.learnenglish.Adapter.ThirdAdapter;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -49,6 +38,7 @@ public class ThirdActivity extends AppCompatActivity {
     List<String> listDataHeader;
     Activity MainActivity;
     HashMap<String, List<String>> listDataChild;
+    String[] vocabulary;
     int clickedItemPosition = -1;
     private Typeface currentTypeface;
     private float currentTextSize;
@@ -64,7 +54,10 @@ public class ThirdActivity extends AppCompatActivity {
             setTitle(title);
         }
         setContentView(R.layout.activity_third);
+
         prePareData();
+
+        vocabulary = getIntent().getStringArrayExtra("vocabulary");
 
         listView = findViewById(R.id.thirdListView);
         adapter = new ThirdAdapter(this, listDataHeader, listDataChild, clickedItemPosition);
@@ -205,7 +198,7 @@ public class ThirdActivity extends AppCompatActivity {
         switch (id){
             case R.id.settings:
                 Toast.makeText(getApplicationContext(),"settings is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(),SettingsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.share_app:
@@ -218,7 +211,7 @@ public class ThirdActivity extends AppCompatActivity {
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent1 = new Intent(getApplicationContext(),PrivacyActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), PrivacyActivity.class);
                 startActivity(intent1);
                 return true;
 

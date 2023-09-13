@@ -1,9 +1,8 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Adapter;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -19,11 +18,13 @@ import android.widget.ImageButton;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
+
+import com.example.learnenglish.Activity.SpeechActivity;
+import com.example.learnenglish.R;
 
 import java.util.HashMap;
 import java.util.List;
@@ -132,7 +133,7 @@ public class ThirdAdapter extends ArrayAdapter<String> {
             String key = itemList1.get(position);
             String[] groupLines = key.split("\\r?\\t?\\n"); // Split the group text into lines
             String firstLine = groupLines[0]; // Extract the first line of the group
-            Toast.makeText(getContext(),firstLine,Toast.LENGTH_SHORT).show();
+//            Toast.makeText(getContext(),firstLine,Toast.LENGTH_SHORT).show();
             viewHolder.textView.setText(firstLine);
             String secondLine = groupLines[1];
             viewHolder.textView2.setText(secondLine);
@@ -142,9 +143,9 @@ public class ThirdAdapter extends ArrayAdapter<String> {
                 public void onInit(int status) {
                     if(status == TextToSpeech.SUCCESS){
                         int result = textToSpeech.setLanguage(Locale.US);
-                        if(result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED){
-                            Toast.makeText(getContext(),"Language Not Supported",Toast.LENGTH_LONG).show();
-                        }
+//                        if(result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED){
+//                            Toast.makeText(getContext(),"Language Not Supported",Toast.LENGTH_LONG).show();
+//                        }
                     }else {
                         Toast.makeText(getContext(),"Text to Speech conversion failed",Toast.LENGTH_LONG).show();
                     }
@@ -246,7 +247,7 @@ public class ThirdAdapter extends ArrayAdapter<String> {
             String key = itemList1.get(position);
             String[] groupLines = key.split("\\r?\\t?\\n"); // Split the group text into lines
             String firstLine = groupLines[0]; // Extract the first line of the group
-            Toast.makeText(getContext(),firstLine,Toast.LENGTH_SHORT).show();
+//            Toast.makeText(getContext(),firstLine,Toast.LENGTH_SHORT).show();
             viewHolder.textView.setText(firstLine);
             String secondLine = groupLines[1];
             viewHolder.textView2.setText(secondLine);

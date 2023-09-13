@@ -1,4 +1,4 @@
-package com.example.learnenglish;
+package com.example.learnenglish.Activity;
 
 import static android.content.ContentValues.TAG;
 
@@ -16,10 +16,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.translation.Translator;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -29,6 +27,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
+import com.example.learnenglish.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
@@ -310,7 +309,7 @@ public class TranslatorActivity extends AppCompatActivity {
         switch (id){
             case R.id.settings1:
                 Toast.makeText(getApplicationContext(),"settings is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getApplicationContext(),SettingsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
                 startActivity(intent);
                 return true;
             case R.id.share_app1:
@@ -323,7 +322,7 @@ public class TranslatorActivity extends AppCompatActivity {
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
-                Intent intent1 = new Intent(getApplicationContext(),PrivacyActivity.class);
+                Intent intent1 = new Intent(getApplicationContext(), PrivacyActivity.class);
                 startActivity(intent1);
                 return true;
 
@@ -379,5 +378,4 @@ public class TranslatorActivity extends AppCompatActivity {
             Log.d("TAG", "The interstitial ad wasn't ready yet.");
         }
     }
-
 }
