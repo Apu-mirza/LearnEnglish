@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-     android:background="@drawable/main_background"
+    android:background="@drawable/main_background"
     tools:context=".Activity.FirstActivity">
 
     <RelativeLayout
@@ -13,6 +13,27 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/kidCardView"-->
+<!--            android:paddingBottom="20sp"-->
+<!--            android:layout_margin="7dp"-->
+<!--            app:cardCornerRadius="20sp"-->
+<!--            android:backgroundTint="#44dd33"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:id="@+id/kidImageId"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/funLearn"-->
+<!--                android:scaleType="fitStart"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                />-->
+
+<!--        </androidx.cardview.widget.CardView>-->
 
         <LinearLayout
             android:id="@+id/motivationLayout"
@@ -132,6 +153,24 @@
             app:spanCount="3"
             tools:listitem="@layout/grid_sample"
             />
+
+        <com.google.android.gms.ads.AdView
+            android:layout_below="@+id/recyclerView"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="5dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111">
+
+        </com.google.android.gms.ads.AdView>
+
 
     </RelativeLayout>
 

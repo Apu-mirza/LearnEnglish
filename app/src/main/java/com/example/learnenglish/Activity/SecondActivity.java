@@ -39,17 +39,6 @@ public class SecondActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.listView);
 
-        //admob ad initialization
-//        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-//            @Override
-//            public void onInitializationComplete(InitializationStatus initializationStatus) {
-//            }
-//        });
-//
-//        //admob ad loading
-//        mAdView = findViewById(R.id.adView);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//        mAdView.loadAd(adRequest);
 
         phrase_a = getResources().getStringArray(R.array.phrases_a);
         phrase_example_a = getResources().getStringArray(R.array.phrase_example_a);

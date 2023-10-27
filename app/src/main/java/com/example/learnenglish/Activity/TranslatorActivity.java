@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -27,11 +28,20 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.example.learnenglish.R;
+import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
@@ -49,6 +59,8 @@ import com.google.firebase.ml.naturallanguage.translate.FirebaseTranslatorOption
 import java.util.ArrayList;
 import java.util.Locale;
 
+//adcolony library import
+
 
 public class TranslatorActivity extends AppCompatActivity {
 
@@ -58,14 +70,16 @@ public class TranslatorActivity extends AppCompatActivity {
     private ImageView micIV;
     AdView mAdView;
     private MaterialButton translateBtn;
+    String secondLineResponse, mainResponse;
     TextToSpeech textToSpeech;
     private TextView translateIV;
     InterstitialAd mInterstitialAd;
 
-    String[] fromlanguage = {"From", "English", "Africans", "Arabic", "Belarusian", "Bulgarian", "Bengali", "Welsh", "Hindi", "Urdu"};
-    String[] tolanguage = {"To", "English", "Africans", "Arabic", "Belarusian", "Bulgarian", "Bengali", "Welsh", "Hindi", "Urdu"};
+    String[] fromlanguage = {"English", "Africans", "Arabic", "Belarusian", "Bulgarian", "Bengali", "Welsh", "Hindi", "Urdu"};
+    String[] tolanguage = {"Bengali", "Africans", "Arabic", "Belarusian", "Bulgarian", "English", "Welsh", "Hindi", "Urdu"};
     private static final int REQUEST_PERMISSION_CODE = 100;
     int languageCode, fromLanguageCode, toLanguageCode = 0;
+
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -83,16 +97,7 @@ public class TranslatorActivity extends AppCompatActivity {
         translateIV = findViewById(R.id.idTranslatedTV);
         recognizeMic = findViewById(R.id.recMic);
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
-
-        //admob ad loading(banner ad)
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+        parseAdController();
 
         fromSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -129,7 +134,6 @@ public class TranslatorActivity extends AppCompatActivity {
         translateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                interstitialAds();
                 translateIV.setVisibility(View.VISIBLE);
                 translateIV.setText("");
                 if (sourceText.getText().toString().isEmpty()){
@@ -353,29 +357,45 @@ public class TranslatorActivity extends AppCompatActivity {
         }
     }
 
-    private void interstitialAds(){
-        AdRequest adRequest = new AdRequest.Builder().build();
-        InterstitialAd.load(this,"ca-app-pub-3940256099942544/1033173712", adRequest,
-                new InterstitialAdLoadCallback() {
-                    @Override
-                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
-                        // The mInterstitialAd reference will be null until
-                        // an ad is loaded.
-                        mInterstitialAd = interstitialAd;
-                        Log.i(TAG, "onAdLoaded");
-                    }
+    public void parseAdController(){
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url = "https://englishappcontroller.000webhostapp.com/learnenglish/other.php";
 
+// Request a string response from the provided URL.
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
                     @Override
-                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
-                        // Handle the error
-                        Log.d(TAG, loadAdError.toString());
-                        mInterstitialAd = null;
+                    public void onResponse(String response) {
+                        // Display the first 500 characters of the response string.
+                        Log.d(TAG, "onResponse: "+response);
+
+                        if (response.contains("showOtherBanner")){
+                            showBannerAds();
+                        }
                     }
-                });
-        if (mInterstitialAd != null) {
-            mInterstitialAd.show(TranslatorActivity.this);
-        } else {
-            Log.d("TAG", "The interstitial ad wasn't ready yet.");
-        }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+// Add the request to the RequestQueue.
+        queue.add(stringRequest);
+
     }
+
+    private void showBannerAds(){
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        //admob ad loading(banner ad)
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+    }
+
 }

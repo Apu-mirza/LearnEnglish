@@ -27,6 +27,7 @@
            app:cardElevation="0dp"
            android:background="@color/purple_700"
            app:cardUseCompatPadding="true"
+           android:paddingTop="10sp"
            >
 
            <ImageView

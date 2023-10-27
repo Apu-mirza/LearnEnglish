@@ -28,6 +28,12 @@ import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.example.learnenglish.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -60,6 +66,7 @@ public class SpeechActivity extends AppCompatActivity {
     AdView mAdView;
     Animation animation;
     CardView cardView;
+    String secondLineResponse, mainResponse;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -77,22 +84,24 @@ public class SpeechActivity extends AppCompatActivity {
         hearing = findViewById(R.id.hearingSpeech);
         cardView = findViewById(R.id.cardviewId);
 
+        parseAdController();
+
 
         String headerEnglish = getIntent().getStringExtra("headerEnglish");
         String headerBangla = getIntent().getStringExtra("headerBangla");
         String childString = getIntent().getStringExtra("dataChild");
 
         //admob ad initialization
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-            }
-        });
-
-        //admob ad loading
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+//        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+//            @Override
+//            public void onInitializationComplete(InitializationStatus initializationStatus) {
+//            }
+//        });
+//
+//        //admob ad loading
+//        mAdView = findViewById(R.id.adView);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -115,7 +124,7 @@ public class SpeechActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 //                setVisibilityWithDuration(audioBackground,1000);
-                hearing.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background));
+                hearing.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background3));
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -131,7 +140,7 @@ public class SpeechActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 //                setVisibilityWithDuration(audioBackground,1000);
-                speechAudio.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background));
+                speechAudio.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background3));
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -163,8 +172,8 @@ public class SpeechActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 //                micButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background));
-                micButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background));
-//                cardView.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background2));
+                micButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background3));
+//                cardView.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background1));
                 cardView.setCardBackgroundColor(ContextCompat.getColorStateList(getApplicationContext(),R.color.purple_700));
 
                 final Handler handler = new Handler();
@@ -186,7 +195,7 @@ public class SpeechActivity extends AppCompatActivity {
                         }
 
                         if (isVisible) {
-                            cardView.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background2));
+                            cardView.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background));
                             handler.postDelayed(this, visibleTime);
                         } else {
                             cardView.setBackground(null);
@@ -400,6 +409,48 @@ public class SpeechActivity extends AppCompatActivity {
         }catch (Exception e){
             Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void parseAdController(){
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url = "https://englishappcontroller.000webhostapp.com/learnenglish/other.php";
+
+// Request a string response from the provided URL.
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        // Display the first 500 characters of the response string.
+                        mainResponse = response;
+                        Log.d(TAG, "onResponse: "+response);
+
+                        if (response.contains("showOtherBanner")){
+                            showBannerAds();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+// Add the request to the RequestQueue.
+        queue.add(stringRequest);
+
+    }
+
+    private void showBannerAds(){
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        //admob ad loading(banner ad)
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
 }

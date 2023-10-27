@@ -106,7 +106,7 @@ public class FieldActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(ArticleResponse response) {
                             String news1, news2, news3,news4, news5;
-                            for(int i=1; i<15; i++){
+                            for(int i=1; i<12; i++){
                                 news1 = response.getArticles().get(i).getTitle();
                                 news += news1+". ";
                             }
@@ -139,14 +139,9 @@ public class FieldActivity extends AppCompatActivity {
                             // Set the SpannableString to the TextView
                             newsNameIv.setText(spannableString);
 
-//                            // Enable the TextView to handle clicks on the link
+                            // Enable the TextView to handle clicks on the link
                             newsNameIv.setMovementMethod(LinkMovementMethod.getInstance());
 
-
-//                            news1 = response.getArticles().get(1).getTitle();
-//                            news2 = response.getArticles().get(2).getTitle();
-//                            news = news2 +". "+ news1;
-//                            contentTextIv.setText(news);
                         }
 
                         @Override
@@ -161,7 +156,7 @@ public class FieldActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu,menu);
+        inflater.inflate(R.menu.menu_item,menu);
 
         return super.onCreateOptionsMenu(menu);
     }

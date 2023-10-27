@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="grammar">
+        <item>word</item>
+        <item>sentence</item>
+        <item>parts of speech</item>
+        <item>article</item>
+        <item>tense</item>
+        <item>phrases</item>
+        <item>number</item>
+        <item>clauses</item>
+        <item>conditionals</item>
+        <item>modal auxiliaries</item>
+        <item>mood</item>
+        <item>subject verb agreement</item>
+        <item>right form of verb</item>
+        <item>case</item>
+        <item>transform of sentence</item>
+        <item>modifiers</item>
+        <item>narration</item>
+        <item>prefixes</item>
+        <item>suffixes</item>
+        <item>punctuation</item>
+        <item>negation</item>
+        <item>inversion</item>
+    </string-array>
+
+    <string name="word">
+        Word বা শব্দ হচ্ছে ব্যক্ত বা লিখিত বর্ণ বা বর্ণ সমষ্টি যার একটা নির্দিষ্ট অর্থ আছে।
+        কোন ভাষা শিক্ষার ক্ষেত্রে, ভাষার যে শাখা শব্দের গঠন নিয়ে আলোচনা করে তাকেই Morphology বলে। এবং যে শাখা শব্দের অর্থ নিয়ে কাজ করে তাকে lexical semantics বলে।
+
+        উদাহরণ:
+        Good (ভালো)
+        Look (দেখা)
+        Come (আসা)
+        1. প্রত্যেকটা শব্দেরই একটা অর্থ থাকতে হবে। এখানে “halalization’ শব্দটির কোন অর্থ নেই ইংরেজী ভাষায়। তাই এটি শব্দের আওতাভূক্ত হবে না।
+        2. প্রত্যেকটা শব্দেরই একটা root বা মূল শব্দ থাকে যা থেকে আরও অনেক নতুন শব্দ তৈরী হয়। যদি কোন কারণে ঐ root শব্দটি ভেঙে ফেলা হয় তাহলে সেটি কোনভাবেই আর একটি অর্থবোধক শব্দ থাকেনা। যেমন, এখানে দেখানো হয়েছে যে, happy একটি ইংরেজী শব্দ। এর আগে un যুক্ত হয়ে unhappy শব্দটি তৈরি করে।
+        3. দুটি শব্দ একত্রে উচ্চারণ করার জন্যে শব্দ দুটির মাঝে একটু থামতে হয় এবং লেখার সময় সঠিক জায়গায় সঠিকভাবে space দিতে হয়। ধরা যাক, sky এবং blue দুটি ইংরেজি শব্দ। আমরা যদি তাদেরকে উচ্চারণ করতে চাই তাহলে প্রত্যেকটা শব্দ বলার পর একটু থামতে হবে। লিখতে গেলে দুইটা শব্দের মাঝখানে একটা space দিতে হবে।
+    </string>
+    <string-array name="sentenceType">
+        <item>Definition &amp; Types</item>
+        <item>Simple Sentence</item>
+        <item>Complex Sentence</item>
+        <item>Compound Sentence</item>
+    </string-array>
+
+</resources>

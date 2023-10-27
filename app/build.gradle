@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.learnenglish'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.learnenglish"
         minSdk 21
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -32,10 +32,10 @@ android {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'com.google.android.material:material:1.10.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.preference:preference:1.2.1'
-    implementation 'com.google.firebase:firebase-messaging-ktx:23.2.1'
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.3.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -47,8 +47,13 @@ dependencies {
     //circular imageview
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     //for admob ads
-    implementation 'com.google.android.gms:play-services-ads:22.3.0'
-
+    implementation 'com.google.android.gms:play-services-ads:22.4.0'
     //news api dependencies
     implementation 'com.github.KwabenBerko:News-API-Java:1.0.2'
+    //adcolony ads integration
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    //applovin ads integration library
+    implementation 'com.applovin:applovin-sdk:11.11.3'
+    //volley library to control ads
+    implementation 'com.android.volley:volley:1.2.1'
 }

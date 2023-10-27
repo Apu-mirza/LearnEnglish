@@ -7,32 +7,54 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.learnenglish.Adapter.GridAdapter;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.applovin.mediation.MaxAd;
+import com.applovin.mediation.MaxAdListener;
+import com.applovin.mediation.MaxError;
+import com.applovin.mediation.ads.MaxInterstitialAd;
+import com.applovin.sdk.AppLovinSdk;
+import com.applovin.sdk.AppLovinSdkConfiguration;
 import com.example.learnenglish.Adapter.MyAdapter;
+import com.example.learnenglish.BuildConfig;
 import com.example.learnenglish.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -46,17 +68,23 @@ import com.kwabenaberko.newsapilib.models.request.TopHeadlinesRequest;
 import com.kwabenaberko.newsapilib.models.response.ArticleResponse;
 
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 
-public class FirstActivity extends AppCompatActivity {
+public class FirstActivity extends AppCompatActivity implements MaxAdListener {
 
     private String[]  topics, sub_topics, subt_topics2, vocabulary;
     private Button button1, button2;
+    CardView kidCardView;
+    ImageView kidImageView;
 
+    String firstLineResponse, mainResponse;
     AdView mAdView;
     String news;
     String[] newsArray;
     private RecyclerView recyclerView;
+    private MaxInterstitialAd interstitialAd;
+    private int retryAttempt;
     GridView gridView;
     private int[] flags = {R.drawable.vocabulary, R.drawable.translate, R.drawable.favorite,
             R.drawable.talking, R.drawable.idea, R.drawable.speech, R.drawable.grammar,
@@ -66,15 +94,20 @@ public class FirstActivity extends AppCompatActivity {
     TextView newsTextIv;
     String[] motivationList;
 
+    //adcolony interstitial admanager variable
+    public static final String APP_ID = "app939cb839d26d462bb8";
+    private final String INTERSTITIAL_ID = "vz851a44200d164e89a5";
+    private final String BANNER_ZONE_ID = "vzbd5546d3f4f653580";
+
+    private static final int WIFI_SETTINGS_REQUEST_CODE = 1001;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
 
-
         recyclerView = findViewById(R.id.recyclerView);
-//        gridView = findViewById(R.id.gridViewId);
 
         topics = getResources().getStringArray(R.array.topics);
         FirebaseMessaging.getInstance().subscribeToTopic("allDevices");
@@ -87,18 +120,33 @@ public class FirstActivity extends AppCompatActivity {
         MyAdapter myAdapter = new MyAdapter(this, flags, topics);
         recyclerView.setAdapter(myAdapter);
 
+        //applovin ads sdk initialization
+        AppLovinSdk.getInstance( this ).setMediationProvider( "max" );
+        AppLovinSdk.initializeSdk( this, new AppLovinSdk.SdkInitializationListener() {
+            @Override
+            public void onSdkInitialized(final AppLovinSdkConfiguration configuration)
+            {
+                // AppLovin SDK is initialized, start loading ads
+                loadAd();
+            }
+        } );
+
+        parseAdController();
+
         //news set to news textview
         getNews();
         LinearLayout newsLayout = findViewById(R.id.newsLayout);
         newsLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), FieldActivity.class);
-                intent.putExtra("fieldTitle", "Trending News");
-                String news1 = getNews();
-                int itemId = 2;
-                intent.putExtra("itemId", itemId);
-                startActivity(intent);
+                MyHelper.setCustomBackground(v);
+                parseAdController2();
+                // interstitialAds();
+                if(isConnectedToInternet()){
+                    goNextActivity();
+                }else{
+                    connectionAlert();
+                }
             }
         });
         //motivation text set to motivation textview
@@ -117,6 +165,8 @@ public class FirstActivity extends AppCompatActivity {
         motivationLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MyHelper.setCustomBackground(v);
+                parseAdController2();
                 Intent intent = new Intent(getApplicationContext(), FieldActivity.class);
                 intent.putExtra("fieldTitle", "Quote of the day");
                 intent.putExtra("content", randomSentence);
@@ -171,7 +221,8 @@ public class FirstActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(position == 6){
-                    Toast.makeText(getApplicationContext(),"grammar will be added later",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(FirstActivity.this, SecondActivity4.class);
+                    startActivity(intent);
                 }
                 else if (position == 7){
                     shareApp();
@@ -183,7 +234,7 @@ public class FirstActivity extends AppCompatActivity {
                     try {
                         startActivity(intent);
                     }catch (Exception e){
-                        Toast.makeText(getApplicationContext(),"Ubanle to rate this app",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -257,6 +308,7 @@ public class FirstActivity extends AppCompatActivity {
     //app backpressed method
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Alert!!");
         builder.setMessage("Are you sure you want to exit?");
@@ -306,4 +358,174 @@ public class FirstActivity extends AppCompatActivity {
         return news;
     }
 
+
+    // MAX Ad Listener
+    public void interstitialAds(){
+        if ( interstitialAd.isReady() )
+        {
+            interstitialAd.showAd();
+        }
+    }
+
+    public void connectionAlert(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Alert!!");
+        builder.setMessage("Please connect to the internet to load this page!");
+        builder.setPositiveButton("Connect", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                // Perform any additional actions or exit the ap\
+
+                changeWifiState();
+                dialog.dismiss();
+            }
+        });
+        builder.setNegativeButton("Cancel", null);
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void changeWifiState(){
+        Intent intent = new Intent(Settings.ACTION_WIFI_SETTINGS);
+        startActivity(intent);
+    }
+    private void goNextActivity(){
+        Intent intent = new Intent(getApplicationContext(), FieldActivity.class);
+        intent.putExtra("fieldTitle", "Trending News");
+        String news1 = getNews();
+        int itemId = 2;
+        intent.putExtra("itemId", itemId);
+        startActivity(intent);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == WIFI_SETTINGS_REQUEST_CODE) {
+            // Check the result code to see if the user made changes
+            if (resultCode == RESULT_OK) {
+                // User has interacted with the Wi-Fi settings
+                // Perform your action here
+                performFunctionAfterWifiSettingsChanged();
+            }
+        }
+    }
+
+    private void performFunctionAfterWifiSettingsChanged() {
+        // Perform your function after the user makes changes in Wi-Fi settings
+        goNextActivity();
+    }
+
+    private void loadAd()
+    {
+        interstitialAd = new MaxInterstitialAd( "b9d4b8a55e065ef2", this );
+        interstitialAd.setListener( this );
+
+        // Load the first ad
+        interstitialAd.loadAd();
+    }
+
+    @Override
+    public void onAdLoaded(MaxAd maxAd) {
+
+    }
+
+    @Override
+    public void onAdDisplayed(MaxAd maxAd) {
+        loadAd();
+    }
+
+    @Override
+    public void onAdHidden(MaxAd maxAd) {
+
+    }
+
+    @Override
+    public void onAdClicked(MaxAd maxAd) {
+
+    }
+
+    @Override
+    public void onAdLoadFailed(String s, MaxError maxError) {
+
+    }
+
+    @Override
+    public void onAdDisplayFailed(MaxAd maxAd, MaxError maxError) {
+
+    }
+
+    //adcontroller parsing from 000webhost.com
+    public void parseAdController(){
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url = "https://englishappcontroller.000webhostapp.com/learnenglish/home.php";
+
+// Request a string response from the provided URL.
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        // Display the first 500 characters of the response string.
+                        mainResponse = response;
+                        Log.d(TAG, "onResponse: "+response);
+
+                        if (response.contains("showHomeBanner")){
+                            showBannerAds();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+// Add the request to the RequestQueue.
+        queue.add(stringRequest);
+
+    }
+
+    public void parseAdController2(){
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url = "https://englishappcontroller.000webhostapp.com/learnenglish/applovin.php";
+
+// Request a string response from the provided URL.
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        // Display the first 500 characters of the response string.
+                        mainResponse = response;
+                        Log.d(TAG, "onResponse: "+response);
+
+                        if (response.contains("showApplovinAd")){
+                            interstitialAds();
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+// Add the request to the RequestQueue.
+        queue.add(stringRequest);
+
+    }
+
+    private void showBannerAds(){
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+
+        //admob ad loading(banner ad)
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+    }
 }

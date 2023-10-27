@@ -11,6 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.learnenglish.Activity.FirstActivity;
+import com.example.learnenglish.Activity.MyHelper;
 import com.example.learnenglish.Activity.SecondActivity;
 import com.example.learnenglish.R;
 
@@ -21,6 +23,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.viewHolder> {
     String[] titles;
 
     private OnItemClickListener itemClickListener;
+    FirstActivity firstActivity;
 
     public interface OnItemClickListener {
         void onItemClick(int position);
@@ -68,6 +71,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.viewHolder> {
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    MyHelper.setCustomBackground(v);
                     if (itemClickListener != null) {
                         int position = getAdapterPosition();
                         if (position != RecyclerView.NO_POSITION) {
