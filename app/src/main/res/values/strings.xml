@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Learn English</string>
+    <string name="app_name">Dulingua</string>
     <string-array name="topics">
 
         <item>Vocabulary</item>
@@ -982,23 +982,22 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
     <string name="privacy">
-        \n<b><font color="#FF0000">Privacy policy</font></b>\n\n\n
-        We value your right to privacy. This privacy statement, which is a clause in our terms of service,
-        covers information collected in conjunction with the installation and use of the application,
-        any linked services, and our website. Please contact us at apumirza2001@gmail.com with any inquiries you
-        think you might have concerning this privacy statement.\n\n
+        \n<b><font color="#FF0000">Privacy policy</font></b>\n\n
+        Native App Ltd. built the DuLingua app as a Commercial app. This service is provided by Native App Ltd and is intended for use as is.
+        This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+        We value your right to privacy. This privacy statement, which is a clause in our terms of service, covers information collected in conjunction with the installation and use of the application, any linked services, and our website.
+        Please contact us at apumirza2001@gmail.com with any inquiries you think you might have concerning this privacy statement.\n\n
 
-        \n\n<b><font color="#00ffee">Information we collects</font></b>\n\n\n
+        \n\n<b><font color="#00ffee">Information we collect:</font></b>\n\n
         We don\'t collect personal information that identifies you or another person, such as name, nickname, images, camera,
         physical address, email address, telephone, sensitive accounts, password, SSN, fax, contacts, information stored on your device.
 
-        \n\n\n\n<b><font color="#FF0000">Ad service</font></b>\n\n\n
-        We use google admob ad service to show ads on our project. For your reference, you can visit their site to know further.
+        \n\n\n\n<b><font color="#FF0000">Ad service</font></b>\n\n
+        We use google admob ad service to show ads on our project. For your reference, you can visit their site(AdMob,  Applovin) to know further.
         Ad service providers may collect your device advertising ID and other IDs to display or target ads or marketing communications,
-        or measure ad performance. For example, displaying apps in the app, sending push notifications to promote other products or
-        services, or sharing data with advertising partners.
+        or measure ad performance. For example, displaying apps in the app, sending push notifications(using Firebase) to promote other products or  services, or sharing data with advertising partners.
 
-        \n\n\n\n<b><font color="#FF0000">Why these ads</font></b>\n\n\n
+        \n\n\n\n<b><font color="#FF0000">Why these ads</font></b>\n\n
         Ads are displayed to keep your hard-earned money in your wallet. You\'ve undoubtedly seen those paid apps that you need to
         purchase in order to utilize. The Top Paid section of Google Play is where you may find those apps. These apps include no
         advertising at all. because your wallet serves as their source of funding. It\'s not simple to create an app. Making things
@@ -1010,7 +1009,7 @@
         programs for all of us. I\'m grateful. Message us Please email us at apumirza2001@gmail.com if you have any queries concerning
         privacy while using the Application or queries about our procedures.
 
-        \n\n\n\n<b><font color="#FF0000">Contact Us</font></b>\n\n\n
+        \n\n\n\n<b><font color="#FF0000">Contact Us</font></b>\n\n
 
         If you have any questions regarding this privacy while using the Application or have questions about our practices, please
         contact us via email apumirza2001@gmail.com.\n\n\n

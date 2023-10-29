@@ -34,7 +34,6 @@ public class PrivacyActivity extends AppCompatActivity {
 
         String privacyWords = getResources().getString(R.string.privacy);
         privacy = findViewById(R.id.privacytextId);
-        contactEmail = findViewById(R.id.contactEmail);
 
         contactEmail = findViewById(R.id.contactEmailTv);
         contactEmail.setOnClickListener(new View.OnClickListener() {
@@ -93,7 +92,7 @@ public class PrivacyActivity extends AppCompatActivity {
     }
 
     public void sendEmail(){
-        String recipientEmail = "mirzaa012323@gmail.com";
+        String recipientEmail = "apumirza2001@gmail.com";
 
         // Create an Intent with a "mailto" URI
         Intent emailIntent = new Intent(Intent.ACTION_SENDTO);

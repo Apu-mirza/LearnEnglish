@@ -54,7 +54,7 @@ public class SpeechActivity extends AppCompatActivity {
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 2;
 
     TextView textHeader, textChild, resultText;
-    private long startTime, elapsedTime, stopTime;
+    private long startTime, elapsedTime = 3000, stopTime;
     TextView textHeaderEnglish, textHeaderBangla;
     ImageButton speechAudio, hearing;
     CircleImageView micButton;
@@ -91,18 +91,6 @@ public class SpeechActivity extends AppCompatActivity {
         String headerBangla = getIntent().getStringExtra("headerBangla");
         String childString = getIntent().getStringExtra("dataChild");
 
-        //admob ad initialization
-//        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-//            @Override
-//            public void onInitializationComplete(InitializationStatus initializationStatus) {
-//            }
-//        });
-//
-//        //admob ad loading
-//        mAdView = findViewById(R.id.adView);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//        mAdView.loadAd(adRequest);
-
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
@@ -124,7 +112,7 @@ public class SpeechActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 //                setVisibilityWithDuration(audioBackground,1000);
-                hearing.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background3));
+                hearing.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background1));
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -140,7 +128,7 @@ public class SpeechActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 //                setVisibilityWithDuration(audioBackground,1000);
-                speechAudio.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background3));
+                speechAudio.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background1));
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -172,7 +160,7 @@ public class SpeechActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 //                micButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background));
-                micButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background3));
+                micButton.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background1));
 //                cardView.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.rounded_background1));
                 cardView.setCardBackgroundColor(ContextCompat.getColorStateList(getApplicationContext(),R.color.purple_700));
 
@@ -221,15 +209,6 @@ public class SpeechActivity extends AppCompatActivity {
                 startSpeechToText();
             }
         });
-
-//        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
-//            // Permission not granted, request it
-//            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO},
-//                    REQUEST_RECORD_AUDIO_PERMISSION);
-//        } else {
-//            // Permission already granted, initialize speech recognizer
-//            initializeSpeechRecognizer();
-//        }
 
     }
 
@@ -372,11 +351,11 @@ public class SpeechActivity extends AppCompatActivity {
                 return true;
             case R.id.share_app1:
                 Toast.makeText(getApplicationContext(),"share is clicked",Toast.LENGTH_SHORT).show();
-                shareApp();
+                MyHelper.shareApp(SpeechActivity.this);
                 return true;
             case R.id.rate_app1:
                 Toast.makeText(getApplicationContext(),"rate is clicked",Toast.LENGTH_SHORT).show();
-                rateApp();
+                MyHelper.rateApp(SpeechActivity.this);
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
@@ -388,28 +367,28 @@ public class SpeechActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void shareApp(){
-        try {
-            Intent intent = new Intent();
-            intent.setAction(Intent.ACTION_SEND);
-            intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-            intent.setType("text/plain");
-            intent = Intent.createChooser(intent,"send via: ");
-            startActivity(intent);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"unable to share this app",Toast.LENGTH_SHORT).show();
-        }
-    }
-    public void rateApp(){
-        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-        Intent intent1 = new Intent(Intent.ACTION_VIEW,uri);
-
-        try {
-            startActivity(intent1);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
-        }
-    }
+//    public void shareApp(){
+//        try {
+//            Intent intent = new Intent();
+//            intent.setAction(Intent.ACTION_SEND);
+//            intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
+//            intent.setType("text/plain");
+//            intent = Intent.createChooser(intent,"send via: ");
+//            startActivity(intent);
+//        }catch (Exception e){
+//            Toast.makeText(getApplicationContext(),"unable to share this app",Toast.LENGTH_SHORT).show();
+//        }
+//    }
+//    public void rateApp(){
+//        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
+//        Intent intent1 = new Intent(Intent.ACTION_VIEW,uri);
+//
+//        try {
+//            startActivity(intent1);
+//        }catch (Exception e){
+//            Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
+//        }
+//    }
 
     public void parseAdController(){
         RequestQueue queue = Volley.newRequestQueue(this);

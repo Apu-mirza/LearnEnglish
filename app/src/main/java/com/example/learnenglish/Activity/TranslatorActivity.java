@@ -75,8 +75,10 @@ public class TranslatorActivity extends AppCompatActivity {
     private TextView translateIV;
     InterstitialAd mInterstitialAd;
 
-    String[] fromlanguage = {"English", "Africans", "Arabic", "Belarusian", "Bulgarian", "Bengali", "Welsh", "Hindi", "Urdu"};
-    String[] tolanguage = {"Bengali", "Africans", "Arabic", "Belarusian", "Bulgarian", "English", "Welsh", "Hindi", "Urdu"};
+    String[] fromlanguage = {"English", "Africans", "Arabic", "Belarusian", "Bulgarian", "Bengali", "Welsh", "Hindi", "Urdu",
+            "Spanish", "Korean", "German", "French", "Turkish", "Russian", "Japanese", "Portuguese"};
+    String[] tolanguage = {"Bengali", "Africans", "Arabic", "Belarusian", "Bulgarian", "English", "Welsh", "Hindi", "Urdu",
+            "Spanish", "Korean", "German", "French", "Turkish", "Russian", "Japanese", "Portuguese"};
     private static final int REQUEST_PERMISSION_CODE = 100;
     int languageCode, fromLanguageCode, toLanguageCode = 0;
 
@@ -286,6 +288,30 @@ public class TranslatorActivity extends AppCompatActivity {
             case "Urdu":
                 languageCode = FirebaseTranslateLanguage.UR;
                 break;
+            case "Spanish":
+                languageCode = FirebaseTranslateLanguage.ES;
+                break;
+            case "Korean":
+                languageCode = FirebaseTranslateLanguage.KO;
+                break;
+            case "German":
+                languageCode = FirebaseTranslateLanguage.DE;
+                break;
+            case "French":
+                languageCode = FirebaseTranslateLanguage.FR;
+                break;
+            case "Turkish":
+                languageCode = FirebaseTranslateLanguage.TR;
+                break;
+            case "Russian":
+                languageCode = FirebaseTranslateLanguage.RU;
+                break;
+            case "Japanese":
+                languageCode = FirebaseTranslateLanguage.JA;
+                break;
+            case "Portuguese":
+                languageCode = FirebaseTranslateLanguage.PT;
+                break;
 
             default: languageCode = 0;
 
@@ -318,11 +344,11 @@ public class TranslatorActivity extends AppCompatActivity {
                 return true;
             case R.id.share_app1:
                 Toast.makeText(getApplicationContext(),"share is clicked",Toast.LENGTH_SHORT).show();
-                shareApp();
+                MyHelper.shareApp(TranslatorActivity.this);
                 return true;
             case R.id.rate_app1:
                 Toast.makeText(getApplicationContext(),"rate is clicked",Toast.LENGTH_SHORT).show();
-                rateApp();
+                MyHelper.rateApp(TranslatorActivity.this);
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
@@ -332,29 +358,6 @@ public class TranslatorActivity extends AppCompatActivity {
 
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void shareApp(){
-        try {
-            Intent intent = new Intent();
-            intent.setAction(Intent.ACTION_SEND);
-            intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-            intent.setType("text/plain");
-            intent = Intent.createChooser(intent,"send via: ");
-            startActivity(intent);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"unable to share this app",Toast.LENGTH_SHORT).show();
-        }
-    }
-    public void rateApp(){
-        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-        Intent intent1 = new Intent(Intent.ACTION_VIEW,uri);
-
-        try {
-            startActivity(intent1);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
-        }
     }
 
     public void parseAdController(){

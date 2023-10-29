@@ -199,7 +199,6 @@ public class FirstActivity extends AppCompatActivity implements MaxAdListener {
                     Intent intent = new Intent(getApplicationContext(), VocaActivity.class);
                     intent.putExtra("vocabulary", vocabulary);
                     startActivity(intent);
-                    Toast.makeText(getApplicationContext(),"Vocabulary will be added later",Toast.LENGTH_SHORT).show();
                 }
                 if(position == 1){
                     Intent intent = new Intent(FirstActivity.this, TranslatorActivity.class);
@@ -225,17 +224,11 @@ public class FirstActivity extends AppCompatActivity implements MaxAdListener {
                     startActivity(intent);
                 }
                 else if (position == 7){
-                    shareApp();
+//                    shareApp();
+                    MyHelper.shareApp(FirstActivity.this);
                 }
                 else if(position == 8){
-                    Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-                    Intent intent = new Intent(Intent.ACTION_VIEW,uri);
-
-                    try {
-                        startActivity(intent);
-                    }catch (Exception e){
-                        Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
-                    }
+                    MyHelper.rateApp(FirstActivity.this);
                 }
             }
         });
@@ -263,11 +256,11 @@ public class FirstActivity extends AppCompatActivity implements MaxAdListener {
                 return true;
             case R.id.share_app1:
                 Toast.makeText(getApplicationContext(),"share is clicked",Toast.LENGTH_SHORT).show();
-                shareApp();
+                MyHelper.shareApp(FirstActivity.this);
                 return true;
             case R.id.rate_app1:
                 Toast.makeText(getApplicationContext(),"rate is clicked",Toast.LENGTH_SHORT).show();
-                rateApp();
+                MyHelper.rateApp(FirstActivity.this);
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
@@ -279,36 +272,9 @@ public class FirstActivity extends AppCompatActivity implements MaxAdListener {
         return super.onOptionsItemSelected(item);
     }
 
-    //app sharing method
-    public void shareApp(){
-        try {
-            Intent intent = new Intent();
-            intent.setAction(Intent.ACTION_SEND);
-            intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-            intent.setType("text/plain");
-            intent = Intent.createChooser(intent,"send via: ");
-            startActivity(intent);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"unable to share this app",Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    //app rating method
-    public void rateApp(){
-        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-        Intent intent1 = new Intent(Intent.ACTION_VIEW,uri);
-
-        try {
-            startActivity(intent1);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
-        }
-    }
-
     //app backpressed method
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Alert!!");
         builder.setMessage("Are you sure you want to exit?");
@@ -316,7 +282,7 @@ public class FirstActivity extends AppCompatActivity implements MaxAdListener {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 // Perform any additional actions or exit the app
-                finish();
+                finishAffinity();
             }
         });
         builder.setNegativeButton("No", null);

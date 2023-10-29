@@ -94,17 +94,6 @@ public class ThirdActivity extends AppCompatActivity {
             }
         });
 
-        //admob ad initialization
-//        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-//            @Override
-//            public void onInitializationComplete(InitializationStatus initializationStatus) {
-//            }
-//        });
-//
-//        //admob ad loading
-//        mAdView = findViewById(R.id.adView);
-//        AdRequest adRequest = new AdRequest.Builder().build();
-//        mAdView.loadAd(adRequest);
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         String fontStyle = sharedPreferences.getString("pref_font_style", "");
@@ -203,11 +192,11 @@ public class ThirdActivity extends AppCompatActivity {
                 return true;
             case R.id.share_app:
                 Toast.makeText(getApplicationContext(),"more app is clicked",Toast.LENGTH_SHORT).show();
-                shareApp();
+                MyHelper.shareApp(ThirdActivity.this);
                 return true;
             case R.id.rate_app:
                 Toast.makeText(getApplicationContext(),"share is clicked",Toast.LENGTH_SHORT).show();
-                rateApp();
+                MyHelper.rateApp(ThirdActivity.this);
                 return true;
             case R.id.privacyId:
                 Toast.makeText(getApplicationContext(),"privacy is clicked",Toast.LENGTH_SHORT).show();
@@ -219,26 +208,4 @@ public class ThirdActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void shareApp(){
-        try {
-            Intent intent = new Intent();
-            intent.setAction(Intent.ACTION_SEND);
-            intent.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-            intent.setType("text/plain");
-            intent = Intent.createChooser(intent,"send via: ");
-            startActivity(intent);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"unable to share this app",Toast.LENGTH_SHORT).show();
-        }
-    }
-    public void rateApp(){
-        Uri uri = Uri.parse("https://play.google.com/store/apps/details?id="+getApplicationContext().getPackageName());
-        Intent intent1 = new Intent(Intent.ACTION_VIEW,uri);
-
-        try {
-            startActivity(intent1);
-        }catch (Exception e){
-            Toast.makeText(getApplicationContext(),"Unable to rate this app",Toast.LENGTH_SHORT).show();
-        }
-    }
 }
