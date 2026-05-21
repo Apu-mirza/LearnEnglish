@@ -63,7 +63,7 @@ The app integrates speech recognition, text-to-speech, pronunciation testing, an
 
 ---
 
-## Demo Videw
+## Demo Video
 
 https://github.com/Apu-mirza/LearnEnglish/blob/master/lenglish.mp4
 
@@ -109,4 +109,4 @@ Md. Apu
 Graduate, Institute of Information Technology (IIT), Jahangirnagar University
 
 GitHub: https://github.com/apu-mirza
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://linkedin.com/in/md-apu
