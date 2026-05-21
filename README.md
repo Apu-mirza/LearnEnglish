@@ -1,4 +1,4 @@
-# LinguaSpeak - AI Powered Language Learning Android App
+# DuLingua - Language Learning Android App
 
 LinguaSpeak is an Android-based language learning application designed to improve vocabulary, pronunciation, speaking, and multilingual communication using speech and translation technologies.
 
