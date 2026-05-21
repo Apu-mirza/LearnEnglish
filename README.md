@@ -1,6 +1,6 @@
 # DuLingua - Language Learning Android App
 
-LinguaSpeak is an Android-based language learning application designed to improve vocabulary, pronunciation, speaking, and multilingual communication using speech and translation technologies.
+Dulingua is an Android-based language learning application designed to improve vocabulary, pronunciation, speaking, and multilingual communication using speech and translation technologies.
 
 The app integrates speech recognition, text-to-speech, pronunciation testing, and multilingual translation to create an interactive language learning experience.
 
