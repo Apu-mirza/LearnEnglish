@@ -32,6 +32,7 @@ The app integrates speech recognition, text-to-speech, pronunciation testing, an
 
 ### Multi-language Translation
 - Translate text between several languages
+- Offline translation support
 - Easy language switching interface
 
 ---
@@ -39,7 +40,7 @@ The app integrates speech recognition, text-to-speech, pronunciation testing, an
 ## Tech Stack
 
 ### Mobile Development
-- Java / Kotlin
+- Java 
 - Android Studio
 - XML UI Design
 
@@ -50,27 +51,21 @@ The app integrates speech recognition, text-to-speech, pronunciation testing, an
 - REST API Integration
 
 ### Other Tools
-- Firebase (if used)
-- SQLite / Room Database (if used)
+- Firebase (push notification)
 - Git & GitHub
 
 ---
 
 ## App Architecture
 
-- MVVM Architecture (if used)
 - Modular Activity/Fragment Structure
 - API-based asynchronous communication
 
 ---
 
-## Screenshots
+## Demo Videw
 
-Add screenshots here.
-
-| Home Screen | Pronunciation Test | Translation |
-|-------------|-------------------|-------------|
-| image       | image             | image       |
+https://github.com/Apu-mirza/LearnEnglish/blob/master/lenglish.mp4
 
 ---
 
@@ -79,7 +74,7 @@ Add screenshots here.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/project-name.git
+git clone (https://github.com/Apu-mirza/LearnEnglish)
 ```
 
 2. Open in Android Studio
@@ -102,7 +97,6 @@ git clone https://github.com/yourusername/project-name.git
 ## Future Improvements
 
 - AI pronunciation scoring
-- Offline translation support
 - User progress tracking
 - Gamification system
 - Voice conversation chatbot
@@ -111,8 +105,8 @@ git clone https://github.com/yourusername/project-name.git
 
 ## Author
 
-Mirza Opu  
-Final Year Student, Institute of Information Technology (IIT), Jahangirnagar University
+Md. Apu 
+Graduate, Institute of Information Technology (IIT), Jahangirnagar University
 
-GitHub: https://github.com/yourusername  
+GitHub: https://github.com/apu-mirza
 LinkedIn: https://linkedin.com/in/yourprofile
